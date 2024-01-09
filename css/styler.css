@@ -37,14 +37,14 @@ h1 {
 }
 
 .sq-abcd {
-  position: absolut;
+  position: relative;
   float: center;
   width: 350px;
   height: 350px;
   border: 2px solid grey;
 }
 .sq-fghi {
-  position: absolut;
+  position: relative;
   float: center;
   width: 350px;
   height: 350px;
@@ -52,7 +52,7 @@ h1 {
   transform: rotate(90deg);
 }
 .round-stml {
-  position: absolut;
+  position: relative;
   float: center;
   width: 300px;
   height: 300px;
