@@ -67,7 +67,7 @@ h1 {
 .table>:not(caption)>*>* {
   text-align: center;
 }
-tr.saha td {
+tr .saha td {
   background-color: rgba(186,143,186,0.3);
   font-weight: 700;
 }
@@ -76,7 +76,7 @@ tr.saha td {
   color: white;
   font-weight: 900;
 }
-tr.ajna td {
+tr .ajna td {
   background-color: rgba(0,17,121,0.3);
   font-weight: 700;
 }
@@ -94,7 +94,7 @@ tr .vishu td {
   color: white;
   font-weight: 900;
 }
-tr.anah td{
+tr .anah td{
   background-color: rgba(6,162,1,0.3);
   font-weight: 700;
 }
@@ -103,7 +103,7 @@ tr.anah td{
   color: white;
   font-weight: 900;
 }
-tr.mani td {
+tr .mani td {
   background-color: rgba(250,255,39,0.3);
   font-weight: 700;
 }
@@ -112,7 +112,7 @@ tr.mani td {
   color: black;
   font-weight: 900;
 }
-tr.svadhi td {
+tr .svadhi td {
   background-color: rgba(246,142,21,0.3);
   font-weight: 700;
 }
@@ -121,7 +121,7 @@ tr.svadhi td {
   color: white;
   font-weight: 900;
 }
-tr.mula td {
+tr .mula td {
   background-color: rgba(184,0,0,0.3);
   font-weight: 700;
 }
@@ -134,6 +134,7 @@ tr.mula td {
 tr.seven {
   background-color: #e2e2e2!important;
   color: black;
+  font-size: 1.3rem;
   font-weight: 900;
 }
 
