@@ -140,7 +140,7 @@ h1 {
   top: 0%;
   left: 0%;
   z-index: 10;
-  #transform: translate(-50%, -50%);
+  transform: translate(-70%, -70%);
   width: 4rem;
   height: 4rem;
   text-align: center;
@@ -155,7 +155,7 @@ h1 {
   top: 0%;
   right: 0%;
   z-index: 10;
-  #transform: translate(-50%, -50%);
+  transform: translate(70%, -70%);
   width: 4rem;
   height: 4rem;
   text-align: center;
@@ -170,7 +170,7 @@ h1 {
   bottom: 0%;
   right: 0%;
   z-index: 10;
-  #transform: translate(-50%, -50%);
+  transform: translate(70%, 70%);
   width: 4rem;
   height: 4rem;
   text-align: center;
@@ -185,7 +185,7 @@ h1 {
   bottom: 0%;
   left: 0%;
   z-index: 10;
-  #transform: translate(-50%, -50%);
+  #transform: translate(-70%, 70%);
   width: 4rem;
   height: 4rem;
   text-align: center;
@@ -196,6 +196,75 @@ h1 {
   border-radius: 50%;
 }
 
+
+.F1 {
+  position: inherit;
+  top: 0%;
+  left: 0%;
+  z-index: 10;
+  transform: translate(10%, 10%);
+  width: 3.2rem;
+  height: 3.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.9rem;
+  font-weight: 500;
+  background-color: rgba(255,255,255,0.7);
+  border: 0.2rem solid #131313;
+  border-radius: 50%;
+}
+.G1 {
+  position: inherit;
+  top: 0%;
+  left: 0%;
+  z-index: 10;
+  transform: translate(10%, 10%);
+  width: 3.2rem;
+  height: 3.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.9rem;
+  font-weight: 500;
+  background-color: rgba(255,255,255,0.7);
+  border: 0.2rem solid #131313;
+  border-radius: 50%;
+}
+.H1 {
+  position: inherit;
+  bottom: 0%;
+  right: 0%;
+  z-index: 10;
+  transform: translate(10%, 10%);
+  width: 3.2rem;
+  height: 3.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.9rem;
+  font-weight: 500;
+  background-color: rgba(255,255,255,0.7);
+  border: 0.2rem solid #131313;
+  border-radius: 50%;
+}
+.I1 {
+  position: inherit;
+  bottom: 0%;
+  left: 0%;
+  z-index: 10;
+  transform: translate(10%, 10%);
+  width: 3.2rem;
+  height: 3.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.9rem;
+  font-weight: 500;
+  background-color: rgba(255,255,255,0.7);
+  border: 0.2rem solid #131313;
+  border-radius: 50%;
+}
 
 .table>:not(caption)>*>* {
   text-align: center;
