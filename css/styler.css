@@ -12,4 +12,6 @@ h1 {
 }
 .scheme {
   border: 2px solid #161616;
+  max-width: 450px;
+  max-height: 450px;
 }
