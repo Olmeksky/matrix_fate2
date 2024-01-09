@@ -156,10 +156,11 @@
 	}
 	
 	    //console.log(get('firstname'));
-	document.querySelector('span.firstname').innerHTML = '<strong>'.get('firstname').'</strong>';
+	var name = get('firstname');
+	document.querySelector('span.firstname').innerHTML = '<strong>'.name.'</strong>';
 	    console.log(get('birthday'));
 	var birth = get('birthday');
-	    document.querySelector('span.birthday').innerHTML = '<strong>'.get('birthday').'</strong>';
+	    document.querySelector('span.birthday').innerHTML = '<strong>'.birth.'</strong>';
 	var year = parseInt(birth[0]) + parseInt(birth[1]) + parseInt(birth[2]) + parseInt(birth[3]);;
 	var month = parseInt(birth[5] + birth[6]);;
 	var day = parseInt(birth[8] + birth[9]);
