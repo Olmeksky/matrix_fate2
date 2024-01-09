@@ -40,33 +40,32 @@ h1 {
 
 .sq-abcd {
   position: absolute;
-  float: center;
-  overflow: auto;
-  margin: auto;
-  top: 0; left: 0; bottom: 0; right: 0;
+  border: 2px solid grey;
   width: 350px;
   height: 350px;
-  border: 2px solid grey;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 .sq-fghi {
   position: absolute;
-  float: center;
-  overflow: auto;
-  margin: auto;
-  top: 0; left: 0; bottom: 0; right: 0;
-  width: 350px;
-  height: 350px;
   border: 2px solid red;
   transform: rotate(45deg);
+  width: 350px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .round-stml {
   position: absolute;
-  float: center;
-  margin: auto;
   width: 300px;
   height: 300px;
   border: 2px solid black;
   border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 
 
