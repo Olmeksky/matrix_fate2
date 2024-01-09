@@ -30,13 +30,13 @@ h1 {
   margin: auto;
   justyfy-content: center;
   align-items: center;
-  border: 2px solid yellow;
-  width: 550px;
-  height: 550px;
+  border: 2px doted yellow;
+  background-color: #1f1f1f;
+  width: 650px;
+  height: 650px;
   max-width: 850px;
   max-height: 850px;
 }
-
 .sq-abcd {
   position: absolute;
   border: 2px solid grey;
