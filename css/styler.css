@@ -68,7 +68,7 @@ h1 {
   text-align: center;
 }
 tr.saha {
-  background-color: rgba(186,143,186,0.3)!important;
+  background-color: rgba(186,143,186,0.3);
   font-weight: 700;
 }
 th>saha {
@@ -86,7 +86,7 @@ th>.ajna {
   font-weight: 900;
 }
 tr.vishu {
-  background-color: rgba(133,190,119,0.3)!important;
+  background-color: rgba(133,190,119,0.3);
   font-weight: 700;
 }
 th>.vishu {
@@ -95,7 +95,7 @@ th>.vishu {
   font-weight: 900;
 }
 tr.anah {
-  background-color: rgba(6,162,1,0.3)!important;
+  background-color: rgba(6,162,1,0.3);
   font-weight: 700;
 }
 th>.anah {
@@ -104,7 +104,7 @@ th>.anah {
   font-weight: 900;
 }
 tr.mani {
-  background-color: rgba(250,255,39,0.3)!important;
+  background-color: rgba(250,255,39,0.3);
   font-weight: 700;
 }
 th>.mani {
@@ -113,7 +113,7 @@ th>.mani {
   font-weight: 900;
 }
 tr.svadhi {
-  background-color: rgba(246,142,21,0.3)!important;
+  background-color: rgba(246,142,21,0.3);
   font-weight: 700;
 }
 th>.svadhi {
@@ -122,10 +122,10 @@ th>.svadhi {
   font-weight: 900;
 }
 tr.mula {
-  background-color: rgba(184,0,0,0.3)!important;
+  background-color: rgba(184,0,0,0.3);
   font-weight: 700;
 }
-th>.mula {
+th .mula {
   background-color: #b80000!important;
   color: white;
   font-weight: 900;
