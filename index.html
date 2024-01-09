@@ -3,46 +3,34 @@
 <head>
 	<meta charset="utf-8">
 	<title>Заголовок страницы семантической верстки</title>
-	<link href="style_semantic.css" rel="stylesheet">
-	
-	
+	<link href="./css/style.css" rel="stylesheet">
+	<!-- Подключение CSS файла bootstrap 5 -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 <body>
 	<!-- Шапка сайта -->
 	<header class="main-header">
+		<div class="logo"></div>
 		<!-- Навигация -->
-		<nav>
-			<ul>
-				<li><a href="#">Главная</a></li>
-				<li><a href="#">Блог</a></li>
-				<li><a href="#">Контакты</a></li>
-			</ul>
-		</nav>
-	</header>
-	
-	<!-- Основное содержимое страницы -->
-	<main>
-		<menu>
+		<menu class="">
 			<a href="#">Главная</a>
 			<a href="#">Блог</a>
 			<a href="#">Контакты</a>
 		</menu>
-	</main>
-	
+	</header>
 	<!-- Основное содержимое страницы в секции-->
+	<main>
 	<section>
-		<main>
-			<h1>на персональный рассчет</h1>
-			<p class="par"></p>
-			<div class="raschet" id="ras">
-			  <div class="mblock">
-			    <form action="./matrix.html" method="get">
-			      <input type="date" name="datBirst" id="db" placeholder="Дата вашего рождения"> <br>
-			      <button id="db_bt" style="background-color: #C59A5E;">Раcсчитать</button>
-			    </form>
-			  </div>
-			</div>
-		</main>
+		<h1>На персональный рассчет</h1>
+		<p class="par"></p>
+		<div class="raschet" id="ras">
+		  <div class="mblock">
+		    <form action="./matrix.html" method="get">
+		      <input type="date" class="form-control" name="datBirst" id="db" placeholder="Дата вашего рождения"> <br>
+		      <button type="submit" class="btn btn-primary">Расcчитать</button>
+		    </form>
+		  </div>
+		</div>
 		<aside>
 			<div class="widget_1"></div>
 			<div class="widget_2"></div>
@@ -65,9 +53,9 @@
 				<div class="raschet" id="ras">
 				<div class="mblock">
 				<form action="./matrix2.html" method="get">
-					<input type="date" name="datBirst" id="db" placeholder="Дата вашего рождения"> <br>
-				        <input type="date" name="datBirst2" id="db" placeholder="Дата вашего рождения"> <br>
-				        <button id="db_bt" style="background-color: #C59A5E">Расcчитать</button>
+					<input type="date" class="form-control" name="datBirst" id="db" placeholder="Дата вашего рождения"> <br>
+				        <input type="date" class="form-control" name="datBirst2" id="db" placeholder="Дата рождения вашей половинки"> <br>
+					<button type="submit" class="btn btn-primary">Расcчитать</button>
 				</form>
 				</div>
 				</div>
@@ -75,11 +63,13 @@
 			
 		</article>
 	</section>
-	
+	</main>
 	<!-- Подвал сайта -->
 	<footer class="main-footer">
 	Copy
 	<nav></nav>
 	</footer>
+<!-- Подключение JS файла bootstrap 5 -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
