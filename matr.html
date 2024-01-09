@@ -154,50 +154,8 @@
 	</nav>
 	</div>
 	</footer>
-<!-- Подключение JS файла bootstrap 5 -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-      /* код на jQuery */
-      // установим body фон #eee
-      $('body').css('background-color', '#eee');
-      // выровняем h1 по центру
-      $('h1').css('text-align', 'center');
-
-	// Считывает GET переменную по тегу и отдает.
-	function get(name) {
-	    if(name=(new RegExp('[?&]' + encodeURIComponent(name) + '=([^&]*)')).exec(location.search)){
-	        return decodeURIComponent(name[1]);
-	    };
-	}
-	
-	var name = get('firstname');
-	    //console.log(name);
-	$('span.firstname').html('<b>'+name+'</b>');
-	var birth = get('birthday');
-	    //console.log(birth);
-	//$('span.birthday').html('<b>'+birth+'</b>');
-	    
-	var year = birth[0] + birth[1] + birth[2] + birth[3];
-	var month = birth[5] + birth[6];
-	var day = birth[8] + birth[9];
-	    //console.log('год '+year);
-	    //console.log('число мес '+month);
-	    //console.log('число дня '+ day);
-	$('span.birthday').html('<b>'+day+' '+month+' '+year+'г.</b>');
-	    
-	var vozr = 2024-Number(year);
-		//console.log(vozr);
-	$('span.oldest').html('<b>'+vozr+'</b>');
-	var gen = get('gender');
-	    //console.log(gen);
-	if(gen=='Гендер') {
-		$('span.gender').html('<u>не пожелали указать гендерную позицию</u>');
-	} else {
-		$('span.gender').html('<b>'+gen+'</b>');
-	}
-});
-</script>
+	<!-- Подключение JS файла bootstrap 5 -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 	<script src="./js/personal.js"></script>
 </body>
 </html>
