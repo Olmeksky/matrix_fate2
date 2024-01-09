@@ -161,10 +161,12 @@
 	    return vars;
 	}
 	let name = encodeURIComponent(getUrlVars()['firstname']);
+	let name2 = escape(getUrlVars()['firstname']);
 	let birs = getUrlVars()['birthday'];
 	let gen = getUrlVars()['gender'];
 	//alert (birs);
 	console.log(name);
+	console.log(name2);
 	console.log(birs);
 	console.log(gen);
 });
