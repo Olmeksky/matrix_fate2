@@ -67,11 +67,11 @@ h1 {
 .table>:not(caption)>*>* {
   text-align: center;
 }
-tr.saha {
+tr.saha>td {
   background-color: rgba(186,143,186,0.3);
   font-weight: 700;
 }
-th>saha {
+th .saha {
   background-color: #ba8fba!important;
   color: white;
   font-weight: 900;
@@ -80,12 +80,12 @@ tr.ajna {
   background-color: rgba(0,17,121,0.3);
   font-weight: 700;
 }
-th>.ajna {
+.ajna th {
   background-color: #001179!important;
   color: white;
   font-weight: 900;
 }
-tr.vishu {
+tr .vishu td {
   background-color: rgba(133,190,119,0.3);
   font-weight: 700;
 }
