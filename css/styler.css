@@ -134,7 +134,6 @@ h1 {
   border: 0.3rem solid #b80000;
   border-radius: 50%;
 }
-
 .F {
   position: inherit;
   top: 0%;
@@ -185,7 +184,7 @@ h1 {
   bottom: 0%;
   left: 0%;
   z-index: 10;
-  #transform: translate(-70%, 70%);
+  transform: translate(-70%, 70%);
   width: 4rem;
   height: 4rem;
   text-align: center;
@@ -195,8 +194,6 @@ h1 {
   border: 0.2rem solid #131313;
   border-radius: 50%;
 }
-
-
 .F1 {
   position: inherit;
   top: 0%;
@@ -217,9 +214,9 @@ h1 {
 .G1 {
   position: inherit;
   top: 0%;
-  left: 0%;
+  right: 0%;
   z-index: 10;
-  transform: translate(10%, 10%);
+  transform: translate(-10%, 10%);
   width: 3.2rem;
   height: 3.2rem;
   display: flex;
@@ -236,7 +233,7 @@ h1 {
   bottom: 0%;
   right: 0%;
   z-index: 10;
-  transform: translate(10%, 10%);
+  transform: translate(-10%, -10%);
   width: 3.2rem;
   height: 3.2rem;
   display: flex;
@@ -253,7 +250,7 @@ h1 {
   bottom: 0%;
   left: 0%;
   z-index: 10;
-  transform: translate(10%, 10%);
+  transform: translate(10%, -10%);
   width: 3.2rem;
   height: 3.2rem;
   display: flex;
