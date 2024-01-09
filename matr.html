@@ -34,7 +34,7 @@
 			      <input type="text" class="form-control" name="firstname" placeholder="Ваше имя"><br />
 			      <input type="date" class="form-control" name="birthday" placeholder="Дата вашего рождения"> <br />
 			      <select class="form-select" name="gender" aria-label="gender">
-				<option selected>Пол не выбран</option>
+				<option selected>Гендер</option>
 				<option value="Мужчина">Мужчина</option>
 				<option value="женщина">Женщина</option>
 			      </select><br />
@@ -155,35 +155,29 @@
 	    };
 	}
 	
-	    //console.log(get('firstname'));
 	var name = get('firstname');
-	    console.log(name);
-	//document.querySelector('span.firstname').innerHTML = name;
+	    //console.log(name);
 	$('span.name').html('<b>'+name+'</b>');
 	var birth = get('birthday');
-	    console.log(birth);
+	    //console.log(birth);
 	$('span.birthday').html('<b>'+birth+'</b>');
 	    
 	var year = birth[0] + birth[1] + birth[2] + birth[3];
 	var month = birth[5] + birth[6];
 	var day = birth[8] + birth[9];
-	    console.log('год '+year);
-	    console.log('число мес '+month);
-	    console.log('число дня '+ day);
+	    //console.log('год '+year);
+	    //console.log('число мес '+month);
+	    //console.log('число дня '+ day);
 	var vozr = 2024-Number(year);
-		console.log(vozr);
-	    
+		//console.log(vozr);
+	$('span.oldest').html(vozr);
 	var gen = get('gender');
-	    console.log(gen);
-	if(gen=='Пол не выбран') {
-		document.querySelector('span.gender').innerHTML = 'не пожелали указать гендерную позицию';
+	    //console.log(gen);
+	if(gen=='Гендер') {
 		$('span.gender').html('не пожелали указать гендерную позицию');
 	} else {
-		//document.querySelector('span.gender').innerHTML = gen;
 		$('span.gender').html('<b>'+gen+'</b>');
 	}
-	
-
 });
 </script>
 </body>
