@@ -39,6 +39,7 @@ h1 {
   background-position: center;
   background-size: cover;
   overflow: hidden;
+  opacity: 0.6;
   width: 650px;
   height: 650px;
   max-width: 850px;
