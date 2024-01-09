@@ -30,8 +30,8 @@ h1 {
   margin: auto;
   justify-content: center;
   align-items: center;
-  border: 2px doted yellow;
-  background-color: #1f1f1f;
+  border: 0.4rem dashed #ffc107;
+  background-color: #ededed;
   width: 650px;
   height: 650px;
   max-width: 850px;
