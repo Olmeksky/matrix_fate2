@@ -42,8 +42,7 @@ h1 {
   #background: transparant;
   width: 350px;
   height: 350px;
-  border-color: grey;
-  border-width: 2px;
+  border: 2px solid grey;
 }
 .sq-fghi {
   position: absolut;
