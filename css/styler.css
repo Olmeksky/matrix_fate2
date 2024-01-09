@@ -36,42 +36,42 @@ h1 {
   margin: auto;
 }
 .saha {
-  background-color: #ba8fba;
+  background-color: #ba8fba!important;
   color: white;
   font-weight: 900;
 }
 .ajna {
-  background-color: #001179;
+  background-color: #001179!important;
   color: white;
   font-weight: 900;
 }
 .vishu {
-  background-color: #85bedb;
+  background-color: #85bedb!important;
   color: white;
   font-weight: 900;
 }
 .anah {
-  background-color: #06a201;
+  background-color: #06a201!important;
   color: white;
   font-weight: 900;
 }
 .mani {
-  background-color: #faff27;
+  background-color: #faff27!important;
   color: black;
   font-weight: 900;
 }
 .svadhi {
-  background-color: #f68e15;
+  background-color: #f68e15!important;
   color: white;
   font-weight: 900;
 }
 .mula {
-  background-color: #b80000;
+  background-color: #b80000!important;
   color: white;
   font-weight: 900;
 }
 .seven {
-  background-color: #e2e2e2;
+  background-color: #e2e2e2!important;
   color: black;
   font-weight: 900;
 }
