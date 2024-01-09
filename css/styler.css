@@ -54,11 +54,9 @@ h1 {
 .round-stml {
   position: absolut;
   float: center;
-  #background: transparant;
-  width: 350px;
-  height: 350px;
-  border-color: red;
-  border-width: 2px;
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
   border-radius: 50%;
 }
 
