@@ -151,7 +151,7 @@
 	function getUrlVars()
 	{
 	    var vars = [], hash;
-	    var hashes = encodeURIComponent(window.location.href.slice(window.location.href.indexOf('?') + 1).split('&'));
+	    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
 	    for(var i = 0; i < hashes.length; i++)
 	    {
 	        hash = hashes[i].split('=');
@@ -163,11 +163,12 @@
 	    }
 	    return vars;
 	}
-	let name = getUrlVars()['firstname'];
+	    console.log(window.location.href);
+	var link = window.location.href;
+	let name = url.searchParams.get('firstname')
 	let name2 = getUrlVars()['firstname'];
 	let birs = getUrlVars()['birthday'];
 	let gen = getUrlVars()['gender'];
-	//alert (birs);
 	console.log(name);
 	console.log(name2);
 	console.log(birs);
