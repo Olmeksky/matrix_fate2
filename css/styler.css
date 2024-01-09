@@ -28,7 +28,7 @@ h1 {
 .scheme {
   display: flex;
   margin: auto;
-  justyfy-content: center;
+  justify-content: center;
   align-items: center;
   border: 2px doted yellow;
   background-color: #1f1f1f;
