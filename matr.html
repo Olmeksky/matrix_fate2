@@ -157,7 +157,7 @@
 	
 	var name = get('firstname');
 	    //console.log(name);
-	$('span.name').html('<b>'+name+'</b>');
+	$('span.firstname').html('<b>'+name+'</b>');
 	var birth = get('birthday');
 	    //console.log(birth);
 	$('span.birthday').html('<b>'+birth+'</b>');
@@ -170,7 +170,7 @@
 	    //console.log('число дня '+ day);
 	var vozr = 2024-Number(year);
 		//console.log(vozr);
-	$('span.oldest').html(vozr);
+	$('span.oldest').html('<b>'+vozr+'</b>');
 	var gen = get('gender');
 	    //console.log(gen);
 	if(gen=='Гендер') {
