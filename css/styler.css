@@ -26,6 +26,7 @@ h1 {
   padding-bottom: 1.2rem;
 }
 .scheme {
+  display: block;
   border: 2px solid yellow;
   width: 550px;
   height: 550px;
@@ -34,3 +35,49 @@ h1 {
   align: center;
   margin: auto;
 }
+.saha {
+  background-color: #ba8fba;
+  color: white;
+  font-weight: 900;
+}
+.ajna {
+  background-color: #001179;
+  color: white;
+  font-weight: 900;
+}
+.vishu {
+  background-color: #85bedb;
+  color: white;
+  font-weight: 900;
+}
+.anah {
+  background-color: #06a201;
+  color: white;
+  font-weight: 900;
+}
+.mani {
+  background-color: #faff27;
+  color: black;
+  font-weight: 900;
+}
+.svadhi {
+  background-color: #f68e15;
+  color: white;
+  font-weight: 900;
+}
+.mula {
+  background-color: #b80000;
+  color: white;
+  font-weight: 900;
+}
+.seven {
+  background-color: #e2e2e2;
+  color: black;
+  font-weight: 900;
+}
+
+
+
+
+
+
