@@ -49,20 +49,20 @@ h1 {
 }
 .sq-fghi {
   position: absolute;
-  border: 0.3rem solid red;
+  border: 0.3rem solid #ff125c;
   border-radius: 0.5rem;
   transform: rotate(45deg);
   width: 26.5rem;
   height: 26.5rem;
-  box-shadow: 0.1rem 0.2rem 1.5rem #131313;
+  box-shadow: 0.1rem 0.2rem 1.1rem #b53f62;
 }
 .round-stml {
   position: absolute;
   width: 18rem;
   height: 18rem;
-  border: 0.3rem solid black;
+  border: 0.3rem dotted black;
   border-radius: 50%;
-  box-shadow: 0.1rem 0.2rem 2.5rem #131313;
+  box-shadow: 0.1rem 0.2rem 2.5rem #242424;
 }
 .E {
   position: absolute;
