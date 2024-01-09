@@ -27,13 +27,15 @@ h1 {
 }
 .scheme {
   display: block;
+  align: center;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
   border: 2px solid yellow;
   width: 550px;
   height: 550px;
   max-width: 850px;
   max-height: 850px;
-  align: center;
-  margin: auto;
 }
 
 .sq-abcd {
