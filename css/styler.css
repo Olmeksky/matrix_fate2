@@ -41,6 +41,7 @@ h1 {
 .sq-abcd {
   position: absolute;
   float: center;
+  margin: auto;
   width: 350px;
   height: 350px;
   border: 2px solid grey;
@@ -48,6 +49,7 @@ h1 {
 .sq-fghi {
   position: absolute;
   float: center;
+  margin: auto;
   width: 350px;
   height: 350px;
   border: 2px solid red;
@@ -56,6 +58,7 @@ h1 {
 .round-stml {
   position: absolute;
   float: center;
+  margin: auto;
   width: 300px;
   height: 300px;
   border: 2px solid black;
