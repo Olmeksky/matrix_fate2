@@ -70,7 +70,7 @@ h1 {
 tr.saha {
   background-color: rgba(186,143,186,0.3)!important;
 }
-th.saha {
+th>saha {
   background-color: #ba8fba!important;
   color: white;
   font-weight: 900;
