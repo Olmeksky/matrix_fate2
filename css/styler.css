@@ -76,8 +76,8 @@ th>saha {
   color: white;
   font-weight: 900;
 }
-th.ajna {
-  background-color: rgba(0,17,121,0.3)!important;
+tr.ajna {
+  background-color: rgba(0,17,121,0.3);
   font-weight: 700;
 }
 th>ajna {
