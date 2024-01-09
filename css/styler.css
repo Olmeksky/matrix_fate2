@@ -294,7 +294,8 @@ tr.saha td {
   font-weight: 700;
 }
 .saha th {
-  background-color: #ba8fba!important;
+  #background-color: #84009c!important;
+  background: radial-gradient(#bd3cde, #84009c);
   color: white;
   font-weight: 900;
 }
@@ -304,7 +305,7 @@ tr.ajna td {
   font-weight: 700;
 }
 .ajna th {
-  background-color: #001179!important;
+  background-color: #34009f!important;
   color: white;
   font-weight: 900;
 }
@@ -314,7 +315,7 @@ tr.vishu td {
   font-weight: 700;
 }
 .vishu th {
-  background-color: #85bedb!important;
+  background-color: #393cf7!important;
   color: white;
   font-weight: 900;
 }
@@ -324,7 +325,7 @@ tr.anah td{
   font-weight: 700;
 }
 .anah th {
-  background-color: #06a201!important;
+  background-color: #6ecc0e!important;
   color: white;
   font-weight: 900;
 }
@@ -334,7 +335,7 @@ tr.mani td {
   font-weight: 700;
 }
 .mani th {
-  background-color: #faff27!important;
+  background-color: #ffe342!important;
   color: black;
   font-weight: 900;
 }
@@ -344,7 +345,7 @@ tr.svadhi td {
   font-weight: 700;
 }
 .svadhi th {
-  background-color: #f68e15!important;
+  background-color: #f78a00!important;
   color: white;
   font-weight: 900;
 }
@@ -354,7 +355,7 @@ tr.mula td {
   font-weight: 700;
 }
 .mula th {
-  background-color: #b80000!important;
+  background-color: #f42d31!important;
   color: white;
   font-weight: 900;
 }
