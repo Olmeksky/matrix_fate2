@@ -67,42 +67,45 @@ h1 {
 .table>:not(caption)>*>* {
   text-align: center;
 }
-.saha {
+tr.saha {
+  background-color: rgba(186,143,186,0.3)!important;
+}
+th.saha {
   background-color: #ba8fba!important;
   color: white;
   font-weight: 900;
 }
-.ajna {
+th.ajna {
   background-color: #001179!important;
   color: white;
   font-weight: 900;
 }
-.vishu {
+th.vishu {
   background-color: #85bedb!important;
   color: white;
   font-weight: 900;
 }
-.anah {
+th.anah {
   background-color: #06a201!important;
   color: white;
   font-weight: 900;
 }
-.mani {
+th.mani {
   background-color: #faff27!important;
   color: black;
   font-weight: 900;
 }
-.svadhi {
+th.svadhi {
   background-color: #f68e15!important;
   color: white;
   font-weight: 900;
 }
-.mula {
+th.mula {
   background-color: #b80000!important;
   color: white;
   font-weight: 900;
 }
-.seven {
+th.seven {
   background-color: #e2e2e2!important;
   color: black;
   font-weight: 900;
