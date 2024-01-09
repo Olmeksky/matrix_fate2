@@ -26,11 +26,10 @@ h1 {
   padding-bottom: 1.2rem;
 }
 .scheme {
-  display: block;
-  align: center;
+  display: flex;
   margin: auto;
-  text-align: center;
-  vertical-align: middle;
+  justyfy-content: center;
+  align-items: center;
   border: 2px solid yellow;
   width: 550px;
   height: 550px;
@@ -43,9 +42,6 @@ h1 {
   border: 2px solid grey;
   width: 350px;
   height: 350px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
 }
 .sq-fghi {
   position: absolute;
@@ -53,9 +49,6 @@ h1 {
   transform: rotate(45deg);
   width: 350px;
   height: 350px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .round-stml {
   position: absolute;
@@ -63,9 +56,6 @@ h1 {
   height: 300px;
   border: 2px solid black;
   border-radius: 50%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
 }
 
 
