@@ -41,7 +41,9 @@ h1 {
 .sq-abcd {
   position: absolute;
   float: center;
+  overflow: auto;
   margin: auto;
+  top: 0; left: 0; bottom: 0; right: 0;
   width: 350px;
   height: 350px;
   border: 2px solid grey;
@@ -49,7 +51,9 @@ h1 {
 .sq-fghi {
   position: absolute;
   float: center;
+  overflow: auto;
   margin: auto;
+  top: 0; left: 0; bottom: 0; right: 0;
   width: 350px;
   height: 350px;
   border: 2px solid red;
