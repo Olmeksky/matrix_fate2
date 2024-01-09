@@ -163,9 +163,9 @@
 	    }
 	    return vars;
 	}
-	    console.log(window.location.href);
+	    console.log(encodeURIComponent(window.location.href));
 	var link = window.location.href;
-	let name = url.searchParams.get('firstname')
+	let name = url.searchParams.get('firstname');
 	let name2 = getUrlVars()['firstname'];
 	let birs = getUrlVars()['birthday'];
 	let gen = getUrlVars()['gender'];
