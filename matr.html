@@ -162,7 +162,8 @@
 	    //console.log(get('birthday'));
 	var birth = get('birthday');
 	    console.log(birth);
-	document.querySelector('span.birthday').innerHTML(birth);
+	//document.querySelector('span.birthday').HTML(birth);
+	$('span.birthday').HTML(birth);
 	    
 	var year = birth[0] + birth[1] + birth[2] + birth[3];
 	var month = parseInt(birth[5] + birth[6]);
