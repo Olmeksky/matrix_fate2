@@ -38,7 +38,8 @@ h1 {
 
 .sq-abcd {
   position: absolut;
-  background: transparant;
+  float: center;
+  #background: transparant;
   width: 350px;
   height: 350px;
   border-color: grey;
@@ -46,7 +47,8 @@ h1 {
 }
 .sq-fghi {
   position: absolut;
-  background: transparant;
+  float: center;
+  #background: transparant;
   width: 350px;
   height: 350px;
   border-color: red;
@@ -54,7 +56,8 @@ h1 {
 }
 .round-stml {
   position: absolut;
-  background: transparant;
+  float: center;
+  #background: transparant;
   width: 350px;
   height: 350px;
   border-color: red;
