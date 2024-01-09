@@ -54,7 +54,7 @@ $(window).on('load', function() {
 	        return decodeURIComponent(name[1]);
 	    };
 	}
-    
+    	// Выводим некоторую информацию перед схемой
 	var name = get('firstname');
 	$('span.firstname').html('<b>'+name+'</b>');
 	var birth = get('birthday');
@@ -63,26 +63,23 @@ $(window).on('load', function() {
 	var day = birth[8] + birth[9];
 	$('span.birthday').html('<b>'+day+' '+month+' '+year+'г.</b>');
 	var vozr = 2024-Number(year);
-		//console.log(vozr);
 	$('span.oldest').html('<b>'+vozr+'</b>');
 	var gen = get('gender');
-	    //console.log(gen);
 	if(gen=='Гендер') {
 		$('span.gender').html('<u>не пожелали указать гендерную позицию</u>');
 	} else {
 		$('span.gender').html('<b>'+gen+'</b>');
 	}
-
-	
+	//
 	console.log(name);
 	console.log(birth);
 	console.log('год '+year);
 	console.log('число мес '+month);
 	console.log('число дня '+ day);
 	
-	a = arcan22(day);
-	b = arcan22(month);
-	c = arcan22(year);
+	a = arcan22(+day);
+	b = arcan22(+month);
+	c = arcan22(+year);
 
 	d = arcan22(a+b+c);
 	e = arcan22(a+b+c+d);
