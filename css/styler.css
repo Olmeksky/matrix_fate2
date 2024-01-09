@@ -39,13 +39,14 @@ h1 {
 }
 .sq-abcd {
   position: absolute;
-  border: 2px solid grey;
+  border: 0.2rem solid grey;
   width: 350px;
   height: 350px;
+  box-shadow: 0.1rem 0.2rem 0.5rem #131313;
 }
 .sq-fghi {
   position: absolute;
-  border: 2px solid red;
+  border: 0.2rem solid red;
   transform: rotate(45deg);
   width: 350px;
   height: 350px;
@@ -54,7 +55,7 @@ h1 {
   position: absolute;
   width: 300px;
   height: 300px;
-  border: 2px solid black;
+  border: 0.2rem solid black;
   border-radius: 50%;
 }
 
