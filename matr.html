@@ -45,7 +45,7 @@
 			</article>
 			<article>
 				<h1>Схема матрицы судьбы рассчет</h1>
-				<p class="podzagolovok firstname">Здравуствуйте .</p>
+				<p class="podzagolovok firstname">Здравуствуйте <span class="firstname"></span>.</p>
 				<p class="podzagolovok oldest">Вам сейчас <span class="oldest">15</span> полных лет.</p>
 				<p class="podzagolovok birthday">Рассчет сделан на дату: <span class="birthday">15-12-1999</span>.</p>
 			<div class="container">
@@ -153,10 +153,11 @@
 	        return decodeURIComponent(name[1]);
 	    };
 	}
-	    //console.log(encodeURIComponent(window.location.href));
 	    console.log(get('firstname'));
+	    document.querySelector('span.firstname').innerHTML = get('firstname');
 	    console.log(get('birthday'));
 	    console.log(get('gender'));
+	
 
 });
 </script>
