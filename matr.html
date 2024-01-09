@@ -161,7 +161,7 @@
 	    return vars;
 	}
 	let birs = getUrlVars()['birthday'];
-	let name = getUrlVars()['firstname'];
+	let name = encodeURI(getUrlVars()['firstname']);
 	let gen = getUrlVars()['gender'];
 	//alert (birs);
 	console.log(name);
