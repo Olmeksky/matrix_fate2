@@ -63,6 +63,15 @@ h1 {
   border-radius: 50%;
   box-shadow: 0.1rem 0.2rem 0.5rem #131313;
 }
+.E {
+  position: absolute;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 1.7rem;
+  border: 0.3rem solid #faff27;
+  border-radius: 50%;
+}
+
 
 .table>:not(caption)>*>* {
   text-align: center;
