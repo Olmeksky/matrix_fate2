@@ -147,7 +147,52 @@ h1 {
   font-size: 2.1rem;
   font-weight: 600;
   background-color: rgba(255,255,255,0.7);
-  border: 0.3rem solid #131313;
+  border: 0.2rem solid #131313;
+  border-radius: 50%;
+}
+.G {
+  position: inherit;
+  top: 0%;
+  right: 0%;
+  z-index: 10;
+  #transform: translate(-50%, -50%);
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  font-size: 2.1rem;
+  font-weight: 600;
+  background-color: rgba(255,255,255,0.7);
+  border: 0.2rem solid #131313;
+  border-radius: 50%;
+}
+.H {
+  position: inherit;
+  bottom: 0%;
+  right: 0%;
+  z-index: 10;
+  #transform: translate(-50%, -50%);
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  font-size: 2.1rem;
+  font-weight: 600;
+  background-color: rgba(255,255,255,0.7);
+  border: 0.2rem solid #131313;
+  border-radius: 50%;
+}
+.I {
+  position: inherit;
+  bottom: 0%;
+  left: 0%;
+  z-index: 10;
+  #transform: translate(-50%, -50%);
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  font-size: 2.1rem;
+  font-weight: 600;
+  background-color: rgba(255,255,255,0.7);
+  border: 0.2rem solid #131313;
   border-radius: 50%;
 }
 
