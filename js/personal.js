@@ -73,12 +73,28 @@ $(window).on('load', function() {
 		$('span.gender').html('<b>'+gen+'</b>');
 	}
 
-    
-    console.log(name);
-    console.log(birth);
-    console.log('год '+year);
-    console.log('число мес '+month);
-    console.log('число дня '+ day);
+	
+	console.log(name);
+	console.log(birth);
+	console.log('год '+year);
+	console.log('число мес '+month);
+	console.log('число дня '+ day);
+	
+	a = arcan22(day);
+	b = arcan22(month);
+	c = arcan22(year);
 
+	d = arcan22(a+b+c);
+	e = arcan22(a+b+c+d);
+	f = arcan22(a+b);
+	g = arcan22(b+c);
+	h = arcan22(c+d);
+	i = arcan22(a+d);
+	
+	console.log(a);
+	console.log(b);
+	console.log('число год '+c);
+	console.log(d);
+	console.log(e);
     
 });
