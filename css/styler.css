@@ -64,6 +64,9 @@ h1 {
   box-shadow: 0.1rem 0.2rem 0.5rem #131313;
 }
 
+.table>:not(caption)>*>* {
+  text-align: center;
+}
 .saha {
   background-color: #ba8fba!important;
   color: white;
