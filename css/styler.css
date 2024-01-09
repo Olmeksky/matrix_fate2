@@ -49,7 +49,7 @@ h1 {
   width: 350px;
   height: 350px;
   border: 2px solid red;
-  transform: rotate(90deg);
+  transform: rotate(45deg);
 }
 .round-stml {
   position: relative;
