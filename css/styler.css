@@ -22,9 +22,13 @@ h1 {
   display: inline-block;
   maggin: 0.5rem auto;
 }
-
+.matr-form {
+  padding-bottom: 1.2rem;
+}
 .scheme {
   border: 2px solid #161616;
   max-width: 450px;
   max-height: 450px;
+  align: center;
+  margin: auto;
 }
