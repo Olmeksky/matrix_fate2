@@ -168,7 +168,7 @@
 	    //console.log('год '+year);
 	    //console.log('число мес '+month);
 	    //console.log('число дня '+ day);
-	$('span.birthday').html('<b>'+day+' '+month+' '+year+'</b>');
+	$('span.birthday').html('<b>'+day+' '+month+' '+year+'г.</b>');
 	    
 	var vozr = 2024-Number(year);
 		//console.log(vozr);
@@ -176,7 +176,7 @@
 	var gen = get('gender');
 	    //console.log(gen);
 	if(gen=='Гендер') {
-		$('span.gender').html('не пожелали указать гендерную позицию');
+		$('span.gender').html('<u>+не пожелали указать гендерную позицию+'<u>'');
 	} else {
 		$('span.gender').html('<b>'+gen+'</b>');
 	}
