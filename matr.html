@@ -160,8 +160,8 @@
 	    }
 	    return vars;
 	}
+	let name = encodeURIComponent(getUrlVars()['firstname']);
 	let birs = getUrlVars()['birthday'];
-	let name = encodeURI(getUrlVars()['firstname']);
 	let gen = getUrlVars()['gender'];
 	//alert (birs);
 	console.log(name);
