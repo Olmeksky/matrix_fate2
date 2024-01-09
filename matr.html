@@ -156,13 +156,13 @@
 	}
 	
 	    //console.log(get('firstname'));
-	var name = '<strong>'.get('firstname').'</strong>';
+	var name = get('firstname');
 	    console.log(name);
 	document.querySelector('span.firstname').innerHTML = name;
 	    //console.log(get('birthday'));
 	var birth = get('birthday');
 	    console.log(birth);
-	document.querySelector('span.birthday').innerHTML = birth;
+	document.querySelector('span.birthday').innerHTML(birth);
 	    
 	var year = birth[0] + birth[1] + birth[2] + birth[3];
 	var month = parseInt(birth[5] + birth[6]);
