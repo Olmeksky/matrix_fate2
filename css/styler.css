@@ -3,3 +3,9 @@ html {
   padding: 0;
   font-size: 14px;
 }
+article {
+  margin-bottome: 2rem;
+}
+.scheme {
+  border: 2px solid #161616;
+}
