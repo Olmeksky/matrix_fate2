@@ -1,4 +1,40 @@
-<div class="raschet" id="ras">
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Заголовок страницы семантической верстки</title>
+	<link href="style_semantic.css" rel="stylesheet">
+	
+	
+</head>
+<body>
+	<!-- Шапка сайта -->
+	<header class="main-header">
+		<!-- Навигация -->
+		<nav>
+			<ul>
+				<li><a href="#">Главная</a></li>
+				<li><a href="#">Блог</a></li>
+				<li><a href="#">Контакты</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<!-- Основное содержимое страницы -->
+	<main>
+		<menu>
+			<a href="#">Главная</a>
+			<a href="#">Блог</a>
+			<a href="#">Контакты</a>
+		</menu>
+	</main>
+	
+	<!-- Основное содержимое страницы в секции-->
+	<section>
+		<main>
+			<h1>Заголовок</h1>
+			<p class="par"></p>
+      <div class="raschet" id="ras">
   <div class="mblock">
     <form action="./matrix.html" method="get">
       <input type="date" name="datBirst" id="db" placeholder="Дата вашего рождения"> <br>
@@ -6,3 +42,34 @@
     </form>
   </div>
 </div>
+		</main>
+		<aside>
+			<div class="widget_1"></div>
+			<div class="widget_2"></div>
+		</aside>
+		
+		<!-- Содержимое статьи -->
+		<article>
+			<figure>
+				<img src="" alt="Здесь картинка статьи">
+				<figcaption>
+					<span>Текст при наведии на картинку</span>
+					<a href="#">Ссылка в картинке</a>
+				</figcaption>
+			</figure>
+			<h1>название статьи</h1>
+			<div class="content">
+				<p class="par"></p>
+				<a href="#">Ссылка</a>
+				<time></time>
+			</div>
+		</article>
+	</section>
+	
+	<!-- Подвал сайта -->
+	<footer class="main-footer">
+	Copy
+	<nav></nav>
+	</footer>
+</body>
+</html>
