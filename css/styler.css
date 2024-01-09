@@ -57,11 +57,11 @@ h1 {
 }
 .round-stml {
   position: absolute;
-  width: 300px;
-  height: 300px;
+  width: 18rem;
+  height: 18rem;
   border: 0.3rem solid black;
   border-radius: 50%;
-  box-shadow: 0.1rem 0.2rem 0.5rem #131313;
+  box-shadow: 0.1rem 0.2rem 2.5rem #131313;
 }
 .E {
   position: absolute;
