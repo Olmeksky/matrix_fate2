@@ -85,8 +85,7 @@ th>ajna {
   color: white;
   font-weight: 900;
 }
-
-th.vishu {
+tr.vishu {
   background-color: rgba(133,190,119,0.3)!important;
   font-weight: 700;
 }
@@ -95,26 +94,40 @@ th>vishu {
   color: white;
   font-weight: 900;
 }
+tr.anah {
+  background-color: rgba(6,162,1,0.3)!important;
+  font-weight: 700;
+}
 th>anah {
   background-color: #06a201!important;
   color: white;
   font-weight: 900;
+}
+tr.mani {
+  background-color: rgba(250,255,39,0.3)!important;
+  font-weight: 700;
 }
 th>mani {
   background-color: #faff27!important;
   color: black;
   font-weight: 900;
 }
+tr.svadhi {
+  background-color: rgba(246,142,21,0.3)!important;
+  font-weight: 700;
+}
 th>svadhi {
   background-color: #f68e15!important;
   color: white;
   font-weight: 900;
 }
+
 th>mula {
   background-color: #b80000!important;
   color: white;
   font-weight: 900;
 }
+
 th.seven {
   background-color: #e2e2e2!important;
   color: black;
