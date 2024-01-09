@@ -6,6 +6,7 @@
 	<link href="./css/styler.css" rel="stylesheet">
 	<!-- Подключение CSS файла bootstrap 5 -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
 <body>
 	<!-- Шапка сайта -->
@@ -132,5 +133,14 @@
 	</footer>
 <!-- Подключение JS файла bootstrap 5 -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+      /* код на jQuery */
+      // установим body фон #eee
+      $('body').css('background-color', '#eee');
+      // выровняем h1 по центру
+      $('h1').css('text-align', 'center');
+    });
+  </script>
 </body>
 </html>
