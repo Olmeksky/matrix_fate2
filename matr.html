@@ -170,6 +170,9 @@
 	    console.log('год '+year);
 	    console.log('число мес '+month);
 	    console.log('число дня '+ day);
+	var vozr = 2024-Number(year);
+		console.log(vozr);
+	    
 	var gen = get('gender');
 	    console.log(gen);
 	if(gen=='Пол не выбран') {
@@ -177,7 +180,7 @@
 		$('span.gender').html('не пожелали указать гендерную позицию');
 	} else {
 		//document.querySelector('span.gender').innerHTML = gen;
-		$('span.gender').html('<b>'+gender+'</b>');
+		$('span.gender').html('<b>'+gen+'</b>');
 	}
 	
 
