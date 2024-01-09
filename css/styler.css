@@ -35,6 +35,35 @@ h1 {
   align: center;
   margin: auto;
 }
+
+.sq-abcd {
+  position: absolut;
+  background: transparant;
+  width: 350px;
+  height: 350px;
+  border-color: grey;
+  border-width: 2px;
+}
+.sq-fghi {
+  position: absolut;
+  background: transparant;
+  width: 350px;
+  height: 350px;
+  border-color: red;
+  border-width: 2px;
+}
+.round-stml {
+  position: absolut;
+  background: transparant;
+  width: 350px;
+  height: 350px;
+  border-color: red;
+  border-width: 2px;
+  border-radius: 50%;
+}
+
+
+
 .saha {
   background-color: #ba8fba!important;
   color: white;
