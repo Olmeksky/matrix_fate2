@@ -157,8 +157,8 @@ h1 {
   width: 4rem;
   height: 4rem;
   display: flex;
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
   font-size: 2.1rem;
   font-weight: 600;
   background-color: rgba(255,255,255,0.7);
@@ -174,8 +174,8 @@ align-items: center;
   width: 4rem;
   height: 4rem;
   display: flex;
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
   font-size: 2.1rem;
   font-weight: 600;
   background-color: rgba(255,255,255,0.7);
@@ -191,8 +191,8 @@ align-items: center;
   width: 4rem;
   height: 4rem;
   display: flex;
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
   font-size: 2.1rem;
   font-weight: 600;
   background-color: rgba(255,255,255,0.7);
@@ -208,8 +208,8 @@ align-items: center;
   width: 4rem;
   height: 4rem;
   display: flex;
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
   font-size: 2.1rem;
   font-weight: 600;
   background-color: rgba(255,255,255,0.7);
@@ -309,7 +309,8 @@ tr.ajna td {
   font-weight: 900;
 }
 tr.vishu td {
-  background-color: rgba(133,190,119,0.3);
+  #background-color: rgba(133,190,119,0.3);
+  background-color: #37cbfc;
   font-weight: 700;
 }
 .vishu th {
@@ -318,7 +319,8 @@ tr.vishu td {
   font-weight: 900;
 }
 tr.anah td{
-  background-color: rgba(6,162,1,0.3);
+  #background-color: rgba(6,162,1,0.3);
+  background-color: #91f286;
   font-weight: 700;
 }
 .anah th {
@@ -327,7 +329,8 @@ tr.anah td{
   font-weight: 900;
 }
 tr.mani td {
-  background-color: rgba(250,255,39,0.3);
+  #background-color: rgba(250,255,39,0.3);
+  background-color: #ffff70;
   font-weight: 700;
 }
 .mani th {
@@ -336,7 +339,8 @@ tr.mani td {
   font-weight: 900;
 }
 tr.svadhi td {
-  background-color: rgba(246,142,21,0.3);
+  #background-color: rgba(246,142,21,0.3);
+  background-color: #e7715a;
   font-weight: 700;
 }
 .svadhi th {
@@ -345,7 +349,8 @@ tr.svadhi td {
   font-weight: 900;
 }
 tr.mula td {
-  background-color: rgba(184,0,0,0.3);
+  #background-color: rgba(184,0,0,0.3);
+  background-color: #ff8a86;
   font-weight: 700;
 }
 .mula th {
