@@ -158,21 +158,27 @@
 	    //console.log(get('firstname'));
 	var name = get('firstname');
 	    console.log(name);
-	document.querySelector('span.firstname').innerHTML = name;
-	    //console.log(get('birthday'));
+	//document.querySelector('span.firstname').innerHTML = name;
+	$('span.name').html('<b>'+name+'</b>');
 	var birth = get('birthday');
 	    console.log(birth);
 	$('span.birthday').html('<b>'+birth+'</b>');
 	    
 	var year = birth[0] + birth[1] + birth[2] + birth[3];
-	var month = parseInt(birth[5] + birth[6]);
-	var day = parseInt(birth[8] + birth[9]);
+	var month = birth[5] + birth[6];
+	var day = birth[8] + birth[9];
 	    console.log('год '+year);
 	    console.log('число мес '+month);
 	    console.log('число дня '+ day);
 	var gen = get('gender');
 	    console.log(gen);
-
+	if(gen=='Пол не выбран') {
+		document.querySelector('span.gender').innerHTML = 'не пожелали указать гендерную позицию';
+		$('span.gender').html(''не пожелали указать гендерную позицию'');
+	} else {
+		//document.querySelector('span.gender').innerHTML = gen;
+		$('span.gender').html('<b>'+gender+'</b>');
+	}
 	
 
 });
