@@ -65,9 +65,11 @@ h1 {
 }
 .E {
   position: absolute;
-  width: 2.5rem;
-  height: 2.5rem;
-  font-size: 1.7rem;
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  font-size: 2.1rem;
+  font-weight: 600;
   border: 0.3rem solid #faff27;
   border-radius: 50%;
 }
