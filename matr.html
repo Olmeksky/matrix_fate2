@@ -160,7 +160,7 @@
 	$('span.firstname').html('<b>'+name+'</b>');
 	var birth = get('birthday');
 	    //console.log(birth);
-	$('span.birthday').html('<b>'+birth+'</b>');
+	//$('span.birthday').html('<b>'+birth+'</b>');
 	    
 	var year = birth[0] + birth[1] + birth[2] + birth[3];
 	var month = birth[5] + birth[6];
@@ -168,6 +168,8 @@
 	    //console.log('год '+year);
 	    //console.log('число мес '+month);
 	    //console.log('число дня '+ day);
+	$('span.birthday').html('<b>'+day+' '+month+' '+year'</b>');
+	    
 	var vozr = 2024-Number(year);
 		//console.log(vozr);
 	$('span.oldest').html('<b>'+vozr+'</b>');
