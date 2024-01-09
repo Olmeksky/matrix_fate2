@@ -80,7 +80,7 @@ tr.ajna {
   background-color: rgba(0,17,121,0.3);
   font-weight: 700;
 }
-th>ajna {
+th>.ajna {
   background-color: #001179!important;
   color: white;
   font-weight: 900;
@@ -89,7 +89,7 @@ tr.vishu {
   background-color: rgba(133,190,119,0.3)!important;
   font-weight: 700;
 }
-th>vishu {
+th>.vishu {
   background-color: #85bedb!important;
   color: white;
   font-weight: 900;
@@ -98,7 +98,7 @@ tr.anah {
   background-color: rgba(6,162,1,0.3)!important;
   font-weight: 700;
 }
-th>anah {
+th>.anah {
   background-color: #06a201!important;
   color: white;
   font-weight: 900;
@@ -107,7 +107,7 @@ tr.mani {
   background-color: rgba(250,255,39,0.3)!important;
   font-weight: 700;
 }
-th>mani {
+th>.mani {
   background-color: #faff27!important;
   color: black;
   font-weight: 900;
@@ -116,19 +116,22 @@ tr.svadhi {
   background-color: rgba(246,142,21,0.3)!important;
   font-weight: 700;
 }
-th>svadhi {
+th>.svadhi {
   background-color: #f68e15!important;
   color: white;
   font-weight: 900;
 }
-
-th>mula {
+tr.mula {
+  background-color: rgba(184,0,0,0.3)!important;
+  font-weight: 700;
+}
+th>.mula {
   background-color: #b80000!important;
   color: white;
   font-weight: 900;
 }
 
-th.seven {
+tr.seven {
   background-color: #e2e2e2!important;
   color: black;
   font-weight: 900;
