@@ -2,7 +2,6 @@ $(window).on('load', function() {
     console.log('Погнали что ли');
 
     function arcan22(summ) {
-    
         let sl1 = 0;
         let sl2 = 0;
         let sl3 = 0;
@@ -10,7 +9,6 @@ $(window).on('load', function() {
         // длинна строки
         //let l_summ = summ.length;
         //	console.log('Длинна строки_' + l_summ);
-        
         if (summ.length==3) {
             console.log('Длинна 3 :' + summ);
             return Number(summ);
@@ -38,9 +36,7 @@ $(window).on('load', function() {
             console.log('Более 3-х :' + summ);
             return Number(summ);
         }
-    
     }
-
 
     /* код на jQuery */
       // установим body фон #eee
@@ -74,8 +70,8 @@ $(window).on('load', function() {
 	console.log(name);
 	console.log(birth);
 	console.log('год '+year);
-	console.log('число мес '+month);
-	console.log('число дня '+ day);
+	console.log('мес '+month);
+	console.log('ден '+ day);
 	
 	a = arcan22(+day);
 	b = arcan22(+month);
@@ -90,7 +86,7 @@ $(window).on('load', function() {
 	
 	console.log(a);
 	console.log(b);
-	console.log('число год '+c);
+	console.log(c);
 	console.log(d);
 	console.log(e);
     
