@@ -167,7 +167,7 @@ h1 {
   align-items: center;
   font-size: 2.1rem;
   font-weight: 600;
-  background-color: rgba(255,255,255,0.9);
+  background-color: white;
   border: 0.2rem solid #131313;
   border-radius: 50%;
 }
@@ -184,7 +184,7 @@ h1 {
   align-items: center;
   font-size: 2.1rem;
   font-weight: 600;
-  background-color: rgba(255,255,255,0.9);
+  background-color: white;
   border: 0.2rem solid #131313;
   border-radius: 50%;
 }
@@ -201,7 +201,7 @@ h1 {
   align-items: center;
   font-size: 2.1rem;
   font-weight: 600;
-  background-color: rgba(255,255,255,0.9);
+  background-color: white;
   border: 0.2rem solid #131313;
   border-radius: 50%;
 }
@@ -218,7 +218,7 @@ h1 {
   align-items: center;
   font-size: 2.1rem;
   font-weight: 600;
-  background-color: rgba(255,255,255,0.9);
+  background-color: white;
   border: 0.2rem solid #131313;
   border-radius: 50%;
 }
@@ -235,7 +235,7 @@ h1 {
   align-items: center;
   font-size: 1.9rem;
   font-weight: 500;
-  background-color: rgba(255,255,255,0.9);
+  background-color: white;
   border: 0.2rem solid #131313;
   border-radius: 50%;
 }
@@ -252,7 +252,7 @@ h1 {
   align-items: center;
   font-size: 1.9rem;
   font-weight: 500;
-  background-color: rgba(255,255,255,0.9);
+  background-color: white;
   border: 0.2rem solid #131313;
   border-radius: 50%;
 }
@@ -269,7 +269,7 @@ h1 {
   align-items: center;
   font-size: 1.9rem;
   font-weight: 500;
-  background-color: rgba(255,255,255,0.9);
+  background-color: white;
   border: 0.2rem solid #131313;
   border-radius: 50%;
 }
@@ -286,11 +286,10 @@ h1 {
   align-items: center;
   font-size: 1.9rem;
   font-weight: 500;
-  background-color: rgba(255,255,255,0.9);
+  background-color: white;
   border: 0.2rem solid #131313;
   border-radius: 50%;
 }
-
 .F2 {
   position: inherit;
   top: 0%;
@@ -359,6 +358,17 @@ h1 {
   border: 0.15rem solid #131313;
   border-radius: 50%;
 }
+
+.line-zeml {
+  border-bottom: solid 0.1rem #d71212;
+}
+.line-nebo {
+  border-bottom: solid 0.1rem #d71212;
+  transform: scale(90deg);
+}
+.line-muzh {}
+.line-zhen {}
+.line-love-deng {}
 
 .table>:not(caption)>*>* {
   text-align: center;
