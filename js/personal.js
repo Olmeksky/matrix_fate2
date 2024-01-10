@@ -46,6 +46,7 @@ $(window).on('load', function() {
 				console.log('Меньше 23 :' + summ);
 				return Number(summ);
 			} else if (summ>23){
+				console.log('Опять больше 22 слог :' + summ);
 				summ = digit(summ);
 				return Number(summ);
 			}
