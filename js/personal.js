@@ -43,7 +43,7 @@ $(window).on('load', function() {
 		summ = digit(summ);
 		console.log('Длинна 2 :' + summ);
 		if (Number(summ)>22) {
-			console.log('Длинна 2 AT :' + summ.substr(0,1) + ' + ' + summ.substr(1,1));
+			console.log('Длинна 2 AT :' + summ.substr(0,1) + ' # ' + summ.substr(1,1));
 			sl1 = summ.substr(0,1);
 			sl2 = summ.substr(1,1);
 			sl3 = Number(sl1)+Number(sl2);
