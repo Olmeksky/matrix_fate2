@@ -39,7 +39,7 @@ $(window).on('load', function() {
         }
         else {
 		console.log('Более 3-х :' + summ);
-		summ = digit(summ);
+		summ = digit(+summ);
 		console.log('Длинна 2 :' + summ);
 		if (Number(summ)>22) {
 			sl1 = summ.substr(0,1);
