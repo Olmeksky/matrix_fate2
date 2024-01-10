@@ -6,6 +6,13 @@ html {
 article, aside {
   margin-bottom: 2rem;
 }
+.banner-item {
+  opacity: 0.6;
+  padding: 1rem;
+  border: 1px solid #131313;
+  background-color: white;
+  margin-bottom: 3rem;
+}
 h1 {
   #font: 2.2rem/2 "Arial", sans-serif;
   font: 2.2rem/2 "Roboto", sans-serif;
