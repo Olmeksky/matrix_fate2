@@ -94,7 +94,11 @@ $(window).on('load', function() {
 	console.log(a);
 	console.log(b);
 	console.log(c);
-	//console.log(d);
-	//console.log(e);
+	console.log(d);
+	console.log('E :' +e);
+	console.log(f);
+	console.log(g);
+	console.log(h);
+	console.log(i);
     
 });
