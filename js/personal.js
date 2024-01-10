@@ -81,12 +81,12 @@ $(window).on('load', function() {
 	} else {
 		$('span.gender').html('<b>'+gen+'</b>');
 	}
-	//
+	/*
 	console.log(name);
 	console.log(birth);
 	console.log('год '+year);
 	console.log('мес '+month);
-	console.log('ден '+ day);
+	console.log('ден '+ day);*/
 	
 	a = arcan22(+day);
 	b = arcan22(+month);
@@ -99,15 +99,7 @@ $(window).on('load', function() {
 	h = arcan22(c+d);
 	i = arcan22(a+d);
 	
-	console.log(a);
-	console.log(b);
-	console.log(c);
-	console.log(d);
-	console.log(e);
-	console.log(f);
-	console.log(g);
-	console.log(h);
-	console.log(i);
+	/*console.log(a);console.log(b);console.log(c);console.log(d);console.log(e);console.log(f);console.log(g);console.log(h);console.log(i);*/
 
 	$('div.A').html(a);
 	$('div.B').html(b);
@@ -123,12 +115,15 @@ $(window).on('load', function() {
 	g2 = arcan22(e+g);
 	h2 = arcan22(e+h);
 	i2 = arcan22(e+i);
+	$('div.F2').html(f2);
+	$('div.G2').html(g2);
+	$('div.H2').html(h2);
+	$('div.I2').html(i2);
 	
     	f1 = arcan22(f+f2);
 	g1 = arcan22(g+g2);
 	h1 = arcan22(h+h2);
 	i1 = arcan22(i+i2);
-
 	$('div.F1').html(f1);
 	$('div.G1').html(g1);
 	$('div.H1').html(h1);
