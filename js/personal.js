@@ -31,18 +31,22 @@ $(window).on('load', function() {
 			} else return Number(summ);
 		}
 		else if (summ.length==1) {
-		    console.log('Длинна 1 :' + summ);
-		    return Number(summ);
+			console.log('Длинна 1 :' + summ);
+			return Number(summ);
 		}
 		else if (summ.length<1) {
-		    console.log('Пусто :' + summ);
-		    return Number(summ);
+			console.log('Пусто :' + summ);
+			return Number(summ);
 		}
 		else {
 			console.log('Более 3-х :' + summ);
 			summ = digit(+summ);
-			console.log('Длинна 2 :' + summ);
-			return Number(summ);
+			if (summ<22) {
+				return Number(summ);
+			} else {
+				summ = digit(+summ);
+				return Number(summ);
+			}
 		}
 	}
 
