@@ -42,12 +42,13 @@ h1 {
   border: 0.4rem dashed #ffc107;
   border-radius: 0.5rem;
   background-color: #d5d5d5;
-  background-image: url('Sheme_fon02.png');
+  background-image: url('Sheme_fon03.png');
   background-size: no-repeat;
   background-position: center;
+  width: 110%;
   #background-size: cover;
   overflow: hidden;
-  opacity: 0.92;
+  opacity: 0.94;
   width: 650px;
   height: 650px;
   max-width: 850px;
@@ -412,10 +413,11 @@ h1 {
   width: 70%;
   transform: rotate(135deg);
 }
-
+.table>tbody {
+  box-shadow: 0.1rem 0.2rem 2.5rem #242424;  
+}
 .table>:not(caption)>*>* {
   text-align: center;
-  box-shadow: 0.1rem 0.2rem 2.5rem #242424;
 }
 tr.saha td {
   #background-color: rgba(186,143,186,0.3);
