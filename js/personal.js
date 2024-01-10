@@ -112,12 +112,21 @@ $(window).on('load', function() {
 	$('div.A').html(a);
 	$('div.B').html(b);
 	$('div.C').html(c);
-
 	$('div.D').html(d);
 	$('div.E').html(e);
 	$('div.F').html(f);
 	$('div.G').html(g);
 	$('div.H').html(h);
 	$('div.I').html(i);
-    
+
+	f2 = arcan22(e+f);
+	g2 = arcan22(e+g);
+	h2 = arcan22(e+h);
+	i2 = arcan22(e+i);
+	
+    	f1 = arcan22(f+f2);
+	g1 = arcan22(g+g2);
+	h1 = arcan22(h+h2);
+	i1 = arcan22(i+i2);
+	
 });
