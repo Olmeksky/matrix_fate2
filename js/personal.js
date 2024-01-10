@@ -55,7 +55,7 @@ $(window).on('load', function() {
 
     /* код на jQuery */
       // установим body фон #eee
-      //$('body').css('background-color', '#eee');
+      $('body').css('background-color', '#e1e1e1');
       // выровняем h1 по центру
       $('h1').css('text-align', 'center');
 
