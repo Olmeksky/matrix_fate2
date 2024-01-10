@@ -167,7 +167,7 @@ h1 {
   align-items: center;
   font-size: 2.1rem;
   font-weight: 600;
-  background-color: rgba(255,255,255,0.7);
+  background-color: rgba(255,255,255,0.9);
   border: 0.2rem solid #131313;
   border-radius: 50%;
 }
@@ -184,7 +184,7 @@ h1 {
   align-items: center;
   font-size: 2.1rem;
   font-weight: 600;
-  background-color: rgba(255,255,255,0.7);
+  background-color: rgba(255,255,255,0.9);
   border: 0.2rem solid #131313;
   border-radius: 50%;
 }
@@ -201,7 +201,7 @@ h1 {
   align-items: center;
   font-size: 2.1rem;
   font-weight: 600;
-  background-color: rgba(255,255,255,0.7);
+  background-color: rgba(255,255,255,0.9);
   border: 0.2rem solid #131313;
   border-radius: 50%;
 }
@@ -218,7 +218,7 @@ h1 {
   align-items: center;
   font-size: 2.1rem;
   font-weight: 600;
-  background-color: rgba(255,255,255,0.7);
+  background-color: rgba(255,255,255,0.9);
   border: 0.2rem solid #131313;
   border-radius: 50%;
 }
@@ -235,7 +235,7 @@ h1 {
   align-items: center;
   font-size: 1.9rem;
   font-weight: 500;
-  background-color: rgba(255,255,255,0.7);
+  background-color: rgba(255,255,255,0.9);
   border: 0.2rem solid #131313;
   border-radius: 50%;
 }
@@ -252,7 +252,7 @@ h1 {
   align-items: center;
   font-size: 1.9rem;
   font-weight: 500;
-  background-color: rgba(255,255,255,0.7);
+  background-color: rgba(255,255,255,0.9);
   border: 0.2rem solid #131313;
   border-radius: 50%;
 }
@@ -269,7 +269,7 @@ h1 {
   align-items: center;
   font-size: 1.9rem;
   font-weight: 500;
-  background-color: rgba(255,255,255,0.7);
+  background-color: rgba(255,255,255,0.9);
   border: 0.2rem solid #131313;
   border-radius: 50%;
 }
@@ -286,7 +286,7 @@ h1 {
   align-items: center;
   font-size: 1.9rem;
   font-weight: 500;
-  background-color: rgba(255,255,255,0.7);
+  background-color: rgba(255,255,255,0.9);
   border: 0.2rem solid #131313;
   border-radius: 50%;
 }
@@ -296,16 +296,16 @@ h1 {
   top: 0%;
   left: 0%;
   z-index: 10;
-  transform: translate(10%, 10%);
-  width: 3.2rem;
-  height: 3.2rem;
+  transform: translate(20%, 20%);
+  width: 2.4rem;
+  height: 2.4rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.9rem;
-  font-weight: 500;
-  background-color: rgba(255,255,255,0.7);
-  border: 0.2rem solid #131313;
+  font-size: 1.6rem;
+  font-weight: 400;
+  background-color: rgba(255,255,255,0.9);
+  border: 0.12rem solid #131313;
   border-radius: 50%;
 }
 .G2 {
@@ -313,16 +313,16 @@ h1 {
   top: 0%;
   right: 0%;
   z-index: 10;
-  transform: translate(-10%, 10%);
-  width: 3.2rem;
-  height: 3.2rem;
+  transform: translate(-20%, 20%);
+  width: 2.4rem;
+  height: 2.4rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.9rem;
-  font-weight: 500;
-  background-color: rgba(255,255,255,0.7);
-  border: 0.2rem solid #131313;
+  font-size: 1.6rem;
+  font-weight: 400;
+  background-color: rgba(255,255,255,0.9);
+  border: 0.12rem solid #131313;
   border-radius: 50%;
 }
 .H2 {
@@ -330,16 +330,16 @@ h1 {
   bottom: 0%;
   right: 0%;
   z-index: 10;
-  transform: translate(-10%, -10%);
-  width: 3.2rem;
-  height: 3.2rem;
+  transform: translate(-20%, -20%);
+  width: 2.4rem;
+  height: 2.4rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.9rem;
-  font-weight: 500;
-  background-color: rgba(255,255,255,0.7);
-  border: 0.2rem solid #131313;
+  font-size: 1.6rem;
+  font-weight: 400;
+  background-color: rgba(255,255,255,0.9);
+  border: 0.12rem solid #131313;
   border-radius: 50%;
 }
 .I2 {
@@ -347,16 +347,16 @@ h1 {
   bottom: 0%;
   left: 0%;
   z-index: 10;
-  transform: translate(10%, -10%);
-  width: 3.2rem;
-  height: 3.2rem;
+  transform: translate(20%, -20%);
+  width: 2.4rem;
+  height: 2.4rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.9rem;
-  font-weight: 500;
-  background-color: rgba(255,255,255,0.7);
-  border: 0.2rem solid #131313;
+  font-size: 1.6rem;
+  font-weight: 400;
+  background-color: rgba(255,255,255,0.9);
+  border: 0.12rem solid #131313;
   border-radius: 50%;
 }
 
