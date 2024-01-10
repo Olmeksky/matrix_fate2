@@ -1,6 +1,12 @@
 $(window).on('load', function() {
     console.log('Погнали что ли');
-
+	function digit (number) {
+		var figures = "" + number;
+		var sum = 0;
+		for (var i = 0; i < figures.length; i++) 
+			sum += +figures[i];
+		return sum;
+	}
     function arcan22(summ) {
         let sl1 = 0;
         let sl2 = 0;
@@ -8,7 +14,7 @@ $(window).on('load', function() {
         summ = String(summ); // строку
         // длинна строки
         //let l_summ = summ.length;
-        //	console.log('Длинна строки_' + l_summ);
+        //console.log('Длинна строки_' + l_summ);
         if (summ.length==3) {
             console.log('Длинна 3 :' + summ);
             return Number(summ);
@@ -33,8 +39,9 @@ $(window).on('load', function() {
             return Number(summ);
         }
         else {
-            console.log('Более 3-х :' + summ);
-            return Number(summ);
+		console.log('Более 3-х :' + summ);
+		summ = digit(summ);
+		return Number(summ);
         }
     }
 
@@ -87,7 +94,7 @@ $(window).on('load', function() {
 	console.log(a);
 	console.log(b);
 	console.log(c);
-	console.log(d);
-	console.log(e);
+	//console.log(d);
+	//console.log(e);
     
 });
