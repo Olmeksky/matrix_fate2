@@ -296,16 +296,16 @@ h1 {
   top: 0%;
   left: 0%;
   z-index: 10;
-  transform: translate(20%, 20%);
+  transform: translate(150%, 150%);
   width: 2.4rem;
   height: 2.4rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.6rem;
-  font-weight: 400;
-  background-color: rgba(255,255,255,0.9);
-  border: 0.12rem solid #131313;
+  font-size: 1.4rem;
+  font-weight: 500;
+  background-color: white;
+  border: 0.15rem solid #131313;
   border-radius: 50%;
 }
 .G2 {
@@ -313,16 +313,16 @@ h1 {
   top: 0%;
   right: 0%;
   z-index: 10;
-  transform: translate(-20%, 20%);
+  transform: translate(-150%, 150%);
   width: 2.4rem;
   height: 2.4rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.6rem;
-  font-weight: 400;
-  background-color: rgba(255,255,255,0.9);
-  border: 0.12rem solid #131313;
+  font-size: 1.4rem;
+  font-weight: 500;
+  background-color: white;
+  border: 0.15rem solid #131313;
   border-radius: 50%;
 }
 .H2 {
@@ -330,16 +330,16 @@ h1 {
   bottom: 0%;
   right: 0%;
   z-index: 10;
-  transform: translate(-20%, -20%);
+  transform: translate(-150%, -150%);
   width: 2.4rem;
   height: 2.4rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.6rem;
-  font-weight: 400;
-  background-color: rgba(255,255,255,0.9);
-  border: 0.12rem solid #131313;
+  font-size: 1.4rem;
+  font-weight: 500;
+  background-color: white;
+  border: 0.15rem solid #131313;
   border-radius: 50%;
 }
 .I2 {
@@ -347,16 +347,16 @@ h1 {
   bottom: 0%;
   left: 0%;
   z-index: 10;
-  transform: translate(20%, -20%);
+  transform: translate(150%, -150%);
   width: 2.4rem;
   height: 2.4rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.6rem;
-  font-weight: 400;
-  background-color: rgba(255,255,255,0.9);
-  border: 0.12rem solid #131313;
+  font-size: 1.4rem;
+  font-weight: 500;
+  background-color: white;
+  border: 0.15rem solid #131313;
   border-radius: 50%;
 }
 
