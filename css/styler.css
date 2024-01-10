@@ -81,6 +81,7 @@ h1 {
   background-color: #ffff70;
   border: 0.3rem solid #ffe342;
   border-radius: 50%;
+  z-index: 10;
 }
 .A {
   position: inherit;
@@ -360,7 +361,7 @@ h1 {
 }
 
 .line-zeml {
-  border-bottom: solid 0.2rem #eee;
+  border-bottom: solid 0.25rem #eee;
   position: inherit;
   z-index: 5;
   top: 50%;
@@ -368,7 +369,7 @@ h1 {
   width: 200%;
 }
 .line-nebo {
-  border-bottom: solid 0.2rem #eee;
+  border-bottom: solid 0.25rem #eee;
   position: inherit;
   z-index: 5;
   top: 50%;
@@ -377,7 +378,7 @@ h1 {
   transform: rotate(90deg);
 }
 .line-muzh {
-  border-bottom: solid 0.2rem blue;
+  border-bottom: solid 0.25rem blue;
   position: inherit;
   z-index: 5;
   top: 50%;
@@ -386,7 +387,7 @@ h1 {
   transform: rotate(45deg);
 }
 .line-zhen {
-  border-bottom: solid 0.2rem red;
+  border-bottom: solid 0.25rem red;
   position: inherit;
   z-index: 5;
   top: 50%;
@@ -395,12 +396,12 @@ h1 {
   transform: rotate(-45deg);
 }
 .line-love-deng {
-  border-bottom: dashed 0.2rem green;
+  border-bottom: dashed 0.25rem green;
   position: inherit;
   z-index: 5;
-  top: 75%;
-  right: 75%;
-  width: 100%;
+  top: 50%;
+  right: -50%;
+  width: 70%;
   transform: rotate(135deg);
 }
 
