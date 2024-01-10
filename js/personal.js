@@ -7,43 +7,44 @@ $(window).on('load', function() {
 			sum += +figures[i];
 		return sum;
 	}
-    function arcan22(summ) {
-        let sl1 = 0;
-        let sl2 = 0;
-        let sl3 = 0;
-        summ = String(summ); // строку
-        // длинна строки
-        //let l_summ = summ.length;
-        //console.log('Длинна строки_' + l_summ);
-        if (summ.length==3) {
-            console.log('Длинна 3 :' + summ);
-            return Number(summ);
-        }
-        else if (summ.length==2) {
-            console.log('Длинна 2 :' + summ);
-            if (Number(summ)>22) {
-                sl1 = summ.substr(0,1);
-                sl2 = summ.substr(1,1);
-                sl3 = Number(sl1)+Number(sl2);
-                console.log('Длинна 2 слог :' + sl3);
-                return sl3;
-            } else return Number(summ);
-        }
-        else if (summ.length==1) {
-            console.log('Длинна 1 :' + summ);
-            return Number(summ);
-        }
-        else if (summ.length<1) {
-            console.log('Пусто :' + summ);
-            return Number(summ);
-        }
-        else {
-		console.log('Более 3-х :' + summ);
-		summ = digit(+summ);
-		console.log('Длинна 2 :' + summ);
-		return Number(summ);
-        }
-    }
+	function arcan22(summ) {
+		var sl1 = 0;
+		var sl2 = 0;
+		var sl3 = 0;
+		summ = String(summ); // строку
+		// длинна строки
+		//let l_summ = summ.length;
+		//console.log('Длинна строки_' + l_summ);
+		if (summ.length==3) {
+			console.log('Длинна 3 :' + summ);
+			summ = digit(summ);
+			return Number(summ);
+		}
+		else if (summ.length==2) {
+			console.log('Длинна 2 :' + summ);
+			if (Number(summ)>22) {
+			sl1 = summ.substr(0,1);
+			sl2 = summ.substr(1,1);
+			sl3 = Number(sl1)+Number(sl2);
+			console.log('Длинна 2 слог :' + sl3);
+			return sl3;
+			} else return Number(summ);
+		}
+		else if (summ.length==1) {
+		    console.log('Длинна 1 :' + summ);
+		    return Number(summ);
+		}
+		else if (summ.length<1) {
+		    console.log('Пусто :' + summ);
+		    return Number(summ);
+		}
+		else {
+			console.log('Более 3-х :' + summ);
+			summ = digit(+summ);
+			console.log('Длинна 2 :' + summ);
+			return Number(summ);
+		}
+	}
 
     /* код на jQuery */
       // установим body фон #eee
