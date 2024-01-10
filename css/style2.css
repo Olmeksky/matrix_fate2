@@ -3,119 +3,36 @@
 *{
     margin: 0;
     padding: 0;
-    transition: 1s;
+    #transition: 1s;
     --main-color: #fff;
-    --main-color: #fff;
-    --d-color: #48C4F7; 
     --d-color: #48C4F7;
     --hover-color: #48B;
-    --hover-color: #48B;
-    --t-color: #0a1935;
     --t-color: #0a1935;
 }
 body{
     background-color: #48C4EB;
     text-align: center;
     background: var(--main-color);
-    
 }
-
 /*new*/
     header{
         width: 100%;
         background-color: var(--main-color);
         box-shadow: 2px 0px 10px #48B;
     }
-    header > .mblock{
-        position: relative;
-        width: 60%;
-        left: 0%;
-        display: inline-flex;
-        justify-content: space-between;
-    }
-    header > .mblock > a{
-        margin: 5px;
-        padding: 5px;
-        font-family: 'Montserrat';
-        font-weight: 400;
-        font-size: 18px;
-        height: 44px;
-        line-height: 44px;
-        text-decoration: none;
-        color: var(--t-color);
-    }
-    #mbot{
-        border-radius: 10px;
-        background-color: var(--d-color);
-        color: aliceblue;
-        padding: 5px 20px;
-    }
-    #mbot:hover{
-        cursor: pointer;
-        border: none;
-    }
-    header > .mblock > a:hover{
-        border-bottom: 1px solid #d1ddb1;
-        color: var(--hover-color);
-    }
-    .main-wrapper{
-        width: 100%;
-        min-height: 400px;
-        margin: 0px 0px 40px 0px;
-        margin-bottom: 20px;
 
-        z-index: -1;
-    }
-    .main-wrapper > .mblock{
-        position: relative;
-        width: 90%;
-        left: 8%;
-        height: 550px;
-        padding-top: 50px;
-        display: flex;
-        justify-content: space-between;
-    }
-    .main-wrapper > .mblock > .descr{
-       width: 55%;
-       padding: 70px 5px;
-    }
-    .main-wrapper > .mblock > .descr > h1{
-        font-size: 43px;
-        font-family: 'Montserrat';
-        max-width: 610px;
-        text-align: left;
-    }
-    .main-wrapper > .mblock > .descr > p{
-        margin-top: 20px;
-        font-size: 20px;
-        font-family: 'Montserrat';
-        max-width: 610px;
-        text-align: left;
-    }
-    .main-wrapper > .mblock > .image{
-        width: 77%;
-        height: 600px;
-        /* max-width: 600px; */
-        overflow: hidden;
-        /* max-height: 650px; */
-        /* border-radius: 250px; */
-        box-shadow: inset 0px -102px 75px 184px var(--main-color);
-        background: url(../i.webp);
-        background-repeat: no-repeat;
-        background-size: 100% 83%;
-    }
 .raschet{
 	width: 100%;
 	height: 300px;
 }
-    .raschet > .mblock{
-        position: relative;
-        width: 70%;
-        left: 15%;
-    }
-    .raschet > .mblock > #db{
-        width: 50%;
-    }
+.raschet > .mblock{
+position: relative;
+width: 70%;
+left: 15%;
+}
+.raschet > .mblock > #db{
+width: 50%;
+}
 /*end new*/
 
 #db{
