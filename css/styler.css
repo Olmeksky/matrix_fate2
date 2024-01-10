@@ -399,8 +399,8 @@ h1 {
   border-bottom: dashed 0.25rem green;
   position: inherit;
   z-index: 5;
-  top: 50%;
-  right: -50%;
+  top: 75%;
+  left: 40%;
   width: 70%;
   transform: rotate(135deg);
 }
