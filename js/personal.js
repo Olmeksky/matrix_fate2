@@ -128,5 +128,9 @@ $(window).on('load', function() {
 	g1 = arcan22(g+g2);
 	h1 = arcan22(h+h2);
 	i1 = arcan22(i+i2);
-	
+
+	$('div.F1').html(f1);
+	$('div.G1').html(g1);
+	$('div.H1').html(h1);
+	$('div.I1').html(i1);
 });
