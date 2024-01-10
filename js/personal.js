@@ -1,5 +1,5 @@
 $(window).on('load', function() {
-    console.log('Погнали что ли');
+    //console.log('Погнали что ли');
 	function digit (number) {
 		var figures = "" + number;
 		var sum = 0;
@@ -41,7 +41,15 @@ $(window).on('load', function() {
         else {
 		console.log('Более 3-х :' + summ);
 		summ = digit(summ);
-		return Number(summ);
+		console.log('Длинна 2 :' + summ);
+		if (Number(summ)>22) {
+			console.log('Длинна 2 AT :' + summ.substr(0,1) + ' _ ' + summ.substr(1,1));
+			sl1 = summ.substr(0,1);
+			sl2 = summ.substr(1,1);
+			sl3 = Number(sl1)+Number(sl2);
+			console.log('Длинна 2 слог :' + sl3);
+			return sl3;
+		} else return Number(summ);
         }
     }
 
@@ -95,10 +103,21 @@ $(window).on('load', function() {
 	console.log(b);
 	console.log(c);
 	console.log(d);
-	console.log('E :' +e);
+	console.log(e);
 	console.log(f);
 	console.log(g);
 	console.log(h);
 	console.log(i);
+
+	$('div.A').html(a);
+	$('div.B').html(b);
+	$('div.C').html(c);
+
+	$('div.D').html(d);
+	$('div.E').html(e);
+	$('div.F').html(f);
+	$('div.G').html(g);
+	$('div.H').html(h);
+	$('div.I').html(i);
     
 });
