@@ -44,7 +44,7 @@ h1 {
   background-image: url('Shem_fon_ping2.jpg');
   background-size: no-repeat;
   background-position: center;
-  background-size: cover;
+  #background-size: cover;
   overflow: hidden;
   opacity: 0.92;
   width: 650px;
