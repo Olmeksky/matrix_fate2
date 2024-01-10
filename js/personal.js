@@ -39,12 +39,14 @@ $(window).on('load', function() {
 			return Number(summ);
 		}
 		else {
-			console.log('Более 3-х :' + summ);
-			summ = digit(+summ);
-			if (summ<22) {
+			console.log('Более 3-х знаков :' + summ);
+			summ = digit(summ);
+			console.log('Длинна 2 слог :' + summ);
+			if (summ<23) {
+				console.log('Меньше 23 :' + summ);
 				return Number(summ);
-			} else {
-				summ = digit(+summ);
+			} else if (summ>23){
+				summ = digit(summ);
 				return Number(summ);
 			}
 		}
