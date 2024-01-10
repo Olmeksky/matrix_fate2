@@ -360,15 +360,49 @@ h1 {
 }
 
 .line-zeml {
-  border-bottom: solid 0.1rem #d71212;
+  border-bottom: solid 0.2rem #eee;
+  position: inherit;
+  z-index: 5;
+  top: 50%;
+  right: -50%;
+  width: 200%;
 }
 .line-nebo {
-  border-bottom: solid 0.1rem #d71212;
-  transform: scale(90deg);
+  border-bottom: solid 0.2rem #eee;
+  position: inherit;
+  z-index: 5;
+  top: 50%;
+  right: -50%;
+  width: 200%;
+  transform: rotate(90deg);
 }
-.line-muzh {}
-.line-zhen {}
-.line-love-deng {}
+.line-muzh {
+  border-bottom: solid 0.2rem blue;
+  position: inherit;
+  z-index: 5;
+  top: 50%;
+  right: -50%;
+  width: 200%;
+  transform: rotate(45deg);
+}
+.line-zhen {
+  border-bottom: solid 0.2rem red;
+  position: inherit;
+  z-index: 5;
+  top: 50%;
+  right: -50%;
+  width: 200%;
+  transform: rotate(-45deg);
+}
+.line-love-deng {
+  border-bottom: dashed 0.2rem green;
+  position: inherit;
+  z-index: 5;
+  top: 75%;
+  right: 75%;
+  width: 100%;
+  transform: rotate(135deg);
+}
 
 .table>:not(caption)>*>* {
   text-align: center;
