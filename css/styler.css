@@ -7,7 +7,6 @@ html {
 
 .main-header {
   display: flex;
-  position: fixed;
   min-height: 80px;
   width: 100%;
   justify-content: center;
@@ -16,11 +15,8 @@ html {
 }
 /* TOP NAV */
 .top-nav {
-	#background-color: rgba(240,240,247,0.8);
 	background-color: #fff;
 	padding: 15px;
-	#border-top-left-radius: 3.5rem 2rem;
-	#border-top-right-radius: 3.5rem 2rem;
 	border-radius: 1rem 1rem 3.2rem 2rem;
 	box-shadow: -2px 4px 20px #555;
 }
@@ -30,7 +26,6 @@ html {
 .top-nav_btn {
 	display: none;
 	width: 35px !important;
-	#height: 3.5rem !important;
 	background-color: transparent;
 	border: none;
 	margin-left: 3.5rem;
@@ -43,7 +38,6 @@ html {
 }
 .top-nav_btn img {
 	width: 35px !important;
-	#height: 3.5rem !important;
 }
 .top-nav_menu {
 	list-style: none;
@@ -78,7 +72,8 @@ html {
 }
 
 article, aside {
-  margin-bottom: 2rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
 .banner-item {
   opacity: 0.6;
