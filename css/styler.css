@@ -32,7 +32,7 @@ html {
 	display: flex;
 }
 .top-nav_menu ul {
-	display: inline;
+	display: flex;
 }
 .top-nav_menu li {
 	display: inline;
