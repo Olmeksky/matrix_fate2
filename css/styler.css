@@ -8,8 +8,8 @@ html {
   display: flex;
   min-height: 80px;
   width: 100%;
-  justify-content: center;
-  align-items: center;
+  #justify-content: center;
+  #align-items: center;
   z-index: 21;
 }
 .main-header.container {
@@ -18,18 +18,20 @@ html {
 
 /* TOP NAV */
 .logo {
-	margin: auto;
+	#margin: auto;
+	width: 10rem;
 }
 .top-nav {
 	margin: auto;
 	padding: 0.5rem;
-	box-shadow: -2px 4px 20px #555;
+	box-shadow: 0.1rem 0.1rem 1rem #555;
 }
 .top-nav_menu {
+	display: flex;
 	padding: 0;
+	margin: 0 1rem;
 	display: -webkit-box;
 	display: -ms-flexbox;
-	display: flex;
 }
 .top-nav_menu ul {
 	display: flex;
@@ -38,7 +40,7 @@ html {
 	display: inline;
 	list-style: none;
 	margin: auto;
-	padding: 5px;
+	padding: 0.2rem 0.5rem;
 	text-decoration: none;
 }
 .top-nav_menu li a{
