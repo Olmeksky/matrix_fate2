@@ -10,13 +10,19 @@
 </head>
 <body>
 	<!-- Шапка сайта -->
-	<header>
+	<header class="main-header">
 	<div class="container">
+		<div class="top-nav">
 		<div class="logo"><img src="./css/Logo_mart.png" class="rounded float-start" width="60px" alt="лого"></div>
 		<!-- Навигация -->
-		<menu class="menunav">
-			<a href="https://olmeksky.github.io/matrix_fate2/">Главная</a>
+		<menu class="top-nav_menu">
+			<ul>
+			<li><a href="https://olmeksky.github.io/matrix_fate2/">Главная</a></li>
+			<li><a href="https://olmeksky.github.io/matrix_fate2/matr.html">Калькулятор 2</a></li>
+			<li><a href="mailto:ShuSashi@yandex.ru">Контакты</a></li>
+			</ul>
 		</menu>
+		</div>
 	</div>
 	</header>
 	<!-- Основное содержимое страницы в секции-->
@@ -28,8 +34,6 @@
 			<article>
 			<h1>Персональный рассчет</h1>
 			<p class="podzagolovok">Рассчитайте личную матрицу судьбы.</p>
-			<div class="raschet">
-			  <div class="mblock">
 			    <form class="matr-form" action="./matr.html" method="get">
 			      <input type="text" class="form-control" name="firstname" placeholder="Ваше имя"><br />
 			      <input type="date" class="form-control" name="birthday" placeholder="Дата вашего рождения"> <br />
@@ -40,8 +44,6 @@
 			      </select><br />
 			      <button type="submit" class="btn btn-primary">Расcчитать</button>
 			    </form>
-			  </div>
-			</div>
 			</article>
 			<article>
 				<h1>Схема матрицы судьбы рассчет</h1>
@@ -81,7 +83,6 @@
 						<div class="line-love-deng"></div>
 					</div>
 					<div class="E">22</div>
-					<!--<img src="matrix7.svg" class="float-start" width="100%" height="100%" alt="схема матрицы судьбы">-->
 				</div>
 			</div>
 			</article>
@@ -93,62 +94,61 @@
 				<img src="./css/Banner_matrix.jpg" width="100%">
 				</div>
 			</div>
-
 			<div class="chakri">
 			  <table class="table">
 			    <thead>
 			      <tr>
 				<th scope="col"># Чакра</th>
-				<th scope="col">Физика</th>
-				<th scope="col">Энергия</th>
-				<th scope="col">Эмоции</th>
+				<th scope="col">Физика<br />(Земля)</th>
+				<th scope="col">Энергия<br />(Небо)</th>
+				<th scope="col">Эмоции<br />(Потенциал)</th>
 			      </tr>
 			    </thead>
 			    <tbody>
 			      <tr class="saha">
-				<th scope="row" class="saha">7 Сахасрара</th>
+				<th scope="row" class="saha">7 Сахасрара<br />Миссия.</th>
 				<td >10</td>
 				<td>15</td>
 				<td>22</td>
 			      </tr>
 			      <tr class="ajna">
-				<th scope="row" class="ajna">6 Аджна</th>
+				<th scope="row" class="ajna">6 Аджна<br />Судьба, эгрегоры.</th>
 				<td >10</td>
 				<td>15</td>
 				<td>22</td>
 			      </tr>
 			      <tr class="vishu">
-				<th scope="row" class="vishu">5 Вижудха</th>
+				<th scope="row" class="vishu">5 Вижудха<br />Оценка прошлого.</th>
 				<td >10</td>
 				<td>15</td>
 				<td>22</td>
 			      </tr>
 			      <tr class="anah">
-				<th scope="row" class="anah">4 Анахата</th>
+				<th scope="row" class="anah">4 Анахата<br />Отношения, картина мира.</th>
 				<td >10</td>
 				<td>15</td>
 				<td>22</td>
 			      </tr>
 			      <tr class="mani">
-				<th scope="row" class="mani">3 Манипура</th>
+				<th scope="row" class="mani">3 Манипура<br />Статус, владение.</th>
 				<td >10</td>
 				<td>15</td>
 				<td>22</td>
 			      </tr>
 			      <tr class="svadhi">
-				<th scope="row" class="svadhi">2 Свадхистана</th>
+				<th scope="row" class="svadhi">2 Свадхистана<br />Детская любовь, радость.</th>
 				<td >10</td>
 				<td>15</td>
 				<td>22</td>
 			      </tr>
 			      <tr class="mula">
-				<th scope="row" class="mula">1 Муладхара</th>
+				<th scope="row" class="mula">1 Муладхара<br />Тело, материя.</th>
 				<td >10</td>
 				<td>15</td>
 				<td>22</td>
 			      </tr>
 			      <tr class="seven">
-				<th scope="row" class="seven">Итого:</th>
+				<th scope="row" class="seven">Итого:<br />Общее энергополе.</th>
 				<td >10</td>
 				<td>15</td>
 				<td>22</td>
