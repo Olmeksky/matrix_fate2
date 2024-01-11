@@ -108,10 +108,8 @@ h1 {
   background-size: cover;
   overflow: hidden;
   opacity: 0.94;
-  width: 650px;
-  height: 650px;
-  max-width: 850px;
-  max-height: 850px;
+  width: 46rem;
+  height: 46rem;
 }
 .sq-abcd {
   position: absolute;
@@ -478,6 +476,20 @@ h1 {
 .table>:not(caption)>*>* {
   text-align: center;
 }
+
+.chakr_podzagolovok {
+	color: white;
+	font-style: italic;
+	font-size: 1.2rem;
+	font-weight: 400;
+}
+.chakr_opisan {
+	background-color: #e2e2e2!important;
+	color: black;
+	font-size: 1.2rem;
+	font-weight: 400;
+}
+
 tr.saha td {
   #background-color: rgba(186,143,186,0.3);
   background-color: #c0a3fc;
