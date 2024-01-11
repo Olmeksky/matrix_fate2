@@ -617,7 +617,6 @@ tr.seven td {
 }
 @media (min-width: 992px) and (max-width: 1200px) {
 	html{font-size: 11px;}
-	.banners{display:none;}
 	.scheme {
 		width: 100%;
 	}
