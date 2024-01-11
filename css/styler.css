@@ -809,19 +809,19 @@ tr.seven td {
 }
 
 @media (min-width: 1201px) and (max-width: 1400px) {
-	html{font-size: 13px;}
+	html{font-size: 15px;}
 	.scheme {
 		width: 100%;
 	}
 }
 @media (min-width: 992px) and (max-width: 1200px) {
-	html{font-size: 13px;}
+	html{font-size: 12px;}
 	.scheme {
 		width: 100%;
 	}
 }
 @media (min-width: 769px) and (max-width: 991px) {
-	html{font-size: 10px;}
+	html{font-size: 15px;}
 	.banners{display:none;}
 	.scheme {
 		width: 100%;
