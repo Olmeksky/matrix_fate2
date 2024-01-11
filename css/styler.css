@@ -504,7 +504,7 @@ tr.saha td {
 	background: radial-gradient(#bd3cde, #84009c);
 	color: white;
 	font-size: 1.3rem;
-	padding:0 0 0 2.5rem;
+	padding:0.2rem 0 0.2rem 2.5rem!important;
 	font-weight: 900;
 }
 tr.ajna td {
@@ -517,7 +517,7 @@ tr.ajna td {
   background-color: #34009f!important;
   color: white;
 	font-size: 1.3rem;
-	padding:0 0 0 1rem;
+	padding:0.2rem 0 0.2rem 2.5rem!important;
   font-weight: 900;
 }
 tr.vishu td {
@@ -530,7 +530,7 @@ tr.vishu td {
   background-color: #393cf7!important;
   color: white;
 	font-size: 1.3rem;
-	padding:0 0 0 1rem;
+	padding:0.2rem 0 0.2rem 2.5rem!important;
   font-weight: 900;
 }
 tr.anah td{
@@ -543,7 +543,7 @@ tr.anah td{
   background-color: #6ecc0e!important;
   color: white;
 	font-size: 1.3rem;
-	padding:0 0 0 1rem;
+	padding:0.2rem 0 0.2rem 2.5rem!important;
   font-weight: 900;
 }
 tr.mani td {
@@ -556,7 +556,7 @@ tr.mani td {
   background-color: #ffe342!important;
   color: black;
 	font-size: 1.3rem;
-	padding:0 0 0 1rem;
+	padding:0.2rem 0 0.2rem 2.5rem!important;
   font-weight: 900;
 }
 tr.svadhi td {
@@ -569,7 +569,7 @@ tr.svadhi td {
   background-color: #f78a00!important;
   color: white;
 	font-size: 1.3rem;
-	padding:0 0 0 1rem;
+	padding:0.2rem 0 0.2rem 2.5rem!important;
   font-weight: 900;
 }
 tr.mula td {
@@ -582,16 +582,19 @@ tr.mula td {
   background-color: #f42d31!important;
   color: white;
 	font-size: 1.3rem;
-	padding:0 0 0 1rem;
+	padding:0.2rem 0 0.2rem 2.5rem!important;
   font-weight: 900;
 }
 tr.seven {
   background-color: #e2e2e2!important;
   color: black;
   font-size: 1.3rem;
+	padding:0.2rem 0 0.2rem 2.5rem!important;
   font-weight: 900;
 }
-
+tr.seven td {
+	text-align: center;
+}
 
 
 
