@@ -73,10 +73,14 @@ article, aside {
 .banner-item {
   opacity: 0.6;
   padding: 1rem;
-  border: 1px solid #131313;
+	width:100%;
+  border: 1px solid #252525;
   background-color: white;
   margin-bottom: 3rem;
   box-shadow: 0.1rem 0.2rem 2.5rem #242424;
+}
+.banner-item img {
+	width: 100%;
 }
 h1 {
   font: 2.2rem "Roboto", sans-serif!important;
