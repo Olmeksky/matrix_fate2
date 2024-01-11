@@ -820,24 +820,21 @@ tr.seven td {
 }
 @media (min-width: 769px) and (max-width: 991px) {
 	html{font-size: 15px;}
+	.navbar {display: none;}
 	.banners{display:none;}
-	.scheme {
-		width: 100%;
-	}
+	.scheme {width: 100%;}
 }
 @media (min-width: 576px) and (max-width: 767px) {
 	html{font-size: 10px;}
+	.navbar {display: none;}
 	.banners{display:none;}
-	.scheme {
-		width: 100%;
-	}
+	.scheme {width: 100%;}
 }
 @media (max-width: 575px) {
 	html{font-size: 10px;}
+	.navbar {display: none;}
 	.banners{display:none;}
-	.scheme {
-		width: 100%;
-	}
+	.scheme {width: 100%;}
 }
 
 
