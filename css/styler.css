@@ -9,8 +9,6 @@ html {
   	max-height: 5.7rem;
 	height: 4rem;
   	width: 100%;
-  	#justify-content: center;
-  	#align-items: center;
   	z-index: 21;
 }
 .main-header.container {
@@ -44,32 +42,32 @@ html {
 	display: flex;
 }
 .top-nav_menu li {
-	display: inline;
+	display: inline-block;
 	list-style: none;
 	margin: auto;
-	padding: 0.1rem 1.5rem;
+	padding: 0.1rem 1rem;
 	text-decoration: none;
 }
 .top-nav_menu li a{
 	text-transform: uppercase;
 	text-decoration: none;
 	color: #131313 !important;
-	font-weight: 700;
+	font-weight: 500;
 }
 .top-nav_menu li:after{
 	content: '';
 	display: block;
 	width: 100%;
-	height: 0.4rem;
-	background-color: #e0ab42;
-	transform: translateY(0.1rem) scale(0);
+	height: 0.2rem;
+	background-color: #ffc107;
+	transform: translateY(0.2rem) scale(0);
 	transition: all 0.2s;
 }
 .top-nav_menu li:hover{
 	text-decoration: none;
 }
 .top-nav_menu li:hover:after{
-	transform: translateY(16px) scale(1);
+	transform: translateY(0.4rem) scale(1);
 }
 .form-inline {
 	display: flex;
