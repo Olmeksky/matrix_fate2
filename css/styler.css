@@ -13,6 +13,10 @@ html {
   align-items: center;
   z-index: 21;
 }
+.main-header.container {
+	display: flex;
+}
+
 /* TOP NAV */
 .top-nav {
 	background-color: #fff;
@@ -20,31 +24,16 @@ html {
 	border-radius: 1rem 1rem 3.2rem 2rem;
 	box-shadow: -2px 4px 20px #555;
 }
-.top-nav_contact {
-	display: inline-block;
-}
-.top-nav_btn {
-	display: none;
-	width: 35px !important;
-	background-color: transparent;
-	border: none;
-	margin-left: 3.5rem;
-	vertical-align: top;
-	right: 0;
-	float: left;
-}
-.top-nav_btn:hover {
-	cursor: pointer;
-}
-.top-nav_btn img {
-	width: 35px !important;
-}
 .top-nav_menu {
 	list-style: none;
 	padding: 0;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+}
+.top-nav_menu ul {
+	display: inline;
+	list-style-type:  none;
 }
 .top-nav_menu li {
 	margin-right: 45px;
