@@ -390,7 +390,7 @@ h1 {
 .A3 {
   position: inherit;
   top: 50%;
-  left: 35%;
+  left: 25%;
   z-index: 10;
   transform: translate(-50%, -50%);
   width: 2.4rem;
@@ -407,7 +407,7 @@ h1 {
 }
 .B3 {
   position: inherit;
-  top: 35%;
+  top: 25%;
   left: 50%;
   z-index: 10;
   transform: translate(-50%, -50%);
