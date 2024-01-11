@@ -62,7 +62,7 @@ html {
 	width: 100%;
 	height: 4px;
 	background-color: #e0ab42;
-	transform: translateY(8px) scale(0);
+	transform: translateY(0.5rem) scale(0);
 	transition: all 0.2s;
 }
 .top-nav_menu li:hover{
