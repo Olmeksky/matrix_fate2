@@ -74,7 +74,7 @@ html {
 .form-inline {
 	display: flex;
 }
-.btn .btn-success .p-2 {
+.btn .btn-success {
 	margin-left: 1.5em;
 }
 
@@ -775,27 +775,27 @@ tr.seven td {
 	}
 }
 @media (min-width: 992px) and (max-width: 1200px) {
-	html{font-size: 11px;}
+	html{font-size: 13px;}
 	.scheme {
 		width: 100%;
 	}
 }
 @media (min-width: 769px) and (max-width: 991px) {
-	html{font-size: 11px;}
+	html{font-size: 12px;}
 	.banners{display:none;}
 	.scheme {
 		width: 100%;
 	}
 }
 @media (min-width: 576px) and (max-width: 767px) {
-	html{font-size: 9px;}
+	html{font-size: 12px;}
 	.banners{display:none;}
 	.scheme {
 		width: 100%;
 	}
 }
 @media (max-width: 575px) {
-	html{font-size: 7px;}
+	html{font-size: 12px;}
 	.banners{display:none;}
 	.scheme {
 		width: 100%;
