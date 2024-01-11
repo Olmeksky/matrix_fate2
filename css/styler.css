@@ -274,7 +274,7 @@ h1 {
 .C1 {
   position: inherit;
   top: 50%;
-  right: -25%;
+  right: -10%;
   z-index: 10;
   transform: translate(50%, -50%);
   width: 3.2rem;
@@ -285,13 +285,13 @@ h1 {
   font-size: 1.9rem;
   font-weight: 500;
   color: white;
-  background-color: #ff8a86;
-  border: 0.2rem solid #f42d31;
+  background-color: white;
+  border: 0.2rem solid #131313;
   border-radius: 50%;
 }
 .D1 {
   position: inherit;
-  bottom: -25%;
+  bottom: -10%;
   left: 50%;
   z-index: 10;
   transform: translate(-50%, 50%);
@@ -303,8 +303,8 @@ h1 {
   font-size: 1.9rem;
   font-weight: 500;
   color: white;
-  background-color: #ff8a86;
-  border: 0.2rem solid #f42d31;
+  background-color: white;
+  border: 0.2rem solid #131313;
   border-radius: 50%;
 }
 
