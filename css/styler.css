@@ -238,7 +238,7 @@ h1 {
 .A1 {
   position: inherit;
   top: 50%;
-  left: -25%;
+  left: -10%;
   z-index: 10;
   transform: translate(-50%, -50%);
   width: 3.2rem;
@@ -249,7 +249,7 @@ h1 {
   font-size: 1.9rem;
   font-weight: 500;
   color: white;
-  background: radial-gradient(#bd3cde, #84009c);
+  background: radial-gradient(#8482ff, #393cf7);
   border: 0.2rem solid #c0a3fc;
   border-radius: 50%;
 }
