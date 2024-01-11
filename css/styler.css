@@ -614,18 +614,21 @@ tr.seven td {
 }
 @media (min-width: 768px) and (max-width: 1200px) {
 	html{font-size: 11px;}
+	.banners{display:none;}
 	.scheme {
 		width: 100%;
 	}
 }
 @media (min-width: 576px) and (max-width: 767px) {
 	html{font-size: 9px;}
+	.banners{display:none;}
 	.scheme {
 		width: 100%;
 	}
 }
 @media (max-width: 575px) {
 	html{font-size: 7px;}
+	.banners{display:none;}
 	.scheme {
 		width: 100%;
 	}
