@@ -612,9 +612,15 @@ tr.seven td {
 		width: 100%;
 	}
 }
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1200px) {
 	html{font-size: 11px;}
 	.banners{display:none;}
+	.scheme {
+		width: 100%;
+	}
+}
+@media (min-width: 769px) and (max-width: 991px) {
+	html{font-size: 11px;}
 	.scheme {
 		width: 100%;
 	}
