@@ -18,19 +18,18 @@ body{
 header {
 	width: 100%;
 	background-color: var(--main-color);
-	box-shadow: 2px 0px 10px #48B;
 }
 .raschet{
 	width: 90%;
 	padding: 2rem 1rem;	
 }
 .raschet > .mblock{
-position: relative;
-width: 70%;
-left: 15%;
+	position: relative;
+	width: 70%;
+	left: 15%;
 }
 .raschet > .mblock > #db{
-width: 50%;
+	width: 50%;
 }
 /*end new*/
 
