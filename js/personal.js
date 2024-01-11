@@ -96,13 +96,6 @@ $(window).on('load', function() {
 	$('div.G').html(g);
 	$('div.H').html(h);
 	$('div.I').html(i);
-
-	// Установка значений для таблицы чакр
-	$('td.A_ch').html(a);
-	$('td.B_ch').html(b);
-	$('td.C_ch').html(c);
-	$('td.D_ch').html(d);
-
 	a2 = arcan22(e+a);
 	b2 = arcan22(e+b);
 	c2 = arcan22(e+c);
@@ -119,8 +112,6 @@ $(window).on('load', function() {
 	$('div.B1').html(b1);
 	$('div.C1').html(c1);
 	$('div.D1').html(d1);
-
-	
 	f2 = arcan22(e+f);
 	g2 = arcan22(e+g);
 	h2 = arcan22(e+h);
@@ -129,7 +120,6 @@ $(window).on('load', function() {
 	$('div.G2').html(g2);
 	$('div.H2').html(h2);
 	$('div.I2').html(i2);
-	
     	f1 = arcan22(f+f2);
 	g1 = arcan22(g+g2);
 	h1 = arcan22(h+h2);
@@ -138,4 +128,25 @@ $(window).on('load', function() {
 	$('div.G1').html(g1);
 	$('div.H1').html(h1);
 	$('div.I1').html(i1);
+
+	a3 = arcan22(e+a2);
+	b3 = arcan22(e+b2);
+
+	// Установка значений для таблицы чакр
+	$('td.A_ch').html(a);
+	$('td.B_ch').html(b);
+	$('td.A1_ch').html(a1);
+	$('td.B1_ch').html(b1);
+	$('td.A2_ch').html(a2);
+	$('td.B2_ch').html(b2);
+	$('td.A3_ch').html(a3);
+	$('td.B3_ch').html(b3);
+	$('td.C2_ch').html(c2);
+	$('td.D2_ch').html(d2);
+	$('td.C_ch').html(c);
+	$('td.D_ch').html(d);
+
+
+
+	
 });
