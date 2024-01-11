@@ -48,6 +48,7 @@ html {
 }
 .top-nav_menu li {
 	margin-right: 45px;
+	text-decoration: none;
 }
 .top-nav_menu li a{
 	text-transform: uppercase;
@@ -84,14 +85,13 @@ article, aside {
   box-shadow: 0.1rem 0.2rem 2.5rem #242424;
 }
 h1 {
-  #font: 2.2rem/2 "Arial", sans-serif;
-  font: 2.2rem/2 "Roboto", sans-serif;
+  font: 2.2rem/2 "Roboto", sans-serif!important;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 1.5rem;
 }
 .podzagolovok {
-  font: 0.9rem "Arial", sans-serif;
+  font: 0.9rem "Roboto", sans-serif!important;
   font-weight: 400;
   font-style: italic;
   margin-bottom: 0.5rem;
