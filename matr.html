@@ -22,6 +22,12 @@
 			<li><a href="mailto:ShuSashi@yandex.ru">Контакты</a></li>
 			</ul>
 		</menu>
+		<nav class="navbar navbar-light bg-light">
+			<form class="form-inline" action="./matr.html" method="get">
+				<input class="form-control mr-sm-2" type="date" name="birthday" placeholder="Дата рождения">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Расcчитать</button>
+			</form>
+		</nav>
 		</div>
 	</div>
 	</header>
@@ -33,20 +39,19 @@
 	    	<div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
 			<article>
 			<h1>Персональный рассчет</h1>
-			<p class="podzagolovok">Рассчитайте личную матрицу судьбы.</p>
 				<div class="card">
 					<div class="card-body">
 						<h5 class="card-title">Рассчитайте личную матрицу судьбы.</h5>
 						<form class="matr-form" action="./matr.html" method="get">
 							<div class="form-group">
-							      <input type="text" class="form-control" name="firstname" placeholder="Ваше имя"><br />
-							      <input type="date" class="form-control" name="birthday" placeholder="Дата вашего рождения"> <br />
-							      <select class="form-select" name="gender" aria-label="gender">
+							      <input type="text" class="form-control-lg" name="firstname" placeholder="Ваше имя"><br />
+							      <input type="date" class="form-control-lg" name="birthday" placeholder="Дата вашего рождения"> <br />
+							      <select class="form-select-lg" name="gender" aria-label="gender">
 								<option selected>Гендер</option>
 								<option value="Мужчина">Мужчина</option>
 								<option value="женщина">Женщина</option>
 							      </select><br />
-							      <button type="submit" class="btn btn-primary">Расcчитать</button>
+							      <button type="submit" class="btn-lg btn-primary">Расcчитать</button>
 							</div>
 						</form>
 					</div>
