@@ -474,13 +474,13 @@ h1 {
   box-shadow: 0.1rem 0.2rem 2.5rem #242424;  
 }
 .table>:not(caption)>*>* {
-  text-align: center;
+  text-align: justify;
 }
 
 .chakr_podzagolovok {
 	color: white;
 	font-style: italic;
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	font-weight: 400;
 }
 .chakr_opisan {
@@ -489,76 +489,100 @@ h1 {
 	font-size: 1.2rem;
 	font-weight: 400;
 }
+.chakr_opisan:first-child {
+	margin:0;
+	padding:0 0 0 1rem;
+}
 
 tr.saha td {
-  #background-color: rgba(186,143,186,0.3);
-  background-color: #c0a3fc;
-  font-weight: 700;
+	background-color: #c0a3fc;
+	text-align: center;
+	font-size: 1.3rem;
+	font-weight: 700;
 }
 .saha th {
-  #background-color: #84009c!important;
-  background: radial-gradient(#bd3cde, #84009c);
-  color: white;
-  font-weight: 900;
+	background: radial-gradient(#bd3cde, #84009c);
+	color: white;
+	font-size: 1.3rem;
+	padding:0 0 0 1rem;
+	font-weight: 900;
 }
 tr.ajna td {
-  #background-color: rgba(0,17,121,0.3);
   background-color: #8482ff;
+	text-align: center;
+	font-size: 1.3rem;
   font-weight: 700;
 }
 .ajna th {
   background-color: #34009f!important;
   color: white;
+	font-size: 1.3rem;
+	padding:0 0 0 1rem;
   font-weight: 900;
 }
 tr.vishu td {
-  #background-color: rgba(133,190,119,0.3);
   background-color: #37cbfc;
+	text-align: center;
+	font-size: 1.3rem;
   font-weight: 700;
 }
 .vishu th {
   background-color: #393cf7!important;
   color: white;
+	font-size: 1.3rem;
+	padding:0 0 0 1rem;
   font-weight: 900;
 }
 tr.anah td{
-  #background-color: rgba(6,162,1,0.3);
   background-color: #91f286;
+	text-align: center;
+	font-size: 1.3rem;
   font-weight: 700;
 }
 .anah th {
   background-color: #6ecc0e!important;
   color: white;
+	font-size: 1.3rem;
+	padding:0 0 0 1rem;
   font-weight: 900;
 }
 tr.mani td {
-  #background-color: rgba(250,255,39,0.3);
   background-color: #ffff70;
+	text-align: center;
+	font-size: 1.3rem;
   font-weight: 700;
 }
 .mani th {
   background-color: #ffe342!important;
   color: black;
+	font-size: 1.3rem;
+	padding:0 0 0 1rem;
   font-weight: 900;
 }
 tr.svadhi td {
-  #background-color: rgba(246,142,21,0.3);
   background-color: #e7715a;
+	text-align: center;
+	font-size: 1.3rem;
   font-weight: 700;
 }
 .svadhi th {
   background-color: #f78a00!important;
   color: white;
+	font-size: 1.3rem;
+	padding:0 0 0 1rem;
   font-weight: 900;
 }
 tr.mula td {
-  #background-color: rgba(184,0,0,0.3);
   background-color: #ff8a86;
+	text-align: center;
+	font-size: 1.3rem;
   font-weight: 700;
 }
 .mula th {
   background-color: #f42d31!important;
   color: white;
+	font-size: 1.3rem;
+	padding:0 0 0 1rem;
   font-weight: 900;
 }
 tr.seven {
