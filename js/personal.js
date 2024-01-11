@@ -166,9 +166,11 @@ $(window).on('load', function() {
 	fizika = arcan22(a+a1+a2+a3+e+c2+c);
 	energy = arcan22(b+b1+b2+b3+e+d2+d);
 	emocii = arcan22(f+A1B1_ch+A2B2_ch+A3B3_ch+EE_ch+C2D2_ch+h);
-	console.log('Физика: '+fizika);
-	console.log('Энергия: '+energy);
-	console.log('Эмоции: '+emocii);
-
+	//console.log('Физика: '+fizika);
+	//console.log('Энергия: '+energy);
+	//console.log('Эмоции: '+emocii);
+	$('fizika').html(fizika);
+	$('energy').html(energy);
+	$('emocii').html(emocii);
 	
 });
