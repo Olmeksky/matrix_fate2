@@ -234,7 +234,6 @@ h1 {
   border: 0.3rem solid #f42d31;
   border-radius: 50%;
 }
-
 .A1 {
   position: inherit;
   top: 50%;
@@ -284,7 +283,7 @@ h1 {
   align-items: center;
   font-size: 1.9rem;
   font-weight: 500;
-  color: white;
+  color: black;
   background-color: white;
   border: 0.2rem solid #131313;
   border-radius: 50%;
@@ -302,9 +301,82 @@ h1 {
   align-items: center;
   font-size: 1.9rem;
   font-weight: 500;
-  color: white;
+  color: black;
   background-color: white;
   border: 0.2rem solid #131313;
+  border-radius: 50%;
+}
+
+.A2 {
+  position: inherit;
+  top: 50%;
+  left: -25%;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+  width: 2.4rem;
+  height: 2.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: white;
+  background: radial-gradient(#bd3cde, #84009c);
+  border: 0.15rem solid #c0a3fc;
+  border-radius: 50%;
+}
+.B2 {
+  position: inherit;
+  top: -25%;
+  left: 50%;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+  width: 2.4rem;
+  height: 2.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: white;
+  background: radial-gradient(#bd3cde, #84009c);
+  border: 0.15rem solid #c0a3fc;
+  border-radius: 50%;
+}
+.C2 {
+  position: inherit;
+  top: 50%;
+  right: -25%;
+  z-index: 10;
+  transform: translate(50%, -50%);
+  width: 2.4rem;
+  height: 2.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: white;
+  background-color: #ff8a86;
+  border: 0.15rem solid #f42d31;
+  border-radius: 50%;
+}
+.D2 {
+  position: inherit;
+  bottom: -25%;
+  left: 50%;
+  z-index: 10;
+  transform: translate(-50%, 50%);
+  width: 2.4rem;
+  height: 2.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: white;
+  background-color: #ff8a86;
+  border: 0.15rem solid #f42d31;
   border-radius: 50%;
 }
 
