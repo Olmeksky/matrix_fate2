@@ -310,7 +310,7 @@ h1 {
 .A2 {
   position: inherit;
   top: 50%;
-  left: -25%;
+  left: 5%;
   z-index: 10;
   transform: translate(-50%, -50%);
   width: 2.4rem;
@@ -327,7 +327,7 @@ h1 {
 }
 .B2 {
   position: inherit;
-  top: -25%;
+  top: 5%;
   left: 50%;
   z-index: 10;
   transform: translate(-50%, -50%);
@@ -346,7 +346,7 @@ h1 {
 .C2 {
   position: inherit;
   top: 50%;
-  right: -25%;
+  right: 5%;
   z-index: 10;
   transform: translate(50%, -50%);
   width: 2.4rem;
@@ -363,7 +363,7 @@ h1 {
 }
 .D2 {
   position: inherit;
-  bottom: -25%;
+  bottom: 5%;
   left: 50%;
   z-index: 10;
   transform: translate(-50%, 50%);
