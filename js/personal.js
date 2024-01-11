@@ -150,7 +150,13 @@ $(window).on('load', function() {
 	$('td.C_ch').html(c);
 	$('td.D_ch').html(d);
 
-
+	A1B1_ch = arcan22(a1+b1);
+	A2B2_ch = arcan22(a2+b2);
+	A2B2_ch = arcan22(a3+b3);
+	$('td.AB_ch').html(f);
+	$('td.A1B1_ch').html(A1B1_ch);
+	$('td.A2B2_ch').html(A2B2_ch);
+	$('td.A2B2_ch').html(A2B2_ch);
 
 	
 });
