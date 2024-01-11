@@ -19,8 +19,10 @@ html {
 
 /* TOP NAV */
 .logo {
-	margin: auto;
+	margin: 0.1rem;
 	width: 10rem;
+	justify-content: center;
+  	align-items: center;
 }
 .logo img {
 	height:100%;
