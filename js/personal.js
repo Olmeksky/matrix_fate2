@@ -131,6 +131,8 @@ $(window).on('load', function() {
 
 	a3 = arcan22(e+a2);
 	b3 = arcan22(e+b2);
+	$('div.A3').html(a3);
+	$('div.B3').html(b3);
 
 	// Установка значений для таблицы чакр
 	$('td.A_ch').html(a);
@@ -141,6 +143,8 @@ $(window).on('load', function() {
 	$('td.B2_ch').html(b2);
 	$('td.A3_ch').html(a3);
 	$('td.B3_ch').html(b3);
+	$('td.E_ch').html(e);
+	$('td.E_ch').html(e);
 	$('td.C2_ch').html(c2);
 	$('td.D2_ch').html(d2);
 	$('td.C_ch').html(c);
