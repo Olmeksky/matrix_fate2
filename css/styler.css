@@ -306,7 +306,6 @@ h1 {
   border: 0.2rem solid #131313;
   border-radius: 50%;
 }
-
 .A2 {
   position: inherit;
   top: 50%;
@@ -357,8 +356,8 @@ h1 {
   font-size: 1.4rem;
   font-weight: 500;
   color: white;
-  background-color: #ff8a86;
-  border: 0.15rem solid #f42d31;
+  background-color: #f78a00;
+  border: 0.15rem solid #e7715a;
   border-radius: 50%;
 }
 .D2 {
@@ -375,12 +374,10 @@ h1 {
   font-size: 1.4rem;
   font-weight: 500;
   color: white;
-  background-color: #ff8a86;
-  border: 0.15rem solid #f42d31;
+  background-color: #f78a00;
+  border: 0.15rem solid #e7715a;
   border-radius: 50%;
 }
-
-
 .F {
   position: inherit;
   top: 0%;
