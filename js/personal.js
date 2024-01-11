@@ -153,10 +153,13 @@ $(window).on('load', function() {
 	A1B1_ch = arcan22(a1+b1);
 	A2B2_ch = arcan22(a2+b2);
 	A2B2_ch = arcan22(a3+b3);
+	EE_ch = arcan22(e+e);
 	$('td.AB_ch').html(f);
 	$('td.A1B1_ch').html(A1B1_ch);
 	$('td.A2B2_ch').html(A2B2_ch);
 	$('td.A2B2_ch').html(A2B2_ch);
+	$('td.EE_ch').html(EE_ch);
+	
 
 	
 });
