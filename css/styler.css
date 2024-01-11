@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,600;1,100;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,500&display=swap');
 html {
-  margin: 0;
-  padding: 0;
-  font-size: 14px;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
 }
 .main-header {
-  display: flex;
-  min-height: 80px;
-  width: 100%;
-  #justify-content: center;
-  #align-items: center;
-  z-index: 21;
+  	display: flex;
+  	max-height: 5.7rem;
+	height: 4rem;
+  	width: 100%;
+  	#justify-content: center;
+  	#align-items: center;
+  	z-index: 21;
 }
 .main-header.container {
 	display: flex;
