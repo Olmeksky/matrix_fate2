@@ -87,7 +87,7 @@ $(window).on('load', function() {
 	i = arcan22(a+d);
 	/*console.log(a);console.log(b);console.log(c);console.log(d);console.log(e);console.log(f);console.log(g);console.log(h);console.log(i);*/
 	// Устанавливаем значения A-I на схему
-	$('div.A').html(a);
+	$('.A').html(a);
 	$('div.B').html(b);
 	$('div.C').html(c);
 	$('div.D').html(d);
