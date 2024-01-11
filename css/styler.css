@@ -2,7 +2,7 @@
 html {
 	margin: 0;
 	padding: 0;
-	font-size: 14px;
+	font-size: 15px;
 }
 .main-header {
   	display: flex;
@@ -606,6 +606,12 @@ tr.seven td {
 	text-align: center;
 }
 
+@media (min-width: 1201px) and (max-width: 1400px) {
+	html{font-size: 13px;}
+	.scheme {
+		width: 100%;
+	}
+}
 @media (min-width: 768px) and (max-width: 1200px) {
 	html{font-size: 11px;}
 	.scheme {
