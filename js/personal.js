@@ -87,8 +87,8 @@ $(window).on('load', function() {
 	i = arcan22(a+d);
 	/*console.log(a);console.log(b);console.log(c);console.log(d);console.log(e);console.log(f);console.log(g);console.log(h);console.log(i);*/
 	// Устанавливаем значения A-I на схему
-	$('div.A td.A_ch').html(a);
-	$('div.B td.B_ch').html(b);
+	$('div.A').html(a);
+	$('div.B').html(b);
 	$('div.C').html(c);
 	$('div.D').html(d);
 	$('div.E').html(e);
@@ -96,6 +96,12 @@ $(window).on('load', function() {
 	$('div.G').html(g);
 	$('div.H').html(h);
 	$('div.I').html(i);
+
+	// Установка значений для таблицы чакр
+	$('td.A_ch').html(a);
+	$('td.B_ch').html(b);
+	$('td.C_ch').html(c);
+	$('td.D_ch').html(d);
 
 	a2 = arcan22(e+a);
 	b2 = arcan22(e+b);
