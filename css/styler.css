@@ -483,6 +483,12 @@ h1 {
 	font-size: 1.1rem;
 	font-weight: 400;
 }
+.chakr_podzagolovok_b {
+	color: black;
+	font-style: italic;
+	font-size: 1.1rem;
+	font-weight: 400;
+}
 .chakr_opisan {
 	background-color: #e2e2e2!important;
 	color: black;
