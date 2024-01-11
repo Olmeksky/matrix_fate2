@@ -18,15 +18,19 @@ html {
 }
 
 /* TOP NAV */
+.logo {
+	width: 30%;
+	margin: auto;
+}
 .top-nav {
 	background-color: #fff;
 	padding: 15px;
-	border-radius: 1rem 1rem 3.2rem 2rem;
 	box-shadow: -2px 4px 20px #555;
 }
 .top-nav_menu {
 	list-style: none;
 	padding: 0;
+	width: 70%;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -36,6 +40,7 @@ html {
 	list-style-type:  none;
 }
 .top-nav_menu li {
+	display: inline;
 	margin-right: 45px;
 	text-decoration: none;
 }
