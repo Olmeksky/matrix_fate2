@@ -480,8 +480,8 @@ h1 {
   width: 70%;
   transform: rotate(135deg);
 }
-.table>tbody {
-  box-shadow: 0.1rem 0.2rem 2.5rem #242424;  
+.table.table {
+  box-shadow: 0.1rem 0.2rem 1.5rem #242424;  
 }
 .table>:not(caption)>*>* {
   text-align: justify;
@@ -502,12 +502,13 @@ h1 {
 .chakr_opisan {
 	background-color: #e2e2e2!important;
 	color: black;
+	border-bottom: 1px #252525;
 	font-size: 1rem;
 	font-weight: 400;
 }
 tr.chakr_opisan>td {
 	margin:0;
-	padding:0 0.5rem 0 2.5rem;
+	padding:0 0.5rem 0.2rem 2.5rem;
 }
 
 tr.saha td {
