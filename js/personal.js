@@ -79,16 +79,14 @@ $(window).on('load', function() {
 	a = arcan22(+day);
 	b = arcan22(+month);
 	c = arcan22(+year);
-
 	d = arcan22(a+b+c);
 	e = arcan22(a+b+c+d);
 	f = arcan22(a+b);
 	g = arcan22(b+c);
 	h = arcan22(c+d);
 	i = arcan22(a+d);
-	
 	/*console.log(a);console.log(b);console.log(c);console.log(d);console.log(e);console.log(f);console.log(g);console.log(h);console.log(i);*/
-
+	// Устанавливаем значения A-I на схему
 	$('div.A').html(a);
 	$('div.B').html(b);
 	$('div.C').html(c);
@@ -99,6 +97,24 @@ $(window).on('load', function() {
 	$('div.H').html(h);
 	$('div.I').html(i);
 
+	a2 = arcan22(e+a);
+	b2 = arcan22(e+b);
+	c2 = arcan22(e+c);
+	d2 = arcan22(e+d);
+	$('div.A2').html(a2);
+	$('div.B2').html(b2);
+	$('div.C2').html(c2);
+	$('div.D2').html(d2);
+	a1 = arcan22(a+a2);
+	b1 = arcan22(b+b2);
+	c1 = arcan22(c+c2);
+	d1 = arcan22(d+d2);
+	$('div.A1').html(a1);
+	$('div.B1').html(b1);
+	$('div.C1').html(c1);
+	$('div.D1').html(d1);
+
+	
 	f2 = arcan22(e+f);
 	g2 = arcan22(e+g);
 	h2 = arcan22(e+h);
