@@ -386,6 +386,46 @@ h1 {
   border: 0.15rem solid #e7715a;
   border-radius: 50%;
 }
+
+.A3 {
+  position: inherit;
+  top: 50%;
+  left: 35%;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+  width: 2.4rem;
+  height: 2.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: white;
+  background: radial-gradient(#91f286, #6ecc0e);
+  border: 0.15rem solid #91f286;
+  border-radius: 50%;
+}
+.B3 {
+  position: inherit;
+  top: 35%;
+  left: 50%;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+  width: 2.4rem;
+  height: 2.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: white;
+  background: radial-gradient(#91f286, #6ecc0e);
+  border: 0.15rem solid #91f286;
+  border-radius: 50%;
+}
+
+
+
 .F {
   position: inherit;
   top: 0%;
