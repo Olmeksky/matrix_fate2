@@ -75,18 +75,6 @@ $(window).on('load', function() {
 	$('span.birthday').html('<b>'+day+' '+month+' '+year+'г.</b>');
 	var vozr = 2024-Number(year);
 	$('span.oldest').html('<b>'+vozr+'</b>');
-	var gen = get('gender');
-	if(gen=='Гендер') {
-		$('span.gender').html('<u>не пожелали указать гендерную позицию</u>');
-	} else {
-		$('span.gender').html('<b>'+gen+'</b>');
-	}
-	/*
-	console.log(name);
-	console.log(birth);
-	console.log('год '+year);
-	console.log('мес '+month);
-	console.log('ден '+ day);*/
 	
 	a = arcan22(+day);
 	b = arcan22(+month);
