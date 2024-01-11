@@ -74,7 +74,9 @@ html {
 .form-inline {
 	display: flex;
 }
-
+.btn .btn-success .p-2 {
+	margin-left: 1.5em;
+}
 
 
 main .conteiner {
