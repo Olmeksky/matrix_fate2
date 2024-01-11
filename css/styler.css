@@ -19,8 +19,11 @@ html {
 
 /* TOP NAV */
 .logo {
-	#margin: auto;
+	margin: auto;
 	width: 10rem;
+}
+.logo img {
+	height:100%;
 }
 .top-nav {
 	margin: auto;
