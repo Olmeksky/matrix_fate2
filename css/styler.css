@@ -815,6 +815,23 @@ div.footmenu {
 	justify-content: left;
 	align-items: center;
 }
+menu.bottom-nav_menu {
+	display: flex;
+	padding: 0;
+	margin: 0 1rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+}
+menu.bottom-nav_menu ul {
+	display: flex;
+}
+menu.bottom-nav_menu li {
+	display: inline-block;
+	list-style: none;
+	margin: auto;
+	padding: 0.1rem 1rem;
+	text-decoration: none;
+}
 
 @media (min-width: 1201px) and (max-width: 1400px) {
 	html{font-size: 15px;}
