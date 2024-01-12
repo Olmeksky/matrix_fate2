@@ -819,6 +819,7 @@ div.copy {
 div.footlogo {
 	display: flex;
 	max-height: 4rem;
+	justify-content: center;
 }
 div.flogo {
 	text-align: center;
@@ -829,7 +830,7 @@ div.footlogo img {
 }
 div.footmenu {
 	display: flex;
-	justify-content: center;
+	justify-content: left;
 	align-items: center;
 }
 menu.bottom-nav_menu {
