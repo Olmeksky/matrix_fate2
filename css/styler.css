@@ -806,12 +806,9 @@ tr.seven td {
 	font-weight: 900;
 }
 footer.main-footer {
-	bacground: #232323!Important;
+	background-color: #232323!Important;
 	margin-top: 3rem;
 	padding: 2rem 0;
-}
-footer.main-footer>container-fluid {
-	bacground: #232323!Important;
 }
 div.copy {
 	display: flex;
