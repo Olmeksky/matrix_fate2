@@ -836,7 +836,6 @@ div.footmenu {
 menu.bottom-nav_menu {
 	display: inline-block;
 	padding: 0;
-	margin: auto;
 	display: -webkit-box;
 	display: -ms-flexbox;
 }
