@@ -169,8 +169,8 @@ $(window).on('load', function() {
 	//console.log('Физика: '+fizika);
 	//console.log('Энергия: '+energy);
 	//console.log('Эмоции: '+emocii);
-	$('fizika').html(fizika);
-	$('energy').html(energy);
-	$('emocii').html(emocii);
+	$('td.fizika').html(fizika);
+	$('td.energy').html(energy);
+	$('td.emocii').html(emocii);
 	
 });
