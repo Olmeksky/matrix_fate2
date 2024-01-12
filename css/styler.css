@@ -851,10 +851,13 @@ menu.bottom-nav_menu li {
 	text-decoration: none;
 }
 menu.bottom-nav_menu li a {
-	color: greey;
+	color: #e2e2e2;
 }
 menu.bottom-nav_menu li a:hover {
 	color: white;
+}
+menu.bottom-nav_menu li a:visited {
+	color: #e2e2e2;
 }
 
 @media (min-width: 1201px) and (max-width: 1400px) {
