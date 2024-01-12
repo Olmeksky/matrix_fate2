@@ -805,10 +805,14 @@ tr.seven td {
 	font-size: 1.5rem;
 	font-weight: 900;
 }
+footer.main-footer {
+	bacground-color: #131313;
+}
 div.copy {
 	display: flex;
 	justify-content: right;
 	align-items: center;
+	color: white;
 }
 div.footlogo {
 	display: flex;
@@ -839,6 +843,7 @@ menu.bottom-nav_menu ul {
 menu.bottom-nav_menu li {
 	display: inline-block;
 	list-style: none;
+	color: white;
 	margin: auto;
 	padding: 0.1rem 1rem;
 	text-decoration: none;
