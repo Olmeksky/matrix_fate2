@@ -814,7 +814,8 @@ div.copy {
 	display: flex;
 	justify-content: right;
 	align-items: center;
-	color: white;
+	padding-right: 2rem;
+	color: #d5d5d5!Important;
 }
 div.footlogo {
 	display: flex;
@@ -850,13 +851,14 @@ menu.bottom-nav_menu li {
 	text-decoration: none;
 }
 menu.bottom-nav_menu li a {
-	color: #e2e2e2;
+	color: #d5d5d5!Important;
 }
 menu.bottom-nav_menu li a:hover {
-	color: white;
+	color: white!Important;
+	text-width:700;
 }
 menu.bottom-nav_menu li a:visited {
-	color: #e2e2e2;
+	color: #d5d5d5!Important;
 }
 
 @media (min-width: 1201px) and (max-width: 1400px) {
