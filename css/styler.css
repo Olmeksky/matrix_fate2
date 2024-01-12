@@ -810,6 +810,14 @@ div.copy {
 	justify-content: right;
 	align-items: center;
 }
+div.footlogo {
+	display: block;
+	margin: 0.1rem;
+	width: 15%;
+}
+div.footlogo img {
+	height: 100%;
+}
 div.footmenu {
 	display: flex;
 	justify-content: left;
