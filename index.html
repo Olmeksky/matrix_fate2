@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 	<meta charset="utf-8">
-	<title>Заголовок страницы семантической верстки</title>
+	<title>Пример различных калькуляторов матрицы судьбы</title>
 	<link href="./css/styler.css" rel="stylesheet">
 	<!-- Подключение CSS файла bootstrap 5 -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
@@ -17,6 +17,7 @@
 		<menu class="top-nav_menu">
 			<ul>
 			<li><a href="https://olmeksky.github.io/matrix_fate2/matr.html">Персональная</a></li>
+			<li><a href="https://olmeksky.github.io/matrix_fate2/arcans.html">Арканы</a></li>
 			<li><a href="https://olmeksky.github.io/matrix_fate2/matrix2.html">Совместимости</a></li>
 			<li><a href="mailto:ShuSashi@yandex.ru">Контакты</a></li>
 			</ul>
@@ -38,27 +39,35 @@
 		<div class="row">
 	    		<div class="col-xl-9 col-lg-8 col-md-8 col-sm-12 col-12">
 				<article>
-				<h1>На персональный рассчет</h1>
-				<div class="content">
-					<div class="raschet" id="ras">
-					  <div class="mblock">
-					    <form action="./matrix.html" method="get">
-					      <input type="date" class="form-control" name="datBirst" id="db" placeholder="Дата вашего рождения"> <br>
-					      <button type="submit" class="btn btn-primary">Расcчитать</button>
-					    </form>
-					  </div>
+				<h1>Старшие арканы</h1>
+  				<div class="card pe-4">
+  					<div class="card-body"><h2>На персональный рассчет</h2>
+					<div class="content">
+						<div class="raschet" id="ras">
+						  <div class="mblock">
+						    <form action="./matrix.html" method="get">
+						      <input type="date" class="form-control" name="datBirst" id="db" placeholder="Дата вашего рождения"> <br>
+						      <button type="submit" class="btn btn-primary">Расcчитать</button>
+						    </form>
+						  </div>
+						</div>
 					</div>
-				</div>
-				</article>
-				<article>
-				<h1>На расчет совместимости</h1>
-				<div class="content">
-					<form action="./matrix2.html" method="get">
-						<input type="date" class="form-control" name="datBirst" id="db" placeholder="Дата вашего рождения"> <br>
-						<input type="date" class="form-control" name="datBirst2" id="db" placeholder="Дата рождения вашей половинки"> <br>
-						<button type="submit" class="btn btn-primary">Расcчитать</button>
-					</form>
-				</div>
+  					</div>
+  				</div>
+				<div class="card pe-4">
+  					<div class="card-body">
+						<h1>На расчет совместимости</h1>
+						<div class="content">
+							<form action="./matrix2.html" method="get">
+								<input type="date" class="form-control" name="datBirst" id="db" placeholder="Дата вашего рождения"> <br>
+								<input type="date" class="form-control" name="datBirst2" id="db" placeholder="Дата рождения вашей половинки"> <br>
+								<button type="submit" class="btn btn-primary">Расcчитать</button>
+							</form>
+						</div>
+  					</div>
+  				</div>
+
+					
 				</article>
 			</div>
 			<div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12">
@@ -90,6 +99,7 @@
 				<menu class="bottom-nav_menu">
 					<ul>
 					<li><a href="https://olmeksky.github.io/matrix_fate2/matr.html">Персональная</a></li>
+					<li><a href="https://olmeksky.github.io/matrix_fate2/arcans.html">Арканы</a></li>
 					<li><a href="https://olmeksky.github.io/matrix_fate2/matrix2.html">Совместимости</a></li>
 					<li><a href="mailto:ShuSashi@yandex.ru">Контакты</a></li>
 					</ul>
