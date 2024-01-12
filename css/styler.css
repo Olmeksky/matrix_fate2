@@ -816,6 +816,7 @@ div.footlogo {
 }
 div.flogo {
 	text-align: center;
+	position: relative;
 }
 div.footlogo img {
 	height: 100%;
