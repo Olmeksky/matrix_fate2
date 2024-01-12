@@ -852,14 +852,14 @@ menu.bottom-nav_menu li {
 }
 menu.bottom-nav_menu li a {
 	color: #d5d5d5!Important;
+	text-decoration: none;
 }
 menu.bottom-nav_menu li a:hover {
 	color: white!Important;
+	text-decoration: none;
 	text-width:700;
 }
-menu.bottom-nav_menu li a:visited {
-	color: #d5d5d5!Important;
-}
+
 
 @media (min-width: 1201px) and (max-width: 1400px) {
 	html{font-size: 15px;}
