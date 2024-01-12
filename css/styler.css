@@ -805,6 +805,16 @@ tr.seven td {
 	font-size: 1.5rem;
 	font-weight: 900;
 }
+div.copy {
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
+div.footmenu {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
 
 @media (min-width: 1201px) and (max-width: 1400px) {
 	html{font-size: 15px;}
