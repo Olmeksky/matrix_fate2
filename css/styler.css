@@ -829,13 +829,13 @@ div.footlogo img {
 }
 div.footmenu {
 	display: flex;
-	justify-content: left;
+	justify-content: center;
 	align-items: center;
 }
 menu.bottom-nav_menu {
-	display: flex;
+	display: inline-block;
 	padding: 0;
-	margin: 0 1rem;
+	margin: auto;
 	display: -webkit-box;
 	display: -ms-flexbox;
 }
@@ -845,10 +845,15 @@ menu.bottom-nav_menu ul {
 menu.bottom-nav_menu li {
 	display: inline-block;
 	list-style: none;
-	color: white;
 	margin: auto;
 	padding: 0.1rem 1rem;
 	text-decoration: none;
+}
+menu.bottom-nav_menu li a {
+	color: greey;
+}
+menu.bottom-nav_menu li a:hover {
+	color: white;
 }
 
 @media (min-width: 1201px) and (max-width: 1400px) {
