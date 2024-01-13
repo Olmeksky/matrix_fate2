@@ -183,8 +183,9 @@ h1 {
 	cursor: pointer;
   z-index: 10;
 }
-.E:hover{
-	box-shadow: 0px 0px 0.2rem 0.2rem rgba(255,227,66,0.3);
+.E:hover {
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+	#box-shadow: 0px 0px 0.2rem 0.5rem rgba(255, 227, 66, 0.3);
 }
 
 .A {
