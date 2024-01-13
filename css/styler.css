@@ -144,6 +144,10 @@ h1 {
   width: 46rem;
   height: 46rem;
 }
+.scheme * {
+	cursor: pointer;
+	box-shadow: 0 0 1rem #242424;
+}
 .sq-abcd {
   position: absolute;
   border: 0.3rem solid grey;
