@@ -14,6 +14,14 @@ html {
 .main-header.container {
 	display: flex;
 }
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    margin: 0 auto;
+    #line-height: 50px;
+}
 
 /* TOP NAV */
 .top-nav {
