@@ -2,12 +2,12 @@
 html {
 	margin: 0;
 	padding: 0;
-	font-size: 15px;
+	font-size: 16px;
 }
 .main-header {
   	display: flex;
-  	max-height: 5.7rem;
-	height: 5rem;
+  	max-height: 4.7rem;
+	height: 4rem;
   	width: 100%;
   	z-index: 21;
 }
@@ -18,7 +18,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    height: 5rem;
+    height: 4rem;
     margin: 0 auto;
 }
 
@@ -26,17 +26,16 @@ html {
 .top-nav {
 	margin: auto;
 	display: flex;
-	max-height: 5rem;
+	max-height: 4rem;
 	padding: 0.5rem;
 	box-shadow: 0.1rem 0.1rem 1rem #555;
 }
 .logo {
 	display: block;
-	max-height: 4.7rem;
+	max-height: 4rem;
 }
 .logo img {
 	height: 100%;
-	max-height: 6.7rem;
 }
 .top-nav_menu {
 	display: flex;
