@@ -7,6 +7,12 @@ $(window).on('load', function() {
 			sum += +figures[i];
 		return sum;
 	}
+
+$(function(){
+    // инициализации подсказок для всех элементов на странице, имеющих атрибут data-toggle="tooltip"
+    $('[data-toggle="tooltip"]').tooltip();
+});
+	
 	function arcan22(summ) {
 		var sl1 = 0;
 		var sl2 = 0;
