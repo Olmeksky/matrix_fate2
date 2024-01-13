@@ -880,23 +880,23 @@ menu.bottom-nav_menu li a:hover {
 	.scheme {width: 100%;}
 }
 @media (min-width: 992px) and (max-width: 1200px) {
-	html{font-size: 15px;}
+	html{font-size: 14px;}
 	.scheme {width: 100%;}
 }
 @media (min-width: 769px) and (max-width: 991px) {
-	html{font-size: 15px;}
+	html{font-size: 14px;}
 	nav.navbar.top-form {display: none;}
 	.banners{display:none;}
 	.scheme {width: 100%;}
 }
 @media (min-width: 576px) and (max-width: 767px) {
-	html{font-size: 10px;}
+	html{font-size: 13px;}
 	nav.navbar.top-form {display: none;}
 	.banners{display:none;}
 	.scheme {width: 100%;}
 }
 @media (max-width: 575px) {
-	html{font-size: 10px;}
+	html{font-size: 12px;}
 	nav.navbar.top-form {display: none;}
 	.banners{display:none;}
 	.scheme {width: 100%;}
