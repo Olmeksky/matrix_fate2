@@ -646,7 +646,7 @@ h1 {
   border-radius: 50%;
 }
 
-.line-zeml {
+div.line-zeml {
   border-bottom: solid 0.25rem #eee;
   position: inherit;
   z-index: 5;
@@ -654,7 +654,7 @@ h1 {
   right: -50%;
   width: 200%;
 }
-.line-nebo {
+div.line-nebo {
   border-bottom: solid 0.25rem #eee;
   position: inherit;
   z-index: 5;
@@ -663,7 +663,10 @@ h1 {
   width: 200%;
   transform: rotate(90deg);
 }
-.line-muzh {
+span.line-zeml {color:green;}
+span.line-nebo {color:cyan;}
+
+div.line-muzh {
   border-bottom: solid 0.25rem blue;
   position: inherit;
   z-index: 5;
@@ -672,7 +675,7 @@ h1 {
   width: 200%;
   transform: rotate(45deg);
 }
-.line-zhen {
+div.line-zhen {
   border-bottom: solid 0.25rem red;
   position: inherit;
   z-index: 5;
@@ -681,6 +684,9 @@ h1 {
   width: 200%;
   transform: rotate(-45deg);
 }
+span.line-muzh {color:blue;}
+span.line-zhen {color:red;}
+
 .line-love-deng {
   border-bottom: dashed 0.25rem green;
   position: inherit;
