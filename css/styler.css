@@ -141,7 +141,7 @@ h1 {
   width: 46rem;
   height: 46rem;
 }
-.scheme *:hover {
+.scheme * {
 	cursor: pointer;
 }
 .sq-abcd *:hover, round-stml *:hover, .E:hover {
@@ -154,7 +154,7 @@ h1 {
   border-radius: 0.5rem;
   width: 26.5rem;
   height: 26.5rem;
-  box-shadow: 0.1rem 0.2rem 1.5rem #242424;
+  #box-shadow: 0.1rem 0.2rem 1.5rem #242424;
 }
 .sq-fghi {
   position: absolute;
@@ -163,7 +163,7 @@ h1 {
   transform: rotate(45deg);
   width: 26.5rem;
   height: 26.5rem;
-  box-shadow: 0.1rem 0.2rem 1.1rem #b53f62;
+  #box-shadow: 0.1rem 0.2rem 1.1rem #b53f62;
 }
 .round-stml {
   position: absolute;
@@ -171,7 +171,7 @@ h1 {
   height: 18rem;
   border: 0.3rem dotted #131313;
   border-radius: 50%;
-  box-shadow: 0.1rem 0.2rem 2.5rem #242424;
+  #box-shadow: 0.1rem 0.2rem 2.5rem #242424;
 }
 .E {
   position: absolute;
