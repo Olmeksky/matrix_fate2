@@ -32,10 +32,11 @@ html {
 }
 .logo {
 	display: block;
-	max-height: 4rem;
+	padding: 0.2rem;
 }
 .logo img {
 	height: 100%;
+	max-height: 4rem;
 }
 .top-nav_menu {
 	display: flex;
