@@ -6,7 +6,7 @@ fetch("./header.html")
     document.querySelector("header").innerHTML = data;
   });
 
-fetch("./footer.html")
+fetch("./footer.htm")
   .then(response => {
     return response.text()
   })
