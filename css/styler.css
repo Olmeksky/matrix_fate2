@@ -180,6 +180,7 @@ h1 {
   background-color: #ffff70;
   border: 0.3rem solid #ffe342;
   border-radius: 50%;
+	cursor: pointer;
   z-index: 10;
 }
 .A {
