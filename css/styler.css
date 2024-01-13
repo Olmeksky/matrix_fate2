@@ -877,12 +877,10 @@ menu.bottom-nav_menu li a:hover {
 
 @media (min-width: 1201px) and (max-width: 1400px) {
 	html{font-size: 15px;}
-	.scheme {
-		width: 100%;
-	}
+	.scheme {width: 100%;}
 }
 @media (min-width: 992px) and (max-width: 1200px) {
-	html{font-size: 12px;}
+	html{font-size: 15px;}
 	.scheme {width: 100%;}
 }
 @media (min-width: 769px) and (max-width: 991px) {
