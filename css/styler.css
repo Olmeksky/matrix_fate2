@@ -169,9 +169,6 @@ h1 {
   border-radius: 50%;
   box-shadow: 0.1rem 0.2rem 2.5rem #242424;
 }
-.E:hover{
-	box-shadow: 0 0 0.2rem 0.2rem rgba(255,227,66, 0.3);
-}
 .E {
   position: absolute;
   width: 4rem;
@@ -186,6 +183,11 @@ h1 {
 	cursor: pointer;
   z-index: 10;
 }
+.E:hover{
+	box-shadow: 0 0 0.2rem 0.2rem rgba(255,227,66, 0.3);
+	transition: 1s;
+}
+
 .A {
   position: inherit;
   top: 50%;
