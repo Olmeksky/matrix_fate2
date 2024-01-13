@@ -77,15 +77,17 @@ html {
 }
 /* End TOP NAV */
 
+/* Доп Стили для Бутстрап */
 .card:hover {
-	border-color: rgba(0,0,0,0.8);
-	box-shadow: 0 0 0.6rem 0.2rem rgba(0,0,0,0.8);
+	box-shadow: 0 0 0.6rem 0.2rem rgba(0,0,0,0.4);
 }
 
 main .conteiner {
 	margin-top: 1rem;
 	padding-top: 1.2rem;
 }
+/* Доп Стили для Бутстрап */
+
 article, aside {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
