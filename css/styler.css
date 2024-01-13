@@ -183,6 +183,7 @@ h1 {
 	cursor: pointer;
   z-index: 10;
 }
+.E:hover{box-shadow: 0 0 0.2rem 0.5rem #ffe342;}
 .A {
   position: inherit;
   top: 50%;
