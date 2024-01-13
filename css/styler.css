@@ -144,9 +144,11 @@ h1 {
   width: 46rem;
   height: 46rem;
 }
-.scheme * {
+.scheme *:hover {
 	cursor: pointer;
-	box-shadow: 0 0 1rem #242424;
+}
+.scheme *:hover {
+	box-shadow: 0 0 1rem #131313;
 }
 .sq-abcd {
   position: absolute;
