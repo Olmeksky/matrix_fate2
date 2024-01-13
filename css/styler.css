@@ -93,7 +93,7 @@ main .conteiner {
 	margin-top: 1rem;
 	padding-top: 1.2rem;
 }
-/* Доп Стили для Бутстрап */
+/* END - Доп Стили для Бутстрап */
 
 article, aside {
 	margin-top: 2rem;
@@ -124,9 +124,6 @@ h1 {
   margin-bottom: 0.5rem;
 }
 
-.matr-form {
-  padding-bottom: 1.2rem;
-}
 .scheme {
   display: flex;
   margin: 3rem auto;
@@ -147,9 +144,10 @@ h1 {
 .scheme *:hover {
 	cursor: pointer;
 }
-.scheme *:hover {
+.sq-abcd *:hover, round-stml *:hover, .E:hover {
 	box-shadow: 0 0 1rem #131313;
 }
+
 .sq-abcd {
   position: absolute;
   border: 0.3rem solid grey;
@@ -189,10 +187,6 @@ h1 {
 	cursor: pointer;
   z-index: 10;
 }
-.E:hover {
-	box-shadow: 0px 0px 1rem #cc9933;
-}
-
 .A {
   position: inherit;
   top: 50%;
