@@ -171,7 +171,6 @@ h1 {
 }
 .E:hover{
 	box-shadow: 0 0 0.2rem 0.2rem rgba(255,227,66, 0.3);
-	transition-duration: 500ms;
 }
 .E {
   position: absolute;
