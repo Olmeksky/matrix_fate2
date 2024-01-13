@@ -7,7 +7,7 @@ html {
 .main-header {
   	display: flex;
   	max-height: 5.7rem;
-	height: 4rem;
+	height: 5rem;
   	width: 100%;
   	z-index: 21;
 }
@@ -33,10 +33,11 @@ html {
 }
 .logo {
 	display: block;
+	max-height: 4.7rem;
 }
 .logo img {
 	height: 100%;
-	max-height: 4rem;
+	max-height: 6.7rem;
 }
 .top-nav_menu {
 	display: flex;
