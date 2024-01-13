@@ -184,8 +184,7 @@ h1 {
   z-index: 10;
 }
 .E:hover {
-	box-shadow: 0px 0px 1rem rgba(255, 227, 66, 0.3);
-	#box-shadow: 0px 0px 0.2rem 0.5rem rgba(255, 227, 66, 0.3);
+	box-shadow: 0px 0px 1rem #ffe342;
 }
 
 .A {
