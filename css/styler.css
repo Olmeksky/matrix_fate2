@@ -18,7 +18,6 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    max-width: 960px;
     height: 5rem;
     margin: 0 auto;
 }
