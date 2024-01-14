@@ -703,18 +703,18 @@ span.znak-love{
 	position: inherit;
 	transform: rotate(270deg);
 	color:red;
-	top: 30%;
-    	left: 50%;
-	font-size:large;
+	top: 49%;
+    left: 65%;
+    font-size: xxx-large;
 	font-weight:bold;
 }
 span.znak-deng{
 	position: inherit;
 	transform: rotate(270deg);
 	color:green;
-	top: 20%;
-    	left: 40%;
-	font-size:large;
+	top: 36%;
+	left: 67%;
+	font-size: xx-large;
 	font-weight:bold;
 }
 
