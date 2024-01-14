@@ -226,7 +226,13 @@ h1 {
     right: 38%;
     z-index: 9;
 }
-
+.E012 {
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 28%;
+    left: 45%;
+    z-index: 9;
+}
 
 .E {
   position: absolute;
