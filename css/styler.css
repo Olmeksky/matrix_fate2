@@ -173,8 +173,19 @@ h1 {
   border-radius: 50%;
   #box-shadow: 0.1rem 0.2rem 2.5rem #242424;
 }
-.A012 {position: absolute;z-index: 9;}
-.B012 {position: absolute;z-index: 9;}
+.A012 {
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 28%;
+    left: -24%;
+    z-index: 9;
+}
+.B012 {
+    position: absolute;
+    top: -34%;
+    left: 38%;
+    z-index: 9;
+}
 
 .E {
   position: absolute;
