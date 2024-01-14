@@ -144,7 +144,7 @@ h1 {
 .scheme * {
 	cursor: pointer;
 }
-.sq-abcd *:nth-child(n+5):hover {
+.sq-abcd *:nth-child(n+6):hover {
 	box-shadow: 0 0 1rem #131313;
 }
 .round-stml *:hover, .E:hover {
