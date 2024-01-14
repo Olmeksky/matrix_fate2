@@ -706,7 +706,7 @@ span.line-zhen {
 	top: 49%;
 	left: 65%;
 	font-size: xxx-large;
-	font-weight:bold;
+	z-index:20;
 }
 .znak-deng{
 	position: inherit;
@@ -715,9 +715,10 @@ span.line-zhen {
 	top: 36%;
 	left: 67%;
 	font-size: xx-large;
-	font-weight:bold;
+	z-index:20;
 }
 .znak-love:hover {box-shadow: 0 0 2rem #242424!Important;}
+.znak-deng:hover {box-shadow: 0 0 2rem #242424!Important;}
 
 .line-love-deng {
   border-bottom: dashed 0.25rem green;
