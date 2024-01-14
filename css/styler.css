@@ -144,12 +144,10 @@ h1 {
 .scheme * {
 	cursor: pointer;
 }
-.sq-abcd *:not(.A012):not(.B012):not(.C012):not(.D012):hover {
+.sq-abcd *:hover, .round-stml *:hover, .E:hover {
 	box-shadow: 0 0 1rem #131313;
 }
-.round-stml *:hover, .E:hover {
-	box-shadow: 0 0 1rem #131313;
-}
+.A012, .B012, .C012, .D012 {box-shadow: none;}
 
 .sq-abcd {
   position: absolute;
