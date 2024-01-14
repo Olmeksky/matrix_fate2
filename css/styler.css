@@ -177,7 +177,7 @@ h1 {
     position: absolute;
     transform: rotate(-90deg);
     top: 28%;
-    left: -24%;
+    left: -23%;
     z-index: 9;
 }
 .B012 {
@@ -190,7 +190,7 @@ h1 {
     position: absolute;
     transform: rotate(90deg);
     top: 28%;
-    right: -24%;
+    right: -23%;
     z-index: 9;
 }
 .D012 {
@@ -203,7 +203,7 @@ h1 {
     position: absolute;
     transform: rotate(-90deg);
     top: 28%;
-    left: -24%;
+    left: -23%;
     z-index: 9;
 }
 .G012 {
@@ -216,12 +216,13 @@ h1 {
     position: absolute;
     transform: rotate(90deg);
     top: 28%;
-    right: -24%;
+    right: -23%;
     z-index: 9;
 }
 .I012 {
     position: absolute;
-    top: -34%;
+    transform: rotate(180deg);
+    top: 89%;
     right: 38%;
     z-index: 9;
 }
