@@ -85,6 +85,15 @@ html {
 /* End TOP NAV */
 
 /* Доп Стили для Бутстрап */
+.navbar-collapse {
+    border: 1px solid #242424;
+    border-radius: 1rem;
+    padding: 0.3rem;
+    background-color: white;
+    align-items: center;
+	z-index: 22;
+}
+
 .card:hover {
 	box-shadow: 0 0 0.6rem 0.2rem rgba(0,0,0,0.4);
 }
@@ -990,22 +999,39 @@ menu.bottom-nav_menu li a:hover {
 }
 @media (min-width: 992px) and (max-width: 1200px) {
 	html{font-size: 14px;}
+	.navbar-collapse {
+		padding: 2rem;
+		z-index: 22;
+	}
 	.scheme {width: 100%;}
 }
 @media (min-width: 769px) and (max-width: 991px) {
 	html{font-size: 14px;}
+	.navbar-collapse {
+		padding: 2rem;
+		z-index: 22;
+	}
 	nav.navbar.top-form {display: none;}
 	.banners{display:none;}
 	.scheme {width: 100%;}
 }
 @media (min-width: 576px) and (max-width: 767px) {
 	html{font-size: 13px;}
+	.navbar-collapse {
+		padding: 2rem;
+		z-index: 22;
+	}
 	nav.navbar.top-form {display: none;}
 	.banners{display:none;}
 	.scheme {width: 100%;}
 }
 @media (max-width: 575px) {
 	html{font-size: 12px;}
+	.navbar-collapse {
+		padding: 2rem;
+		z-index: 22;
+	}
+
 	nav.navbar.top-form {display: none;}
 	.banners{display:none;}
 	.scheme {width: 100%;}
