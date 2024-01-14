@@ -403,7 +403,6 @@ h1 {
   border: 0.15rem solid #e7715a;
   border-radius: 50%;
 }
-
 .A3 {
   position: inherit;
   top: 50%;
@@ -440,7 +439,6 @@ h1 {
   border: 0.15rem solid #91f286;
   border-radius: 50%;
 }
-
 .F {
   position: inherit;
   top: 0%;
@@ -684,8 +682,18 @@ div.line-zhen {
   width: 200%;
   transform: rotate(-45deg);
 }
-span.line-muzh {color:blue;}
-span.line-zhen {color:red;}
+span.line-muzh {
+    position: inherit;
+    z-index: 5;
+    top: 50%;
+    color:blue;
+}
+span.line-zhen {
+    position: inherit;
+    z-index: 5;
+    top: 50%;
+    color:red;
+}
 
 .line-love-deng {
   border-bottom: dashed 0.25rem green;
