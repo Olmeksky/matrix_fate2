@@ -717,7 +717,7 @@ span.line-zhen {
 	font-size: xx-large;
 	font-weight:bold;
 }
-.znak-love:hover, .znak-deng:hover {box-shadow: 0.1rem 0.2rem 2.5rem #242424;}
+.znak-love:hover {box-shadow: 0 0 2rem #242424!Important;}
 
 .line-love-deng {
   border-bottom: dashed 0.25rem green;
