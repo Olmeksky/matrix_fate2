@@ -186,6 +186,46 @@ h1 {
     left: 38%;
     z-index: 9;
 }
+.C012 {
+    position: absolute;
+    transform: rotate(90deg);
+    top: 28%;
+    right: -24%;
+    z-index: 9;
+}
+.D012 {
+    position: absolute;
+    top: -34%;
+    right: 38%;
+    z-index: 9;
+}
+.F012 {
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 28%;
+    left: -24%;
+    z-index: 9;
+}
+.G012 {
+    position: absolute;
+    top: -34%;
+    left: 38%;
+    z-index: 9;
+}
+.H012 {
+    position: absolute;
+    transform: rotate(90deg);
+    top: 28%;
+    right: -24%;
+    z-index: 9;
+}
+.I012 {
+    position: absolute;
+    top: -34%;
+    right: 38%;
+    z-index: 9;
+}
+
 
 .E {
   position: absolute;
