@@ -700,6 +700,18 @@ span.line-zhen {
     top: 50%;
     color:red;
 }
+.znak-love{
+	position: inherit;
+	color:red;
+	font-size:large;
+	font-weight:bold;
+}
+.znak-deng{
+	position: inherit;
+	color:green;
+	font-size:large;
+	font-weight:bold;
+}
 
 .line-love-deng {
   border-bottom: dashed 0.25rem green;
