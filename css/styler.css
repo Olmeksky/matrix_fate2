@@ -195,8 +195,9 @@ h1 {
 }
 .D012 {
     position: absolute;
-    top: -34%;
-    right: 38%;
+	transform: rotate(180deg);
+    top: 89%;
+    left: 38%;
     z-index: 9;
 }
 .F012 {
