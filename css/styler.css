@@ -699,16 +699,16 @@ span.line-zhen {
     left: 32.5%;
     color:red;
 }
-span.znak-love{
+.znak-love{
 	position: inherit;
 	transform: rotate(270deg);
 	color:red;
 	top: 49%;
-    left: 65%;
-    font-size: xxx-large;
+	left: 65%;
+	font-size: xxx-large;
 	font-weight:bold;
 }
-span.znak-deng{
+.znak-deng{
 	position: inherit;
 	transform: rotate(270deg);
 	color:green;
