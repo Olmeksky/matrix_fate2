@@ -147,7 +147,7 @@ h1 {
 .sq-abcd *:hover, .round-stml *:hover, .E:hover {
 	box-shadow: 0 0 1rem #131313;
 }
-.A012, .B012, .C012, .D012 {box-shadow: none;}
+.A012, .B012, .C012, .D012 {box-shadow: none!Important;}
 
 .sq-abcd {
   position: absolute;
