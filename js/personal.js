@@ -179,12 +179,19 @@ $(function(){
 	$('td.energy').html(energy);
 	$('td.emocii').html(emocii);
 
+	// Расчет предназначений
 	nebo = arcan22(b+d);
 	zeml = arcan22(a+c);
 	seb = arcan22(nebo+zeml);
+	
 	rpm = arcan22(f+h);
 	rpzh = arcan22(g+i);
 	soc = arcan22(rpm+rpzh);
+
+	duh = arcan22(seb+soc);
+	planet = arcan22(arcan22(nebo+zeml+seb)+arcan22(rpm+rpzh+soc));
+	
+	// Установка предназначений
 	$('span.NEBO').html(nebo);
 	$('span.ZEML').html(zeml);
 	$('span.SEB').html(seb);
@@ -192,6 +199,8 @@ $(function(){
 	$('span.RPZH').html(rpzh);
 	$('span.SOC').html(soc);
 
+	$('span.DUH').html(duh);
+	$('span.PLANET').html(planet);
 
 	
 	
