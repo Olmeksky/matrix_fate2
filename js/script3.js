@@ -174,7 +174,7 @@ function digit (number) {
 			} else return Number(summ);
 		}
 		else if (summ.length==1) {
-			console.log('Длинна 1 :' + summ);
+			//console.log('Длинна 1 :' + summ);
 			return Number(summ);
 		}
 		else if (summ.length<1) {
