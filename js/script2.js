@@ -4,9 +4,7 @@ function get(name){
     if(name=(new RegExp('[?&]' + encodeURIComponent(name) + '=([^&]*)')).exec(location.search)){
         return decodeURIComponent(name[1]);
     };
-} 
-
-
+}
 
 var year;
 var month;
@@ -415,7 +413,16 @@ function schet(db){
         zeml.textContent = "Земля: " + arcan22(a + c);
         //neboizeml.textContent = arcan22(arcan22(b + d) + arcan22(a + c));
 		neboizeml.textContent = arcan22(arcan22(b + d) + arcan22(a + c));
-        var seb = arcan22(nebo+zeml+neboizeml);
+
+        // Расчет предназначений
+    	nebo = arcan22(b+d);
+    	zeml = arcan22(a+c);
+    	seb = arcan22(nebo+zeml);
+    	rpm = arcan22(f+h);
+    	rpzh = arcan22(g+i);
+    	soc = arcan22(rpm+rpzh);
+    	duh = arcan22(seb+soc);
+    	planet = arcan22(arcan22(nebo+zeml+seb)+arcan22(rpm+rpzh+soc));
 
         var muzh = document.getElementById('muzh');
         var zhen = document.getElementById('zhen');
@@ -425,7 +432,6 @@ function schet(db){
         zhen.textContent = "Ж: " + arcan22(g + i);
         //muzhizhen.textContent = arcan22(arcan22(h + f) + arcan22(g + i));
 		muzhizhen.textContent = arcan22(arcan22(f + h) + arcan22(g + i));
-        var soc = arcan22(muzh+zhen+muzhizhen);
 
         var garm = document.getElementById('garm');
 
@@ -436,7 +442,7 @@ function schet(db){
         var planet = document.getElementById('planet');
 
         //planet.textContent =  s;
-	    planet.textContent =  arcan22(seb+soc);
+	    planet.textContent =  planet;
 
         var vb = document.getElementById('vb');
         
