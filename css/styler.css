@@ -803,6 +803,19 @@ span.line-zhen {
   width: 70%;
   transform: rotate(135deg);
 }
+/* Предназначение */
+NEBO, ZEML, SEB, RPM, RPZH, SOC, DUH, PLANET{
+    width: 3.2rem;
+    height: 3.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.9rem;
+    font-weight: 500;
+    color: black;
+    border: 0.2rem solid #131313;
+    border-radius: 50%;
+}
 .fig-scob {
     font-size: 4rem;
     position: relative;
