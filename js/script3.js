@@ -408,7 +408,7 @@ function schet(db, zdb){
         blg.textContent = arcan22(g + zg);
         blh.textContent = arcan22(h + zh);
         bli.textContent = arcan22(i + zi);
-			// это блок с неправильными формулами, например формулы тригонов неправильно считает
+			// это блок с неправильными формулами, формулы тригонов неба и земли
         //blj.textContent = arcan22(j + zj);
         //blk.textContent = arcan22(k + zk);
         //bll.textContent = arcan22(l + zl);
@@ -421,40 +421,45 @@ function schet(db, zdb){
 			kzk = arcan22(arcan22(b + zb) + arcan22(e + ze));
 			lzl = arcan22(arcan22(c + zc) + arcan22(e + ze));
 			mzm = arcan22(arcan22(d + zd) + arcan22(e + ze));
-			blj.textContent = arcan22(arcan22(a + za) + arcan22(e + ze));
-			blk.textContent = arcan22(arcan22(b + zb) + arcan22(e + ze));
-			bll.textContent = arcan22(arcan22(c + zc) + arcan22(e + ze));
-			blm.textContent = arcan22(arcan22(d + zd) + arcan22(e + ze));
-			
-			blo.textContent = arcan22(arcan22(a + za) + jzj);
-			blp.textContent = arcan22(arcan22(b + zb) + kzk);
-			blq.textContent = arcan22(lzl + arcan22(c + zc));
-			bln.textContent = arcan22(mzm + arcan22(d + zd));
+        blj.textContent = arcan22(arcan22(a + za) + arcan22(e + ze));
+        blk.textContent = arcan22(arcan22(b + zb) + arcan22(e + ze));
+        bll.textContent = arcan22(arcan22(c + zc) + arcan22(e + ze));
+        blm.textContent = arcan22(arcan22(d + zd) + arcan22(e + ze));
+        
+        blo.textContent = arcan22(arcan22(a + za) + jzj);
+        blp.textContent = arcan22(arcan22(b + zb) + kzk);
+        blq.textContent = arcan22(lzl + arcan22(c + zc));
+        bln.textContent = arcan22(mzm + arcan22(d + zd));
 
+        bls.textContent = arcan22(arcan22(j + zj)+arcan22(e + ze)); // верно
+        blt.textContent = arcan22(arcan22(k + zk)+arcan22(e + ze)); // верно
+        
+            //console.log('L1 :'+l1);
+            //console.log('zL1 :'+zl1);
+	        //console.log('L2 :'+l2);
+            //console.log('zL2 :'+zl2);
+        L1_ob = arcan22(l1 + zl1);
+        L2_ob = arcan22(l2 + zl2);
+            //console.log('L11111 :'+L1_ob);
+		    //console.log('L11111 :'+L2_ob);
+        bll1.textContent = L1_ob;
+        bll2.textContent = L2_ob;
+        
             // это 2ой блок с неправильными формулами, например формулы тригонов неправильно считает
-        //bls.textContent = arcan22(s + zs);
-        //blt.textContent = arcan22(t + zt);
-        bls.textContent = arcan22(arcan22(j + zj)+arcan22(e + ze));
-        blt.textContent = arcan22(arcan22(k + zk)+arcan22(e + ze));
-        
-            console.log('L1 :'+l1);
-            console.log('zL1 :'+zl1);
-	        console.log('L2 :'+l2);
-            console.log('zL2 :'+zl2);
 
-            L1_ob = arcan22(l1 + zl1);
-		    console.log('L11111 :'+L1_ob);
-            L2_ob = arcan22(l2 + zl2);
-		    console.log('L11111 :'+L2_ob);
-	    
-	bll1.textContent = L1_ob;
-	bll2.textContent = L2_ob;
+        blf2.textContent = arcan22(arcan22(f + zf)+arcan22(e + ze)); //верно
+        blg2.textContent = arcan22(arcan22(g + zg)+arcan22(e + ze)); //верно
+        blh2.textContent = arcan22(arcan22(h + zh)+arcan22(e + ze)); //верно
+            console.log('L1 :'+i2);
+            console.log('zL1 :'+zi2);
+        ii2 = arcan22(i + zi);
+        ee2 = arcan22(e + ze);
+	        console.log('L2 :'+ii2);
+            console.log('zL2 :'+ee2);
         
-            //переделал
-        blf2.textContent = arcan22(arcan22(f + zf)+arcan22(e + ze));
-        blg2.textContent = arcan22(arcan22(g + zg)+arcan22(e + ze));
-        blh2.textContent = arcan22(arcan22(h + zh)+arcan22(e + ze));
-        bli2.textContent = arcan22(arcan22(i + zi)+arcan22(e + ze));
+        //bli2.textContent = arcan22(arcan22(i + zi)+arcan22(e + ze));
+        bli2.textContent = arcan22(i2 + zi2);
+        
         blf1.textContent = arcan22(arcan22(f + zf)+arcan22(f2 + zf2));
         blg1.textContent = arcan22(arcan22(g + zg)+arcan22(g2 + zg2));
         blh1.textContent = arcan22(arcan22(h + zh)+arcan22(h2 + zh2));
