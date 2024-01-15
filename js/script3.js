@@ -564,7 +564,9 @@ function schet(db, zdb){
 
         nebo.textContent =  "Небо: " + arcan22(arcan22(b + zb) + arcan22(d + zd));
         zeml.textContent = "Земля: " + arcan22(arcan22(a + za) + arcan22(c + zc));
-		
+
+            nebo2 = arcan22(arcan22(b + zb) + arcan22(d + zd));
+            zeml2 = arcan22(arcan22(a + za) + arcan22(c + zc));
 			neboizeml2 = arcan22(arcan22(arcan22(b + zb) + arcan22(d + zd)) + arcan22(arcan22(a + za) + arcan22(c + zc)));
 		
         //neboizeml.textContent = arcan22(arcan22(b + d) + arcan22(a + c));
@@ -585,6 +587,8 @@ function schet(db, zdb){
 				//console.log('ZG : ' + zg);
 				//console.log('I : ' + i);
 				//console.log('ZI : ' + zi);
+            muzh2 = arcan22(arcan22(f + zf) + arcan22(h + zh));
+            zhen2 = arcan22(arcan22(g + zg) + arcan22(i + zi));
 			fh_zfzh = arcan22(arcan22(f + zf) + arcan22(h + zh));
 			gi_zgzi = arcan22(arcan22(g + zg) + arcan22(i + zi));
 				//неверные старые формулы
@@ -603,12 +607,11 @@ function schet(db, zdb){
 
         //garm.textContent =  arcan22(t + zt);
 		garm.textContent =  arcan22(neboizeml2 + muzhizhen2);
-        
-        
+
         var planet = document.getElementById('planet');
 
-        planet.textContent =  arcan22(s + zs);
-
+        //planet.textContent =  arcan22(s + zs);
+        planet.textContent =  arcan22(arcan22(nebo2+zeml2+neboizeml2)+arcan22(muzh2+zhen2+muzhizhen2));
         
 
         var vb = document.getElementById('vb');
