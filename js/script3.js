@@ -349,7 +349,7 @@ function schet(db, zdb){
 
 
         //console.log(zdb);
-
+        // Получаем элементы в переменные для последующей записи
         var bla = document.getElementById('1a');
         var blb = document.getElementById('1b');
         var blc = document.getElementById('1c');
@@ -370,8 +370,8 @@ function schet(db, zdb){
         var bls = document.getElementById('1s');
         var blt = document.getElementById('1t');
         var bll2 = document.getElementById('1l2');
-        var bll1 = document.getElementById('1l1');
-        var blf2 = document.getElementById('1f2');
+        var bll1 = document.getElementById('1f2');
+        var blf2 = document.getElementById('1l1');
         var blg2 = document.getElementById('1g2');
         var blh2 = document.getElementById('1h2');
         var bli2 = document.getElementById('1i2');
@@ -398,7 +398,7 @@ function schet(db, zdb){
         var bop13 = document.getElementById('1op13');
         var bop14 = document.getElementById('1op14');
         var bop15 = document.getElementById('1op15');
-			
+			// А теперь начинаем перезаписывать переменные вычисл значениями
         bla.textContent = arcan22(a + za);
         blb.textContent = arcan22(b + zb);
         blc.textContent = arcan22(c + zc);
