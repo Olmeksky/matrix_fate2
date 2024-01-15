@@ -232,25 +232,6 @@ function schet(db, zdb){
 		
         s = arcan22(j + e);
         t = arcan22(k + e);
-			//console.log('A :'+a);
-			//console.log('B :'+b);
-			//console.log('C :'+c);
-			//console.log('D :'+d);
-			//console.log('E :'+e);
-			//console.log('F :'+f);
-			//console.log('G :'+g);
-			//console.log('H :'+h);
-			//console.log('I :'+i);
-			//console.log('J :'+j);
-			//console.log('K :'+k);
-			//console.log('L :'+l);
-			//console.log('M :'+m);
-			//console.log('O :'+o);
-			//console.log('P :'+p);
-			//console.log('Q :'+q);
-			//console.log('N :'+n);
-			//console.log('S :'+s);
-			//console.log('T :'+t);
 
         l2 = arcan22(f + g + h + i); //L2 = F + G + H + I.
         l1 = arcan22(e + l2);
@@ -366,12 +347,6 @@ function schet(db, zdb){
         zMuladhara = arcan22(zc + zd); //Муладхара = C + D.
         zSvadhistana = arcan22(zl + zm); //Свадхистана = L + M.
 
-    
-        //alert("a =" + a + "; b = " + b + "; c = " + c + "; d = " + d + "; e = " + e +  "; j = " + j + "; k = " + k + "; l = " + l + "; m = " + m + "; o = " + o +  "; p = " + p + "; q = " + q + "; n = " + n + "; s = " + s + "; t = " + t);
-        //alert("f =" + f + "; g =" + g + "; h = " + h + "; i = " + i + "; l1 = " + l1 + "; l2 = " + l2);
-        //alert("f2 =" + f2 + "; g2 =" + g2 + "; h2 = " + h2 + "; i2 = " + i2 );
-
-
 
         //console.log(zdb);
 
@@ -475,12 +450,9 @@ function schet(db, zdb){
         bli1.textContent = arcan22(arcan22(i + zi)+arcan22(i2 + zi2));
         
         blr.textContent = arcan22(arcan22(m + zm)+arcan22(l + zl));
-
 	    blr2.textContent = arcan22(arcan22(arcan22(m + zm)+arcan22(l + zl))+lzl);
         blr1.textContent = arcan22(r1 + zr1);
             // end переделки
-            
-            
 
         bop1.textContent = arcan22(op1 + zop1);
         bop2.textContent = arcan22(op2 + zop2);
@@ -571,8 +543,6 @@ function schet(db, zdb){
             zeml2 = arcan22(arcan22(a + za) + arcan22(c + zc));
 			neboizeml2 = arcan22(arcan22(arcan22(b + zb) + arcan22(d + zd)) + arcan22(arcan22(a + za) + arcan22(c + zc)));
 		
-        //neboizeml.textContent = arcan22(arcan22(b + d) + arcan22(a + c));
-		//neboizeml.textContent = arcan22(arcan22(arcan22(b + d) + arcan22(zb + zd)) + arcan22(arcan22(a + c) + arcan22(za + zc)));
 		neboizeml.textContent = neboizeml2;
 
         var muzh = document.getElementById('muzh');
@@ -601,8 +571,6 @@ function schet(db, zdb){
 			muzhizhen2 = arcan22(fh_zfzh + gi_zgzi);
 				console.log('muzhizhen2 : ' + muzhizhen2);
 			
-        //muzhizhen.textContent = arcan22(arcan22(arcan22(h + f) + arcan22(g + i)) + arcan22(arcan22(zh + zf) + arcan22(zg + zi)));  
-		//muzhizhen.textContent = arcan22(arcan22(arcan22(f + h) + arcan22(zf + zh)) + arcan22(arcan22(g + i) + arcan22(zg + zi)));
 		muzhizhen.textContent = muzhizhen2;
 
         var garm = document.getElementById('garm');
