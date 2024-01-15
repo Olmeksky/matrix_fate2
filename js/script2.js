@@ -441,9 +441,9 @@ function schet(db){
         
         var planet = document.getElementById('planet');
 
-        //planet.textContent =  s;
+        planet.textContent =  s;
 	    //planet.textContent =  planet;
-        $('h1#planet').html(planet);
+        //$('h1#planet').html(planet);
 
         var vb = document.getElementById('vb');
         
