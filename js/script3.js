@@ -369,8 +369,9 @@ function schet(db, zdb){
         var bln = document.getElementById('1n');
         var bls = document.getElementById('1s');
         var blt = document.getElementById('1t');
-        var bll2 = document.getElementById('1l2');
-        var bll1 = document.getElementById('1f2');
+        var bll1 = document.getElementById('1f2'); // поменял
+        var bll2 = document.getElementById('1l2'); // местами
+        
         var blf2 = document.getElementById('1l1');
         var blg2 = document.getElementById('1g2');
         var blh2 = document.getElementById('1h2');
