@@ -804,7 +804,14 @@ span.line-zhen {
   transform: rotate(135deg);
 }
 .fig-scob {
-	font-size: 5rem;
+    font-size: 4rem;
+    position: relative;
+    top: -30%;
+    margin: 0;
+    padding: 0;
+    border-spacing: 0;
+    vertical-align: super;
+    letter-spacing: 0;
 	font-weight: 900;
 }
 
