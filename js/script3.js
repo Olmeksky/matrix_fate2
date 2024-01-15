@@ -200,7 +200,7 @@ function digit (number) {
 var a = 0;
 
 function schet(db, zdb){
-    console.log(db)
+    //console.log(db)
     if(db == "" || zdb == ""){
         alert("Извините, но вы не указали дату");
     }else{
@@ -349,8 +349,8 @@ function schet(db, zdb){
         zop5 = arcan22(zo + zop4);
         zop6 = arcan22(zp + zop4);
         zop7 = arcan22(zj + zk);
-        zop8 = arcan22(zj + zop7);
-        zop9 = arcan22(zk + zop7);
+        zop8 = arcan22(zk + zop7);
+        zop9 = arcan22(zj + zop7);
         zop10 = arcan22(zs + zt);
         zop11 = arcan22(zs + zop10);
         zop12 = arcan22(zt + zop10);
@@ -455,22 +455,30 @@ function schet(db, zdb){
 			blp.textContent = arcan22(arcan22(b + zb) + kzk);
 			blq.textContent = arcan22(lzl + arcan22(c + zc));
 			bln.textContent = arcan22(mzm + arcan22(d + zd));
-			
-        bls.textContent = arcan22(s + zs);
-        blt.textContent = arcan22(t + zt);
-        bll2.textContent = arcan22(l2 + zl2);
-        bll1.textContent = arcan22(l1 + zl1);
-        blf2.textContent = arcan22(f2 + zf2);
-        blg2.textContent = arcan22(g2 + zg2);
-        blh2.textContent = arcan22(h2 + zh2);
-        bli2.textContent = arcan22(i2 + zi2);
-        blf1.textContent = arcan22(f1 + zf1);
-        blg1.textContent = arcan22(g1 + zg1);
-        blh1.textContent = arcan22(h1 + zh1);
-        bli1.textContent = arcan22(i1 + zi1);
-        blr.textContent = arcan22(r + zr);
-        blr1.textContent = arcan22(r1 + zr1);
-        blr2.textContent = arcan22(r2 + zr2);
+
+            // это 2ой блок с неправильными формулами, например формулы тригонов неправильно считает
+        //bls.textContent = arcan22(s + zs);
+        //blt.textContent = arcan22(t + zt);
+        bls.textContent = arcan22(arcan22(j + zj)+arcan22(e + ze));
+        blt.textContent = arcan22(arcan22(k + zk)+arcan22(e + ze));
+        
+        bll2.textContent = arcan22(l2 + zl2); //правильно
+        bll1.textContent = arcan22(arcan22(e + ze)+arcan22(l2 + zl2));//переделал
+            //переделал
+        blf2.textContent = arcan22(arcan22(f + zf)+arcan22(e + ze));
+        blg2.textContent = arcan22(arcan22(g + zg)+arcan22(e + ze));
+        blh2.textContent = arcan22(arcan22(h + zh)+arcan22(e + ze));
+        bli2.textContent = arcan22(arcan22(i + zi)+arcan22(e + ze));
+        blf1.textContent = arcan22(arcan22(f + zf)+arcan22(f2 + zf2));
+        blg1.textContent = arcan22(arcan22(g + zg)+arcan22(g2 + zg2));
+        blh1.textContent = arcan22(arcan22(h + zh)+arcan22(h2 + zh2));
+        bli1.textContent = arcan22(arcan22(i + zi)+arcan22(i2 + zi2));
+        blr.textContent = arcan22(arcan22(m + zm)+arcan22(l + zl));
+        blr1.textContent = arcan22(arcan22(r + zr)+arcan22(m + zm));
+        blr2.textContent = arcan22(arcan22(r + zr)+arcan22(l + zl));
+            // end переделки
+            
+            
 
         bop1.textContent = arcan22(op1 + zop1);
         bop2.textContent = arcan22(op2 + zop2);
