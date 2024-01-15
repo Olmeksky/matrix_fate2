@@ -417,10 +417,10 @@ function schet(db){
         // Расчет предназначений
     	nebo = arcan22(b+d);
     	zeml = arcan22(a+c);
-    	seb = arcan22(nebo+zeml);
+    	var seb = arcan22(arcan22(b + d) + arcan22(a + c));
     	rpm = arcan22(f+h);
     	rpzh = arcan22(g+i);
-    	soc = arcan22(rpm+rpzh);
+    	
     	duh = arcan22(seb+soc);
     	planet = arcan22(arcan22(nebo+zeml+seb)+arcan22(rpm+rpzh+soc));
 
@@ -433,6 +433,8 @@ function schet(db){
         //muzhizhen.textContent = arcan22(arcan22(h + f) + arcan22(g + i));
 		muzhizhen.textContent = arcan22(arcan22(f + h) + arcan22(g + i));
 
+        var soc = arcan22(arcan22(f + h) + arcan22(g + i));
+        
         var garm = document.getElementById('garm');
 
         //garm.textContent =  t;
@@ -441,8 +443,8 @@ function schet(db){
         
         var planet = document.getElementById('planet');
 
-        planet.textContent =  s;
-	    //planet.textContent =  planet;
+        //planet.textContent =  s;
+	    planet.textContent =  arcan22(arcan22(arcan22(b+d)+arcan22(a+c)+seb)+arcan22(arcan22(f + h)+arcan22(g + i)+soc));
         //$('h1#planet').html(planet);
 
         var vb = document.getElementById('vb');
