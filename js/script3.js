@@ -446,20 +446,24 @@ function schet(db, zdb){
         bll2.textContent = L2_ob;
         
             // это 2ой блок с неправильными формулами, например формулы тригонов неправильно считает
-        ii2 = arcan22(f + zf);
-        ee2 = arcan22(e + ze);
-        blf2.textContent = arcan22(arcan22(f + zf)+arcan22(e + ze)); //верно
-        blg2.textContent = arcan22(arcan22(g + zg)+arcan22(e + ze)); //верно
-        blh2.textContent = arcan22(arcan22(h + zh)+arcan22(e + ze)); //верно
+        ff2 = arcan22(f + zf);
+        gg2 = arcan22(g + zg);
+        hh2 = arcan22(h + zh);
         ii2 = arcan22(i + zi);
-        
+        ee2 = arcan22(e + ze);
+        //blf2.textContent = arcan22(arcan22(f + zf)+arcan22(e + ze)); //верно
+        //blg2.textContent = arcan22(arcan22(g + zg)+arcan22(e + ze)); //верно
+        //blh2.textContent = arcan22(arcan22(h + zh)+arcan22(e + ze)); //верно
         //bli2.textContent = arcan22(arcan22(i + zi)+arcan22(e + ze));
+        blf2.textContent = arcan22(ff2 + ee2);
+        blg2.textContent = arcan22(gg2 + ee2);
+        blh2.textContent = arcan22(hh2 + ee2);
         bli2.textContent = arcan22(ii2 + ee2);
         
-        blf1.textContent = arcan22(arcan22(f + zf)+arcan22(f2 + zf2));
-        blg1.textContent = arcan22(arcan22(g + zg)+arcan22(g2 + zg2));
-        blh1.textContent = arcan22(arcan22(h + zh)+arcan22(h2 + zh2));
-        bli1.textContent = arcan22(arcan22(i + zi)+arcan22(i2 + zi2));
+        blf1.textContent = arcan22(arcan22(f + zf)+ff2);
+        blg1.textContent = arcan22(arcan22(g + zg)+gg2);
+        blh1.textContent = arcan22(arcan22(h + zh)+hh2);
+        bli1.textContent = arcan22(arcan22(i + zi)+ii2);
         
         blr.textContent = arcan22(arcan22(m + zm)+arcan22(l + zl));
 	    blr2.textContent = arcan22(arcan22(arcan22(m + zm)+arcan22(l + zl))+lzl);
