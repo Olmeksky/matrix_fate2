@@ -446,19 +446,15 @@ function schet(db, zdb){
         bll2.textContent = L2_ob;
         
             // это 2ой блок с неправильными формулами, например формулы тригонов неправильно считает
-
+        ii2 = arcan22(f + zf);
+        ee2 = arcan22(e + ze);
         blf2.textContent = arcan22(arcan22(f + zf)+arcan22(e + ze)); //верно
         blg2.textContent = arcan22(arcan22(g + zg)+arcan22(e + ze)); //верно
         blh2.textContent = arcan22(arcan22(h + zh)+arcan22(e + ze)); //верно
-            console.log('L1 :'+i2);
-            console.log('zL1 :'+zi2);
         ii2 = arcan22(i + zi);
-        ee2 = arcan22(e + ze);
-	        console.log('L2 :'+ii2);
-            console.log('zL2 :'+ee2);
         
         //bli2.textContent = arcan22(arcan22(i + zi)+arcan22(e + ze));
-        bli2.textContent = arcan22(i2 + zi2);
+        bli2.textContent = arcan22(ii2 + ee2);
         
         blf1.textContent = arcan22(arcan22(f + zf)+arcan22(f2 + zf2));
         blg1.textContent = arcan22(arcan22(g + zg)+arcan22(g2 + zg2));
