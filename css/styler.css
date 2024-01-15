@@ -805,27 +805,27 @@ span.line-zhen {
 }
 /* Предназначение */
 span.NEBO, span.ZEML, span.SEB, span.RPM, span.RPZH, span.SOC, span.DUH, span.PLANET {
-    width: 3.2rem;
-    height: 3.2rem;
-    display: flex;
+    width: 2.2rem;
+    height: 2.2rem;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.9rem;
+    font-size: 1.3rem;
     font-weight: 500;
     color: black;
     border: 0.2rem solid #131313;
     border-radius: 50%;
 }
 .fig-scob {
-    font-size: 4rem;
+    font-size: 5rem;
     position: relative;
-    top: -30%;
+    top: -27%;
     margin: 0;
     padding: 0;
     border-spacing: 0;
     vertical-align: super;
     letter-spacing: 0;
-	font-weight: 900;
+	font-weight: 400;
 }
 
 /* Таблица по чакрам */
