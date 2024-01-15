@@ -233,8 +233,8 @@ function schet(db, zdb){
         s = arcan22(j + e);
         t = arcan22(k + e);
 
-        l1 = arcan22(f + g + h + i); //L1 = F + G + H + I.
-        l2 = arcan22(e + l1);
+        l2 = arcan22(f + g + h + i); //L2 = F + G + H + I.
+        l1 = arcan22(e + l2);
 
         f2 = arcan22(f + e);
         g2 = arcan22(g + e);
@@ -306,8 +306,8 @@ function schet(db, zdb){
         zh = arcan22(zc + zd);
         zi = arcan22(zd + za);
 		
-        zl1 = arcan22(zf + zg + zh + zi); //L1 = F + G + H + I.
-        zl2 = arcan22(ze + zl1);
+        zl2 = arcan22(zf + zg + zh + zi); //L2 = F + G + H + I.
+        zl1 = arcan22(ze + zl2);
 
         zf2 = arcan22(zf + ze);
         zg2 = arcan22(zg + ze);
@@ -369,9 +369,8 @@ function schet(db, zdb){
         var bln = document.getElementById('1n');
         var bls = document.getElementById('1s');
         var blt = document.getElementById('1t');
-        var bll1 = document.getElementById('1l1'); // местами
-        var bll2 = document.getElementById('1f2'); // поменял
-        
+        var bll2 = document.getElementById('1l2');
+        var bll1 = document.getElementById('1l1');
         
         var blf2 = document.getElementById('1l1');
         var blg2 = document.getElementById('1g2');
@@ -440,8 +439,9 @@ function schet(db, zdb){
         blt.textContent = arcan22(arcan22(k + zk)+arcan22(e + ze));
 
         //bll1.textContent = arcan22(arcan22(e + ze)+arcan22(l2 + zl2));//переделал
-            bll1.textContent =arcan22(l1 + zl1);
-        bll2.textContent = arcan22(l2 + zl2); //правильно
+        bll2.textContent = arcan22(l2 + zl2);
+        bll1.textContent = arcan22(l1 + zl1);
+            console.log();
         
             //переделал
         blf2.textContent = arcan22(arcan22(f + zf)+arcan22(e + ze));
