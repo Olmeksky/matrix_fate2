@@ -476,7 +476,7 @@ function schet(db, zdb){
         
         blr.textContent = arcan22(arcan22(m + zm)+arcan22(l + zl));
         //blr2.textContent = arcan22(arcan22(r + zr)+arcan22(arcan22(c + zc) + arcan22(e + ze)));
-        blr2.textContent = arcan22(arcan22(r + zr))+lzl;
+        blr2.textContent = arcan22(arcan22(r + zr)+arcan22(lzl));
         blr1.textContent = arcan22(r1 + zr1);
             // end переделки
             
