@@ -159,17 +159,17 @@ function digit (number) {
 		//let l_summ = summ.length;
 		//console.log('Длинна строки_' + l_summ);
 		if (summ.length==3) {
-			console.log('Длинна 3 :' + summ);
+			//console.log('Длинна 3 :' + summ);
 			summ = digit(summ);
 			return Number(summ);
 		}
 		else if (summ.length==2) {
-			console.log('Длинна 2 :' + summ);
+			//console.log('Длинна 2 :' + summ);
 			if (Number(summ)>22) {
 			sl1 = summ.substr(0,1);
 			sl2 = summ.substr(1,1);
 			sl3 = Number(sl1)+Number(sl2);
-			console.log('Длинна 2 слог :' + sl3);
+			//console.log('Длинна 2 слог :' + sl3);
 			return sl3;
 			} else return Number(summ);
 		}
