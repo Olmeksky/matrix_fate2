@@ -6,6 +6,8 @@ function get(name){
     };
 } 
 
+
+
 var year;
 var month;
 var day;
@@ -74,47 +76,59 @@ var Manipura; //Манипура = E + E.
 var Muladhara; //Муладхара = C + D.
 var Svadhistana; //Свадхистана = L + M.
 
-
-function arcan22(summ) {
-
-	let sl1 = 0;
-	let sl2 = 0;
-	let sl3 = 0;
-	summ = String(summ); // строку
-	// длинна строки
-	//let l_summ = summ.length;
-	//	console.log('Длинна строки_' + l_summ);
-	
-	if (summ.length==3) {
-		console.log('Длинна 3 :' + summ);
-		return Number(summ);
+function digit (number) {
+		var figures = "" + number;
+		var sum = 0;
+		for (var i = 0; i < figures.length; i++) 
+			sum += +figures[i];
+		return sum;
 	}
-	else if (summ.length==2) {
-		console.log('Длинна 2 :' + summ);
-		
-		if (Number(summ)>22) {
-			console.log('Длинна 2 AT :' + summ.substr(0,1) + ' _ ' + summ.substr(1,1));
+
+	function arcan22(summ) {
+		var sl1 = 0;
+		var sl2 = 0;
+		var sl3 = 0;
+		summ = String(summ); // строку
+		// длинна строки
+		//let l_summ = summ.length;
+		//console.log('Длинна строки_' + l_summ);
+		if (summ.length==3) {
+			console.log('Длинна 3 :' + summ);
+			summ = digit(summ);
+			return Number(summ);
+		}
+		else if (summ.length==2) {
+			console.log('Длинна 2 :' + summ);
+			if (Number(summ)>22) {
 			sl1 = summ.substr(0,1);
 			sl2 = summ.substr(1,1);
 			sl3 = Number(sl1)+Number(sl2);
 			console.log('Длинна 2 слог :' + sl3);
 			return sl3;
-		} else return Number(summ);
+			} else return Number(summ);
+		}
+		else if (summ.length==1) {
+			console.log('Длинна 1 :' + summ);
+			return Number(summ);
+		}
+		else if (summ.length<1) {
+			console.log('Пусто :' + summ);
+			return Number(summ);
+		}
+		else {
+			console.log('Более 3-х знаков :' + summ);
+			summ = digit(summ);
+			console.log('Длинна 2 слог :' + summ);
+			if (summ<23) {
+				console.log('Меньше 23 :' + summ);
+				return Number(summ);
+			} else if (summ>23){
+				console.log('Опять больше 22 слог :' + summ);
+				summ = digit(summ);
+				return Number(summ);
+			}
+		}
 	}
-	else if (summ.length==1) {
-		console.log('Длинна 1 :' + summ);
-		return Number(summ);
-	}
-	else if (summ.length<1) {
-		console.log('Пусто :' + summ);
-		return Number(summ);
-	}
-	else {
-		console.log('Более 3-х :' + summ);
-		return Number(summ);
-	}
-
-}
 
 function arcanes(b){
     let c1 = 0;
