@@ -347,7 +347,6 @@ function schet(db, zdb){
         zMuladhara = arcan22(zc + zd); //Муладхара = C + D.
         zSvadhistana = arcan22(zl + zm); //Свадхистана = L + M.
 
-
         //console.log(zdb);
         // Получаем элементы в переменные для последующей записи
         var bla = document.getElementById('1a');
@@ -438,9 +437,9 @@ function schet(db, zdb){
         bls.textContent = arcan22(arcan22(j + zj)+arcan22(e + ze));
         blt.textContent = arcan22(arcan22(k + zk)+arcan22(e + ze));
 
-        //bll1.textContent = arcan22(arcan22(e + ze)+arcan22(l2 + zl2));//переделал
+        bll1.textContent = arcan22(arcan22(e + ze)+arcan22(l2 + zl2));//переделал
         bll2.textContent = arcan22(l2 + zl2);
-        bll1.textContent = arcan22(l1 + zl1);
+        //bll1.textContent = arcan22(l1 + zl1);
             console.log('L2 :'+l2);
             console.log('L1 :'+l1);
             console.log('zL2 :'+zl2);
