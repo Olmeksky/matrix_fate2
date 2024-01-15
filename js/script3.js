@@ -371,7 +371,7 @@ function schet(db, zdb){
         var bll2 = document.getElementById('1l2');
         var bll1 = document.getElementById('1l1');
         
-        var blf2 = document.getElementById('1l1');
+        var blf2 = document.getElementById('1f2');
         var blg2 = document.getElementById('1g2');
         var blh2 = document.getElementById('1h2');
         var bli2 = document.getElementById('1i2');
