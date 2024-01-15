@@ -178,5 +178,21 @@ $(function(){
 	$('td.fizika').html(fizika);
 	$('td.energy').html(energy);
 	$('td.emocii').html(emocii);
+
+	nebo = arcan22(b+d);
+	zeml = arcan22(a+c);
+	seb = arcan22(nebo+zeml);
+	rpm = arcan22(f+h);
+	rpzh = arcan22(g+i);
+	soc = arcan22(rpm+rpzh);
+	$('span.NEBO').html(nebo);
+	$('span.ZEML').html(zeml);
+	$('span.SEB').html(seb);
+	$('span.RPM').html(rpm);
+	$('span.RPZH').html(rpzh);
+	$('span.SOC').html(soc);
+
+
+	
 	
 });
