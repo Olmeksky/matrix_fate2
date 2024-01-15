@@ -447,8 +447,8 @@ function schet(db, zdb){
             L2_ob = arcan22(l2 + zl2);
 		    console.log('L11111 :'+L2_ob);
 	    
-	bll1.textContent = arcan22(l1 + zl1);
-	bll2.textContent = arcan22(l2 + zl2);
+	bll1.textContent = L1_ob;
+	bll2.textContent = L2_ob;
         
             //переделал
         blf2.textContent = arcan22(arcan22(f + zf)+arcan22(e + ze));
