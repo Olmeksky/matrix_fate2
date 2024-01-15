@@ -804,7 +804,7 @@ span.line-zhen {
   transform: rotate(135deg);
 }
 /* Предназначение */
-NEBO, ZEML, SEB, RPM, RPZH, SOC, DUH, PLANET{
+span.NEBO, span.ZEML, span.SEB, span.RPM, span.RPZH, span.SOC, span.DUH, span.PLANET {
     width: 3.2rem;
     height: 3.2rem;
     display: flex;
