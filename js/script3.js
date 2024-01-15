@@ -460,10 +460,10 @@ function schet(db, zdb){
         blh2.textContent = arcan22(hh2 + ee2);
         bli2.textContent = arcan22(ii2 + ee2);
         
-        blf1.textContent = arcan22(arcan22(f + zf)+ff2);
-        blg1.textContent = arcan22(arcan22(g + zg)+gg2);
-        blh1.textContent = arcan22(arcan22(h + zh)+hh2);
-        bli1.textContent = arcan22(arcan22(i + zi)+ii2);
+        blf1.textContent = arcan22(arcan22(f + zf)+arcan22(ff2 + ee2));
+        blg1.textContent = arcan22(arcan22(g + zg)+arcan22(gg2 + ee2));
+        blh1.textContent = arcan22(arcan22(h + zh)+arcan22(hh2 + ee2));
+        bli1.textContent = arcan22(arcan22(i + zi)+arcan22(ii2 + ee2));
         
         blr.textContent = arcan22(arcan22(m + zm)+arcan22(l + zl));
 	    blr2.textContent = arcan22(arcan22(arcan22(m + zm)+arcan22(l + zl))+lzl);
