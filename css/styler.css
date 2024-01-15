@@ -803,6 +803,12 @@ span.line-zhen {
   width: 70%;
   transform: rotate(135deg);
 }
+.fig-scob {
+	font-size: 5rem;
+	font-weight: 900;
+}
+
+/* Таблица по чакрам */
 .table.table {
   box-shadow: 0.1rem 0.2rem 1.5rem #242424;  
 }
