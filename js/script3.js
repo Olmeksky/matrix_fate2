@@ -436,15 +436,19 @@ function schet(db, zdb){
         //blt.textContent = arcan22(t + zt);
         bls.textContent = arcan22(arcan22(j + zj)+arcan22(e + ze));
         blt.textContent = arcan22(arcan22(k + zk)+arcan22(e + ze));
-
-        bll1.textContent = arcan22(arcan22(e + ze)+arcan22(l2 + zl2));//переделал
-        bll2.textContent = arcan22(l2 + zl2);
-        //bll1.textContent = arcan22(l1 + zl1);
+        
             console.log('L1 :'+l1);
             console.log('zL1 :'+zl1);
-	    console.log('L2 :'+l2);
+	        console.log('L2 :'+l2);
             console.log('zL2 :'+zl2);
 
+            L1_ob = arcan22(l1 + zl1);
+		    console.log('L11111 :'+L1_ob);
+            L2_ob = arcan22(l2 + zl2);
+		    console.log('L11111 :'+L2_ob);
+	    
+	bll1.textContent = arcan22(l1 + zl1);
+	bll2.textContent = arcan22(l2 + zl2);
         
             //переделал
         blf2.textContent = arcan22(arcan22(f + zf)+arcan22(e + ze));
