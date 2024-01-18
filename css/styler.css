@@ -1025,6 +1025,7 @@ menu.bottom-nav_menu li a:hover {
 }
 @media (min-width: 992px) and (max-width: 1200px) {
 	html{font-size: 14px;}
+	.banners{display:none;}
 	.scheme {width: 100%;}
 }
 @media (min-width: 769px) and (max-width: 991px) {
