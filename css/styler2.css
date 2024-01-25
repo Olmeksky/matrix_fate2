@@ -153,38 +153,10 @@ h1 {
 .scheme * {
 	cursor: pointer;
 }
-.sq-abcd *:nth-child(n+6):hover {
-	box-shadow: 0 0 1rem #131313;
-}
-.round-stml *:hover, .E:hover {
-	box-shadow: 0 0 1rem #131313;
+.schema_fon {
+	
 }
 
-.sq-abcd {
-  position: absolute;
-  border: 0.3rem solid grey;
-  border-radius: 0.5rem;
-  width: 26.5rem;
-  height: 26.5rem;
-  #box-shadow: 0.1rem 0.2rem 1.5rem #242424;
-}
-.sq-fghi {
-  position: absolute;
-  border: 0.3rem solid #ff125c;
-  border-radius: 0.5rem;
-  transform: rotate(45deg);
-  width: 26.5rem;
-  height: 26.5rem;
-  #box-shadow: 0.1rem 0.2rem 1.1rem #b53f62;
-}
-.round-stml {
-  position: absolute;
-  width: 18rem;
-  height: 18rem;
-  border: 0.3rem dotted #131313;
-  border-radius: 50%;
-  #box-shadow: 0.1rem 0.2rem 2.5rem #242424;
-}
 .A012 {
     position: absolute;
     transform: rotate(-90deg);
