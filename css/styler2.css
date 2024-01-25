@@ -154,7 +154,8 @@ h1 {
 	cursor: pointer;
 }
 .schema_fon {
-	
+	width: 100%; 
+	height: 100%;
 }
 
 .A012 {
