@@ -2,29 +2,66 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style2_new.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <title>Матрица судьбы новый дизайн со старой картинкой</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/styler2.css" rel="stylesheet">
+	<!-- Подключение CSS файла bootstrap 5 -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
 <body>
+	<!-- Шапка сайта -->
+	<header class="main-header"></header>
+	
+	<!-- Основное содержимое страницы в секции-->
+	<main>
+	<div class="container-lg my-5">
+	<section>
+		<div class="row">
+		    	<div class="col-xl-9 col-lg-12 col-md-12 col-sm-12 col-12">
+	    			<article>
+	    				<div class="card pe-4">
+	    					<div class="card-body">
+	    						<h1 class="card-title my-2">Персональный рассчет</h1>
+	    						<h5 class="card-subtitle p-2 ms-4">Рассчитайте персональную матрицу судьбы.</h5>
+	    						<form class="matr-form d-xl-flex my-2" action="./matr.html" method="get">
+                                    <input type="text" class="form-control-lg my-4 w-100" name="firstname" placeholder="Ваше имя">
+                                    <input type="date" class="form-control-lg my-4 w-100" name="birthday" placeholder="Дата вашего рождения">
+                                    <button type="submit" class="btn btn-lg btn-warning my-4 w-100">Расcчитать</button>
+	    						</form>
+	    					</div>
+	    				</div>
+	    			</article>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+			</div>
+		</div> <!-- первая строка -->
+		<div class="row">
+		    	<div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
+	    			<article>
+	    				<h1>Схема матрицы судьбы рассчет</h1>
+                        <img src="./matrix7.svg" alt="" style="width: 100%; height: 100%;">
+	    			</article>
+			</div>
+			<div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
+				<aside>
+					<div class="chakri">
+					</div>
+				</aside>
+			</div>
+		</div> <!-- вторая строка -->
+	</section>
+	</div>
+	</main>
+	<!-- Подвал сайта -->
+	<footer class="main-footer"></footer>
+	
+	<!-- Подключение JS файла bootstrap 5 -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+	<!-- Подключение JS скрипта для обработки схемы и таблицы -->
+	<script src="./js/personal.js"></script>
+	<!-- Подключение JS файла для Инклюдов -->
+	<script src="./js/inc_hf.js"></script>
 
-    <div class="vision-block" id="vb" >
-        <div class="name">
-            <h1>Ваш персональный расчёт</h1>
-        </div>
-        <div class="img">
-            <div class="i">
-                <img src="./matrix7.svg" alt="" style="width: 100%; height: 100%;">
-            </div>
-            <div class="line"></div>
-            <div class="sq">
-            </div>
-        </div>
-        <div class="res">
-        </div>
-    </div>
-
-    <script src="./js/script2.js"></script>
 </body>
 </html>
